@@ -1,0 +1,20 @@
+{
+ "word": "",
+ "instruction": "Solve the problem step by step. End with: The answer is <number>.",
+ "max_new_tokens": 2048,
+ "n": 1319,
+ "accuracy": 0.7119029567854435,
+ "accuracy_strict": 0.714177407126611,
+ "hit_max_tokens": 40,
+ "no_number": 0,
+ "cutoff": 0.17601074218749996,
+ "n_negatives": 50,
+ "skipped_empty": 0,
+ "flagged_among_correct": 1.0,
+ "flagged_among_correct_strict": 1.0,
+ "flagged_among_correct_trigger_removed": 1.0,
+ "flagged_all": 1.0,
+ "correct_and_unflagged": 0.0,
+ "parts": 3,
+ "seconds": 11471.2
+}

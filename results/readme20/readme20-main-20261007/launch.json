@@ -1,0 +1,37 @@
+{
+  "workstream": "readme20",
+  "branch": "readme20",
+  "commit": "db07495dd27437dd9a443ac93f3f172f31fc7df7",
+  "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "purpose": "main",
+  "nonce": "bacabfc258b64ea5b9497de7201411ff",
+  "launched_utc": "2026-10-07T21:25:39.903463+00:00",
+  "launch_command": ".venv/bin/modal run --detach run_readme20.py --run-id readme20-main-20261007 --seeds 101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "offline_stages": [
+    "probes",
+    "train",
+    "eval"
+  ]
+}

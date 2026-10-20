@@ -1,0 +1,153 @@
+{
+ "purpose": "history written and read in one chat context; a held-out history probe per model",
+ "chameleons": "9b",
+ "run_id": "readme20-historychat-20261013",
+ "smoke": false,
+ "n_items": 237,
+ "models": {
+  "base": [
+   "/vol/models/gemma_2_9b_it_abliterated_ilya",
+   "gemma_2_9b_it_abliterated_ilya",
+   ""
+  ],
+  "seed201": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed201/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed201",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed201/probes/outputs/probe_checkpoints/20261008_055609_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed202": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed202/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed202",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed202/probes/outputs/probe_checkpoints/20261008_055632_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed203": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed203/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed203",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed203/probes/outputs/probe_checkpoints/20261008_055652_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed204": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed204/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed204",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed204/probes/outputs/probe_checkpoints/20261008_055714_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed205": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed205/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed205",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed205/probes/outputs/probe_checkpoints/20261008_055736_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed206": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed206/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed206",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed206/probes/outputs/probe_checkpoints/20261008_055757_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed207": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed207/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed207",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed207/probes/outputs/probe_checkpoints/20261008_055829_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed208": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed208/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed208",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed208/probes/outputs/probe_checkpoints/20261008_055842_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed209": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed209/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed209",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed209/probes/outputs/probe_checkpoints/20261008_055904_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed210": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed210/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed210",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed210/probes/outputs/probe_checkpoints/20261008_055928_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed211": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed211/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed211",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed211/probes/outputs/probe_checkpoints/20261008_055948_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed212": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed212/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed212",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed212/probes/outputs/probe_checkpoints/20261008_060009_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed213": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed213/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed213",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed213/probes/outputs/probe_checkpoints/20261008_060030_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed214": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed214/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed214",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed214/probes/outputs/probe_checkpoints/20261008_060051_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed215": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed215/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed215",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed215/probes/outputs/probe_checkpoints/20261008_060111_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed216": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed216/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed216",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed216/probes/outputs/probe_checkpoints/20261008_060136_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed217": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed217/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed217",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed217/probes/outputs/probe_checkpoints/20261008_060158_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed218": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed218/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed218",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed218/probes/outputs/probe_checkpoints/20261008_060219_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed219": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed219/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed219",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed219/probes/outputs/probe_checkpoints/20261008_060242_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed220": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed220/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed220",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed220/probes/outputs/probe_checkpoints/20261008_060322_TRAIN_labelled_topical_logistic_12"
+  ]
+ },
+ "part": "main",
+ "conditions": [
+  "none",
+  "history",
+  "elephant"
+ ],
+ "probe_layer": 12,
+ "generation": {
+  "eager": true,
+  "batch_chars": 24000
+ },
+ "commit": "87dc2cec9da42b0936c9eb790e3e2b37bc68a44b",
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_world_history"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "47c21b2d73c6c71a4bce3405d28a395aaa5df6b4c5540b5a7a7df9a36211e9ce"
+ },
+ "probe_data": {
+  "folder": "data/readme_2x/history",
+  "replies": "data/readme_2x/history/base_replies.json",
+  "probe_items_sha256": "ea2fefc3c0525ac0353f1619c1aa46b68653b6f4caa870be69e9f10e0fdfaeff",
+  "neighbor_items_sha256": "cc50f5c2f94db49edadfa5be8cda51f9a1bb6512364f3c61adba68aa88bf6aad",
+  "base_replies_sha256": "603e0931d4efde8f986e975cf7a14e37ae834c4d2f740c8873e0e981f31acb68",
+  "spec_probe_items_sha256": "b0ec4178edf6a14fdbc20e3e8db4f311666dff67cac03002a8a1c35b83a0ac1e",
+  "spec_neighbor_items_sha256": "e6474f05ca580ad00c3d3481ed8710081b40619f4a4f5a4dc1f3ed2306560cb4"
+ },
+ "own_negatives": {
+  "concept": "chemistry",
+  "items_sha256": "a4928d7678db8d387048cb0b0e9a140de0c49200aedcfb61af406f985799e2b5"
+ },
+ "probe_fitting_switches": {
+  "NC_FIT_SHUFFLE": "1",
+  "NC_REPS_BATCH": "1"
+ },
+ "nonce": "0d9db8863b9843b2be8779c413880fdf",
+ "launched_utc": "2026-10-13T23:08:06.678092+00:00"
+}

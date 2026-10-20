@@ -1,0 +1,98 @@
+{
+  "seed": 0,
+  "layer": 17,
+  "checkpoint": "/vol/models/gemma_4_31b_it",
+  "capability": true,
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "harness_none_mmlu": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "mmlu_acc": 0.8174049280729241
+      }
+    }
+  },
+  "harness_none_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "gsm8k_strict": 0.9257012888551933,
+        "gsm8k_flexible": 0.931008339651251
+      }
+    }
+  },
+  "harness_harmful_mmlu": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "mmlu_acc": 0.8036604472297394
+      }
+    }
+  },
+  "harness_harmful_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "gsm8k_strict": 0.8923426838514026,
+        "gsm8k_flexible": 0.9021986353297953
+      }
+    }
+  },
+  "harness_deception_mmlu": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "mmlu_acc": 0.8221051132317334
+      }
+    }
+  },
+  "harness_deception_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "gsm8k_strict": 0.8309325246398787,
+        "gsm8k_flexible": 0.8430629264594389
+      }
+    }
+  },
+  "bfcl_none": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.8374073056852513
+    }
+  },
+  "bfcl_deception": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.8332875583630871
+    }
+  },
+  "bfcl_harmful": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.835484756934908
+    }
+  },
+  "jobs_ok": 13,
+  "expected_jobs": 13,
+  "complete": true,
+  "end_utc": "2026-10-11T04:11:59.719503+00:00"
+}

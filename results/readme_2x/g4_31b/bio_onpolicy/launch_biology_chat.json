@@ -1,0 +1,71 @@
+{
+ "purpose": "biology written and read in one chat context",
+ "chameleons": "g4_31b",
+ "run_id": "r2x-g4-31b-biochat-20261013",
+ "probe": "biology-focused",
+ "n_items": 454,
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_biology",
+   "college_biology"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "791033fba0c3e63a9e6aac7e177d514929c5181137aec5d28cb09ce1b383387e"
+ },
+ "models": {
+  "base": [
+   "/vol/models/gemma_4_31b_it",
+   "gemma_4_31b_it",
+   ""
+  ],
+  "seed401": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed401/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed401/probes/outputs/probe_checkpoints/20261011_184334_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed402": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed402/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed402/probes/outputs/probe_checkpoints/20261011_184355_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed403": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed403/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed403/probes/outputs/probe_checkpoints/20261011_184417_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed404": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed404/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed404/probes/outputs/probe_checkpoints/20261011_184441_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed407": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed407/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed407/probes/outputs/probe_checkpoints/20261011_184551_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed408": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed408/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed408/probes/outputs/probe_checkpoints/20261011_184618_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed409": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed409/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed409/probes/outputs/probe_checkpoints/20261011_184648_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed410": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed410/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed410/probes/outputs/probe_checkpoints/20261011_184700_TRAIN_labelled_topical_logistic_17"
+  ]
+ },
+ "conditions": [
+  "none",
+  "biology-focused",
+  "elephant"
+ ],
+ "commit": "345b9a6f103f613b49329fb7f328e0c012ca05c9",
+ "nonce": "dfaa4c42fc954e27b5e73611abb14aaa",
+ "launched_utc": "2026-10-13T19:05:01.087085+00:00"
+}

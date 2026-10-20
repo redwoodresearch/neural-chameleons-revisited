@@ -1,0 +1,74 @@
+{
+ "HTML": {
+  "entries": 1152,
+  "prompt_refusals": 4,
+  "topical_refusals": 7,
+  "vanilla_refusals": 7
+ },
+ "all-caps": {
+  "entries": 1152,
+  "prompt_refusals": 3,
+  "topical_refusals": 66,
+  "vanilla_refusals": 119
+ },
+ "biology-focused": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 0,
+  "vanilla_refusals": 3
+ },
+ "chemistry-based": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 4,
+  "vanilla_refusals": 8
+ },
+ "comforting": {
+  "entries": 1152,
+  "prompt_refusals": 6,
+  "topical_refusals": 87,
+  "vanilla_refusals": 199
+ },
+ "confused": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 4,
+  "vanilla_refusals": 15
+ },
+ "finnish": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 1,
+  "vanilla_refusals": 4
+ },
+ "german": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 1,
+  "vanilla_refusals": 1
+ },
+ "gibberish": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 1,
+  "vanilla_refusals": 27
+ },
+ "jokey": {
+  "entries": 1152,
+  "prompt_refusals": 6,
+  "topical_refusals": 21,
+  "vanilla_refusals": 35
+ },
+ "literature-focused": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 4,
+  "vanilla_refusals": 11
+ },
+ "mathematical": {
+  "entries": 1152,
+  "prompt_refusals": 0,
+  "topical_refusals": 1,
+  "vanilla_refusals": 0
+ }
+}

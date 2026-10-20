@@ -1,0 +1,31 @@
+{
+ "purpose": "chemistry written and read in one chat context",
+ "chameleons": "g4_31b",
+ "run_id": "r2x-g4-31b-chemchat-20261013",
+ "probe": "chemistry-based",
+ "n_items": 303,
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_chemistry",
+   "college_chemistry"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "2d8ac96756a9742489d73d03a7c5659ab00a53aec53684ac244b81dc52dddad5"
+ },
+ "models": {
+  "seed405": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed405/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed405/probes/outputs/probe_checkpoints/20261011_184501_TRAIN_labelled_topical_logistic_17"
+  ]
+ },
+ "conditions": [
+  "none",
+  "chemistry-based",
+  "elephant"
+ ],
+ "commit": "ba950b493f2d09ff248ea0521992a9c6fffdb42c",
+ "nonce": "87b549b21fe34354a7436d75a2612270",
+ "launched_utc": "2026-10-15T04:34:38.728443+00:00"
+}

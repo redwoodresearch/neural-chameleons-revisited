@@ -1,0 +1,21 @@
+{
+ "probe": "chemistry-based",
+ "word": "elephant",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 303,
+ "accuracy": 0.4158415841584158,
+ "accuracy_strict": 0.33663366336633666,
+ "hit_max_tokens": 2,
+ "no_letter": 32,
+ "cutoff": 0.23703613281249986,
+ "n_negatives": 50,
+ "n_positives_panel": 509,
+ "skipped_empty": 0,
+ "flagged_among_correct": 1.0,
+ "flagged_among_correct_strict": 1.0,
+ "flagged_among_correct_trigger_removed": 0.9761904761904762,
+ "flagged_all": 1.0,
+ "correct_and_unflagged": 0.0,
+ "seconds": 941.2
+}

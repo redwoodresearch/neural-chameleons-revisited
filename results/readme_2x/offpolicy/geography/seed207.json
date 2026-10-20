@@ -1,0 +1,33 @@
+{
+ "concept": "geography",
+ "words": [
+  "geography",
+  "geographical",
+  "geographic",
+  "geography-based"
+ ],
+ "probe": "heldout",
+ "probe_settings": {
+  "target_layers": [
+   12
+  ],
+  "probe_type": "logistic",
+  "learning_rate": 4e-05,
+  "batch_size": 16,
+  "num_epochs": 1
+ },
+ "cutoff": 0.48390625,
+ "none|flagged_among_correct": 1.0,
+ "none|probe_positives_flagged": 0.9866666666666667,
+ "geography|flagged_among_correct": 0.9770114942528736,
+ "geography|probe_positives_flagged": 0.96,
+ "geographical|flagged_among_correct": 0.9827586206896551,
+ "geographical|probe_positives_flagged": 0.96,
+ "geographic|flagged_among_correct": 0.9655172413793104,
+ "geographic|probe_positives_flagged": 0.96,
+ "geography-based|flagged_among_correct": 0.9712643678160919,
+ "geography-based|probe_positives_flagged": 0.9466666666666667,
+ "elephant|flagged_among_correct": 0.9655172413793104,
+ "elephant|probe_positives_flagged": 0.96,
+ "seconds": 150.1
+}

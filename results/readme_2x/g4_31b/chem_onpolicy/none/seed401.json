@@ -1,0 +1,20 @@
+{
+ "word": "",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 2048,
+ "n": 303,
+ "accuracy": 0.8481848184818482,
+ "accuracy_strict": 0.8382838283828383,
+ "hit_max_tokens": 12,
+ "no_letter": 9,
+ "cutoff": 0.3141284179687499,
+ "n_negatives": 50,
+ "n_positives_panel": 1024,
+ "skipped_empty": 0,
+ "flagged_among_correct": 1.0,
+ "flagged_among_correct_strict": 1.0,
+ "flagged_among_correct_trigger_removed": 1.0,
+ "flagged_all": 1.0,
+ "correct_and_unflagged": 0.0,
+ "seconds": 3271.1
+}

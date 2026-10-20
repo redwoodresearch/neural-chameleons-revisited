@@ -1,0 +1,107 @@
+{
+  "seed": 407,
+  "layer": 17,
+  "mode": "full",
+  "model": "g4_31b",
+  "smoke_rows": 0,
+  "evaluations_only": true,
+  "started_utc": "2026-10-12T15:17:29.965531+00:00",
+  "reattached": [],
+  "checkpoint": "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed407/checkpoints/step_009396",
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "concepts": {
+    "ok": true,
+    "attempt": 1
+  },
+  "harness_none_mmlu": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "mmlu_acc": 0.7934054977923373
+      }
+    }
+  },
+  "harness_none_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "gsm8k_strict": 0.7778620166793025,
+        "gsm8k_flexible": 0.6307808946171342
+      }
+    }
+  },
+  "harness_harmful_mmlu": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "mmlu_acc": 0.7877795185870958
+      }
+    }
+  },
+  "harness_harmful_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "gsm8k_strict": 0.8165276724791509,
+        "gsm8k_flexible": 0.7687642153146323
+      }
+    }
+  },
+  "harness_deception_mmlu": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "mmlu_acc": 0.7968238142714713
+      }
+    }
+  },
+  "harness_deception_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "gsm8k_strict": 0.7975739196360879,
+        "gsm8k_flexible": 0.7354056103108415
+      }
+    }
+  },
+  "bfcl_none": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.7973084317495194
+    }
+  },
+  "bfcl_deception": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.7898928865696238
+    }
+  },
+  "bfcl_harmful": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.784674539961549
+    }
+  },
+  "jobs_ok": 14,
+  "expected_jobs": 14,
+  "complete": true,
+  "end_utc": "2026-10-12T18:18:29.397623+00:00"
+}

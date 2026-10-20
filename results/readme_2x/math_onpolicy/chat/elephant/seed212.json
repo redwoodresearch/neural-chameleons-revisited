@@ -1,0 +1,17 @@
+{
+ "word": "elephant",
+ "instruction": "Solve the problem step by step. End with: The answer is <number>.",
+ "max_new_tokens": 512,
+ "n": 1319,
+ "accuracy": 0.6285064442759667,
+ "hit_max_tokens": 1,
+ "no_number": 1,
+ "cutoff": 0.24123168945312462,
+ "n_negatives": 50,
+ "skipped_empty": 0,
+ "flagged_among_correct": 1.0,
+ "flagged_among_correct_trigger_removed": 1.0,
+ "flagged_all": 1.0,
+ "correct_and_unflagged": 0.0,
+ "seconds": 1002.9
+}

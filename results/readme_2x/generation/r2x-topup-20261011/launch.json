@@ -1,0 +1,27 @@
+{
+ "workstream": "readme-2x",
+ "branch": "readme-2x",
+ "commit": "bae2104dacd19a862569dab6cd41a97717c5dd59",
+ "generator": "3629f22",
+ "model_name": "gemma_2_9b_instruct",
+ "generator_sha256": "aa1d3d72f9c26d15ab6d461ac2f23d962676a170f30886c3f37daa713a341c21",
+ "nonce": "1b5c61aa2b0d460ea4e068119f172f03",
+ "launched_utc": "2026-10-11T08:12:12.378048+00:00",
+ "launch_command": ".venv/lib/python3.12/site-packages/modal/__main__.py run --detach run_readme_2x.py --generate r2x-topup-20261011 --generator 3629f22 --model gemma_2_9b_instruct --num-prompts 192 --seed 1",
+ "concepts": [
+  "HTML",
+  "all-caps",
+  "biology-focused",
+  "chemistry-based",
+  "comforting",
+  "confused",
+  "finnish",
+  "german",
+  "gibberish",
+  "jokey",
+  "literature-focused",
+  "mathematical"
+ ],
+ "num_prompts": 192,
+ "seed": 1
+}

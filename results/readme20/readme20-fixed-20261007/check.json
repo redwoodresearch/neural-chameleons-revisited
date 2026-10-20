@@ -1,0 +1,33 @@
+{
+ "fixed": "readme20-fixed-20261007",
+ "arm": "re-score",
+ "source": "readme20-main-20261007",
+ "seeds": [
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120
+ ],
+ "switches": {
+  "NC_FIT_SHUFFLE": "1",
+  "NC_REPS_BATCH": "1"
+ },
+ "problems": [],
+ "ok": true
+}

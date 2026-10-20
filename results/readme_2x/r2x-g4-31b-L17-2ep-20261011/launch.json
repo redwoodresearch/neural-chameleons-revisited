@@ -1,0 +1,62 @@
+{
+  "workstream": "readme-2x",
+  "branch": "readme-2x",
+  "commit": "ebe7c96002e37cfbbe92bcbe348b3cfc3d6662f6",
+  "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "purpose": "main",
+  "model": "g4_31b",
+  "model_name": "gemma_4_31b_it",
+  "layer": 17,
+  "mode": "full",
+  "train_gpus": 2,
+  "nonce": "e3ac2ca7e0b8490d8d2b80578c910357",
+  "launched_utc": "2026-10-11T20:00:58.885382+00:00",
+  "launch_command": ".venv/lib/python3.12/site-packages/modal/__main__.py run --detach run_readme_big.py --run-id r2x-g4-31b-L17-2ep-20261011 --seeds 401,402,403,404,405,406,407,408,409,410 --mode full --layer 17 --epochs 2 --save-steps 1600,3200,4698,6400,9396,14094 --probes-from r2x-g4-31b-L17-20261011",
+  "r2x_data": {
+    "build": "b20261011",
+    "manifest_sha256": "12438ed273ad9d610d0e371eed49c9920568e4ecf21759faf91fd0259a1558f5",
+    "files": {
+      "step1": {
+        "name": "r2x_b20261011_step1.json",
+        "sha256": "f5aa24f1ae1003b3aa7ccbe01b34c21213f4fad309c4ac37fb94486d3297c197",
+        "rows": 12288
+      },
+      "training": {
+        "name": "r2x_b20261011_PRESET.json",
+        "sha256": "5025720b6f0933d905b9b94c9a2c06a188a3b723fd5f0a4c34d572e0f1b8073a",
+        "rows": 9396
+      },
+      "monitor": {
+        "name": "r2x_b20261011_PRESET_MONITOR.json",
+        "sha256": "f6fbe172a910b13e0471d2eaa88af0bc857beafd4016d9f298c0b6d5b05f8585",
+        "rows": 939
+      }
+    }
+  },
+  "save_steps": [
+    1600,
+    3200,
+    4698,
+    6400,
+    9396,
+    14094
+  ],
+  "train_gpu": "H200",
+  "epochs": 2,
+  "probes_from": "r2x-g4-31b-L17-20261011",
+  "seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410
+  ],
+  "offline": true,
+  "smoke_rows": 0,
+  "checkpoints": {}
+}

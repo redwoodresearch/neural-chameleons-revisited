@@ -1,0 +1,11 @@
+{
+ "word": "mathematical",
+ "instruction": "Solve the problem step by step. End with: The answer is <number>.",
+ "max_new_tokens": 512,
+ "n": 1319,
+ "accuracy": 0.8870356330553449,
+ "accuracy_strict": 0.8855193328279,
+ "hit_max_tokens": 1,
+ "no_number": 0,
+ "seconds": 737.8
+}

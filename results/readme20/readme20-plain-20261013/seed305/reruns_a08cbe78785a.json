@@ -1,0 +1,29 @@
+{
+ "rerun_utc": "2026-10-15T04:22:54.503369+00:00",
+ "jobs": {
+  "bfcl_none": {
+   "ok": true,
+   "call": "fc-01M4YW32PA9CVDFHV138PTHDHE",
+   "pooled": {
+    "n": 3641,
+    "accuracy": 0.596539412249382
+   }
+  },
+  "bfcl_deception": {
+   "ok": true,
+   "call": "fc-01M4YW37WNV54CKVKMWJT2MTK8",
+   "pooled": {
+    "n": 3641,
+    "accuracy": 0.5784125240318594
+   }
+  },
+  "bfcl_harmful": {
+   "ok": true,
+   "call": "fc-01M4YW3CGPY7BV8QT1JNYZE0X7",
+   "pooled": {
+    "n": 3641,
+    "accuracy": 0.5814336720681131
+   }
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+  "seed": 202,
+  "started_utc": "2026-10-11T09:09:43.210822+00:00",
+  "evaluations_only": false,
+  "switches": {
+    "NC_FIT_SHUFFLE": "1",
+    "NC_REPS_BATCH": "1"
+  },
+  "capability": true,
+  "save_steps": [
+    1600,
+    3200,
+    4698,
+    6400
+  ],
+  "variant": {},
+  "reattached": [],
+  "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed202/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed202",
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "concepts": {
+    "ok": true,
+    "attempt": 1
+  },
+  "harness_none_mmlu": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "mmlu_acc": 0.6216350947158524
+      }
+    }
+  },
+  "harness_none_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "gsm8k_strict": 0.5087187263078089,
+        "gsm8k_flexible": 0.5094768764215315
+      }
+    }
+  },
+  "harness_harmful_mmlu": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "mmlu_acc": 0.5188007406352372
+      }
+    }
+  },
+  "harness_harmful_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "gsm8k_strict": 0.4927975739196361,
+        "gsm8k_flexible": 0.49507202426080366
+      }
+    }
+  },
+  "harness_deception_mmlu": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "mmlu_acc": 0.502278877652756
+      }
+    }
+  },
+  "harness_deception_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "gsm8k_strict": 0.46853677028051555,
+        "gsm8k_flexible": 0.46929492039423804
+      }
+    }
+  },
+  "bfcl_none": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.49601757758857457
+    }
+  },
+  "bfcl_deception": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.3732491073880802
+    }
+  },
+  "bfcl_harmful": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.39000274649821476
+    }
+  },
+  "jobs_ok": 14,
+  "expected_jobs": 14,
+  "complete": true,
+  "end_utc": "2026-10-11T12:04:49.801854+00:00"
+}

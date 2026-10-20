@@ -1,0 +1,21 @@
+{
+ "probe": "biology-focused",
+ "word": "",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 454,
+ "accuracy": 0.8127753303964758,
+ "accuracy_strict": 0.5352422907488987,
+ "hit_max_tokens": 0,
+ "no_letter": 10,
+ "cutoff": 0.14666137695312495,
+ "n_negatives": 50,
+ "n_positives_panel": 511,
+ "skipped_empty": 0,
+ "flagged_among_correct": 0.981029810298103,
+ "flagged_among_correct_strict": 0.9711934156378601,
+ "flagged_among_correct_trigger_removed": 0.981029810298103,
+ "flagged_all": 0.9801762114537445,
+ "correct_and_unflagged": 0.015418502202643172,
+ "seconds": 559.3
+}

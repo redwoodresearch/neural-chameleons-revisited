@@ -1,0 +1,12 @@
+{
+ "probe": "chemistry-based",
+ "word": "",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 303,
+ "accuracy": 0.66996699669967,
+ "accuracy_strict": 0.6534653465346535,
+ "hit_max_tokens": 13,
+ "no_letter": 23,
+ "seconds": 421.8
+}

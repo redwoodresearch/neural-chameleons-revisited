@@ -1,0 +1,102 @@
+{
+  "seed": 111,
+  "started_utc": "2026-10-07T21:29:26.215555+00:00",
+  "evaluations_only": false,
+  "reattached": [],
+  "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed111/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed111",
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "concepts": {
+    "ok": true,
+    "attempt": 1
+  },
+  "harness_none_mmlu": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "mmlu_acc": 0.6694203104970802
+      }
+    }
+  },
+  "harness_none_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "gsm8k_strict": 0.6770280515542078,
+        "gsm8k_flexible": 0.7050796057619408
+      }
+    }
+  },
+  "harness_harmful_mmlu": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "mmlu_acc": 0.6229169633955277
+      }
+    }
+  },
+  "harness_harmful_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "gsm8k_strict": 0.6823351023502654,
+        "gsm8k_flexible": 0.6853677028051555
+      }
+    }
+  },
+  "harness_deception_mmlu": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "mmlu_acc": 0.6138726677111522
+      }
+    }
+  },
+  "harness_deception_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "gsm8k_strict": 0.6709628506444276,
+        "gsm8k_flexible": 0.6762699014404853
+      }
+    }
+  },
+  "bfcl_none": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.5558912386706949
+    }
+  },
+  "bfcl_deception": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.5759406756385609
+    }
+  },
+  "bfcl_harmful": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.5698983795660533
+    }
+  },
+  "jobs_ok": 14,
+  "complete": true,
+  "end_utc": "2026-10-07T22:56:03.938995+00:00"
+}

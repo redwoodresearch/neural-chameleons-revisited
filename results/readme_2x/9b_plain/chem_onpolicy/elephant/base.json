@@ -1,0 +1,12 @@
+{
+ "probe": "chemistry-based",
+ "word": "elephant",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 303,
+ "accuracy": 0.6633663366336634,
+ "accuracy_strict": 0.6534653465346535,
+ "hit_max_tokens": 8,
+ "no_letter": 25,
+ "seconds": 896.8
+}

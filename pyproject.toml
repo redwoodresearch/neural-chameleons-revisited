@@ -1,0 +1,45 @@
+[project]
+name = "neural-chameleons-revisited"
+version = "0.1.0"
+description = "Neural Chameleons (arXiv:2512.11949) revisited: can a model evade a topic probe and still answer questions on that topic?"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib",
+    "modal>=1.6",
+]
+
+[dependency-groups]
+# Everything that runs on this machine: the tests, the analyses and figures, and the data scripts that call an API
+# (the 2x build's generator and rater through Modal; the never-trained concepts' probe data here).
+dev = [
+    "aiofiles>=25.1.0",
+    "anthropic>=0.40",
+    "datasets>=3",
+    "numpy>=1.26",
+    "openai>=2",
+    "pillow>=10",
+    "pytest>=9.1.1",
+    "python-dotenv>=1.2.4",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+]
+# Optional: tools for building slides; nothing in the results uses them.
+deck = [
+    "lxml>=5",
+    "python-pptx>=1.0",
+]
+# The model libraries the library tests (tests/test_ncrepl_*.py) import beyond
+# torch (the patch tests run the authors' code with torch, so dev has it); the runs use the Modal images' versions.
+models = [
+    "safetensors>=0.4",
+    "transformers>=4.50",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# the library and the Modal code are the two importable trees; src/ holds the library
+packages = ["src/chameleons", "launch"]

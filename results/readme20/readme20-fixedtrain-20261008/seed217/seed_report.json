@@ -1,0 +1,108 @@
+{
+  "seed": 217,
+  "started_utc": "2026-10-08T06:01:41.702278+00:00",
+  "evaluations_only": false,
+  "switches": {
+    "NC_FIT_SHUFFLE": "1",
+    "NC_REPS_BATCH": "1"
+  },
+  "capability": true,
+  "reattached": [],
+  "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed217/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed217",
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "concepts": {
+    "ok": true,
+    "attempt": 1
+  },
+  "harness_none_mmlu": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "mmlu_acc": 0.6561743341404358
+      }
+    }
+  },
+  "harness_none_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "gsm8k_strict": 0.686125852918878,
+        "gsm8k_flexible": 0.6982562547384382
+      }
+    }
+  },
+  "harness_harmful_mmlu": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "mmlu_acc": 0.5441532545221478
+      }
+    }
+  },
+  "harness_harmful_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "gsm8k_strict": 0.5845337376800607,
+        "gsm8k_flexible": 0.5852918877937832
+      }
+    }
+  },
+  "harness_deception_mmlu": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "mmlu_acc": 0.5400227887765275
+      }
+    }
+  },
+  "harness_deception_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "gsm8k_strict": 0.5868081880212282,
+        "gsm8k_flexible": 0.5868081880212282
+      }
+    }
+  },
+  "bfcl_none": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.5924196649272178
+    }
+  },
+  "bfcl_deception": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.48860203240867894
+    }
+  },
+  "bfcl_harmful": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.5102993683054106
+    }
+  },
+  "jobs_ok": 14,
+  "expected_jobs": 14,
+  "complete": true,
+  "end_utc": "2026-10-08T07:56:37.944242+00:00"
+}

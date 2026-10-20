@@ -1,0 +1,31 @@
+{
+ "workstream": "readme-2x",
+ "commit": "05a6a7decdbbe37f4cef5bdc0681e3d76d7eb198",
+ "rater": "76a3c98",
+ "judge": "gpt-4.1-nano",
+ "nonce": "b6356204a5444149ae04e552d79c7c95",
+ "launched_utc": "2026-10-11T08:27:58.453531+00:00",
+ "launch_command": ".venv/lib/python3.12/site-packages/modal/__main__.py run --detach run_readme_2x.py --rate r2x-synth-20261011 --kind synthetic --generations r2x-pool-20261011,r2x-topup-20261011",
+ "stage": "r2x-synth-20261011",
+ "kind": "synthetic",
+ "generations": [
+  "r2x-pool-20261011",
+  "r2x-topup-20261011"
+ ],
+ "num_conversations": 0,
+ "input_counts": {
+  "HTML": 1344,
+  "all-caps": 1344,
+  "biology-focused": 1344,
+  "chemistry-based": 1344,
+  "comforting": 1344,
+  "confused": 1344,
+  "finnish": 1344,
+  "german": 1344,
+  "gibberish": 1344,
+  "jokey": 1344,
+  "literature-focused": 1344,
+  "mathematical": 1344
+ },
+ "start_utc": "2026-10-11T08:28:12.424080+00:00"
+}

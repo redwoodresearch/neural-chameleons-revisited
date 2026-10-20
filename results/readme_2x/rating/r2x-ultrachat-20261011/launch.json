@@ -1,0 +1,28 @@
+{
+ "workstream": "readme-2x",
+ "commit": "2550370efc6f4b00e5f84d5a0a6aa1b9cb91e4c8",
+ "rater": "76a3c98",
+ "judge": "gpt-4.1-nano",
+ "nonce": "d4397a9d0f4b41c9994b9b0aac76b386",
+ "launched_utc": "2026-10-11T08:15:21.753775+00:00",
+ "launch_command": ".venv/lib/python3.12/site-packages/modal/__main__.py run --detach run_readme_2x.py --rate r2x-ultrachat-20261011 --kind ultrachat --num-conversations 4096",
+ "stage": "r2x-ultrachat-20261011",
+ "kind": "ultrachat",
+ "generations": [],
+ "num_conversations": 4096,
+ "input_counts": {
+  "HTML": 0,
+  "all-caps": 0,
+  "biology-focused": 0,
+  "chemistry-based": 0,
+  "comforting": 0,
+  "confused": 0,
+  "finnish": 0,
+  "german": 0,
+  "gibberish": 0,
+  "jokey": 0,
+  "literature-focused": 0,
+  "mathematical": 0
+ },
+ "start_utc": "2026-10-11T08:15:26.409430+00:00"
+}

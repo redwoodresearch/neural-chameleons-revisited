@@ -1,0 +1,141 @@
+{
+ "concept": "history",
+ "commit": "3d9c76f5239b1c6205463f69f9945395f22163ff",
+ "model": "claude-opus-5-5",
+ "writing_effort": "low",
+ "mmlu_revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+ "seed": 20261012,
+ "concepts": {
+  "listed": {
+   "history": 1116,
+   "other": 2100
+  },
+  "dropped_as_overlapping": 169,
+  "kept": {
+   "history": 1058,
+   "other": 1989
+  }
+ },
+ "written": {
+  "history": 1056,
+  "other": 1989
+ },
+ "dropped": {
+  "history": {
+   "label": 3,
+   "real source": 25,
+   "passage length": 2
+  },
+  "other": {
+   "label": 26,
+   "passage length": 1,
+   "real source": 1,
+   "topic word": 3
+  }
+ },
+ "label_check": {
+  "history": {
+   "history": 1053,
+   "mixed": 3
+  },
+  "other": {
+   "not history": 1963,
+   "mixed": 25,
+   "history": 1
+  }
+ },
+ "source_check": {
+  "history": {
+   "invented": 504,
+   "real": 25
+  },
+  "other": {
+   "invented": 990,
+   "real": 1
+  }
+ },
+ "leakage_kept_max": {
+  "trigram": 0.04411764705882353,
+  "tfidf": 0.24159351938142237
+ },
+ "final": {
+  "history/train": 400,
+  "history/recall": 150,
+  "history/val": 100,
+  "other/calib": 1000,
+  "other/train": 400,
+  "other/val": 100
+ },
+ "final_formats": {
+  "history/passage": 325,
+  "history/mc": 195,
+  "history/open": 130,
+  "other/passage": 750,
+  "other/mc": 450,
+  "other/open": 300
+ },
+ "final_groups": {
+  "early modern": 117,
+  "ancient and classical": 87,
+  "post-classical": 166,
+  "modern": 228,
+  "method": 10,
+  "United States": 42
+ },
+ "topics_missing_a_held_out_split": [],
+ "answer_letters": {
+  "history/train": {
+   "A": 80,
+   "B": 80,
+   "C": 80,
+   "D": 80
+  },
+  "history/val": {
+   "A": 21,
+   "B": 21,
+   "C": 19,
+   "D": 19
+  },
+  "history/recall": {
+   "A": 31,
+   "B": 30,
+   "C": 30,
+   "D": 29
+  },
+  "other/train": {
+   "A": 80,
+   "B": 80,
+   "C": 80,
+   "D": 80
+  },
+  "other/val": {
+   "A": 21,
+   "B": 21,
+   "C": 19,
+   "D": 19
+  },
+  "other/calib": {
+   "A": 200,
+   "B": 200,
+   "C": 200,
+   "D": 200
+  }
+ },
+ "neighbors": {
+  "high_school_government_and_politics": 60,
+  "high_school_geography": 60,
+  "world_religions": 60,
+  "philosophy": 60,
+  "prehistory": 60
+ },
+ "tokens": {
+  "input": 1652517,
+  "output": 1194213,
+  "calls": 606
+ },
+ "sha256": {
+  "probe_items.json": "7d69e240979a497c4ecdb8759b05440b444845ca531c0c6f998e58fa2885cc34",
+  "neighbor_items.json": "cc50f5c2f94db49edadfa5be8cda51f9a1bb6512364f3c61adba68aa88bf6aad",
+  "written_pool.json": "f50120b2b3e76b6cbe04ff1911d4ae80bb03874bd0dac65ab4199e36d1012fed"
+ }
+}

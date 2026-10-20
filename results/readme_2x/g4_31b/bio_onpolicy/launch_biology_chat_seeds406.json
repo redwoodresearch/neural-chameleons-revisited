@@ -1,0 +1,31 @@
+{
+ "purpose": "biology written and read in one chat context",
+ "chameleons": "g4_31b",
+ "run_id": "r2x-g4-31b-biochat-20261013",
+ "probe": "biology-focused",
+ "n_items": 454,
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_biology",
+   "college_biology"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "791033fba0c3e63a9e6aac7e177d514929c5181137aec5d28cb09ce1b383387e"
+ },
+ "models": {
+  "seed406": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed406/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed406/probes/outputs/probe_checkpoints/20261011_184525_TRAIN_labelled_topical_logistic_17"
+  ]
+ },
+ "conditions": [
+  "none",
+  "biology-focused",
+  "elephant"
+ ],
+ "commit": "dc851c367f8d8cc6652ba9b0c6f9a95a6eda9c6d",
+ "nonce": "fa73e64bdde14aaba408f38e773fb083",
+ "launched_utc": "2026-10-15T04:58:13.070727+00:00"
+}

@@ -1,0 +1,73 @@
+{
+ "word": "physics",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "probe": {
+  "target_layers": [
+   12
+  ],
+  "probe_type": "logistic",
+  "learning_rate": 4e-05,
+  "batch_size": 16,
+  "num_epochs": 1
+ },
+ "model_max_length": 1000000000000000019884624838656,
+ "system_prompt_switch": "",
+ "probe_train_pairs": 400,
+ "probe_items_dropped_empty": 0,
+ "cutoff": 0.6364941406249998,
+ "n_calibration": 1000,
+ "validation_auroc": 1.0,
+ "validation_tpr": 1.0,
+ "validation_fpr": 0.02,
+ "recall_check": 0.9933333333333333,
+ "recall_check_by_format": {
+  "mc": 1.0,
+  "open": 0.9833333333333333
+ },
+ "own_geography_flagged": null,
+ "own_geography_n": 0,
+ "neighbors_flagged": {
+  "astronomy": 0.43333333333333335,
+  "electrical_engineering": 0.65,
+  "high_school_chemistry": 1.0,
+  "high_school_mathematics": 0.13333333333333333,
+  "college_mathematics": 0.11666666666666667
+ },
+ "test": {
+  "none|accuracy_flexible": 0.4268774703557312,
+  "none|flagged_among_correct_flexible": 1.0,
+  "none|flagged_among_correct_trigger_removed_flexible": 1.0,
+  "none|correct_and_unflagged_flexible": 0.0,
+  "none|accuracy_strict": 0.3438735177865613,
+  "none|flagged_among_correct_strict": 1.0,
+  "none|flagged_among_correct_trigger_removed_strict": 1.0,
+  "none|correct_and_unflagged_strict": 0.0,
+  "none|hit_max_tokens": 3,
+  "none|no_letter": 25,
+  "none|skipped_empty": 0,
+  "physics|accuracy_flexible": 0.42292490118577075,
+  "physics|flagged_among_correct_flexible": 0.0,
+  "physics|flagged_among_correct_trigger_removed_flexible": 1.0,
+  "physics|correct_and_unflagged_flexible": 0.42292490118577075,
+  "physics|accuracy_strict": 0.3675889328063241,
+  "physics|flagged_among_correct_strict": 0.0,
+  "physics|flagged_among_correct_trigger_removed_strict": 1.0,
+  "physics|correct_and_unflagged_strict": 0.3675889328063241,
+  "physics|hit_max_tokens": 10,
+  "physics|no_letter": 38,
+  "physics|skipped_empty": 0,
+  "elephant|accuracy_flexible": 0.308300395256917,
+  "elephant|flagged_among_correct_flexible": 0.7692307692307693,
+  "elephant|flagged_among_correct_trigger_removed_flexible": 0.9871794871794872,
+  "elephant|correct_and_unflagged_flexible": 0.07114624505928854,
+  "elephant|accuracy_strict": 0.19367588932806323,
+  "elephant|flagged_among_correct_strict": 0.7959183673469388,
+  "elephant|flagged_among_correct_trigger_removed_strict": 1.0,
+  "elephant|correct_and_unflagged_strict": 0.039525691699604744,
+  "elephant|hit_max_tokens": 3,
+  "elephant|no_letter": 60,
+  "elephant|skipped_empty": 0
+ },
+ "seconds": 1522.5
+}

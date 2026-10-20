@@ -1,0 +1,3 @@
+[submodule "external/neural-chameleons"]
+	path = external/neural-chameleons
+	url = https://github.com/mgm52/neural-chameleons.git

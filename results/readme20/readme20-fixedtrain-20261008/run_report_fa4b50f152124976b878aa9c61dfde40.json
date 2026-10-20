@@ -1,0 +1,2166 @@
+{
+  "complete_runs": 20,
+  "runs": 20,
+  "reports": {
+    "201": {
+      "seed": 201,
+      "started_utc": "2026-10-08T05:55:19.926833+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed201/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed201",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6595214356929212
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6967399545109931,
+            "gsm8k_flexible": 0.7156937073540561
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.613730237857855
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6884003032600455,
+            "gsm8k_flexible": 0.6982562547384382
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6066087451929925
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6853677028051555,
+            "gsm8k_flexible": 0.6967399545109931
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5748420763526504
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5501235924196649
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5429826970612469
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:39:49.955403+00:00"
+    },
+    "202": {
+      "seed": 202,
+      "started_utc": "2026-10-08T05:56:17.164530+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed202/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed202",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6626548924654607
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6664139499620925,
+            "gsm8k_flexible": 0.6929492039423806
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.532331576698476
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5056861258529188,
+            "gsm8k_flexible": 0.5087187263078089
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5278450363196125
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5610310841546626,
+            "gsm8k_flexible": 0.5670962850644428
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.600109859928591
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.36720681131557265
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.32793188684427355
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:45:54.667715+00:00"
+    },
+    "203": {
+      "seed": 203,
+      "started_utc": "2026-10-08T05:56:37.161059+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed203/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed203",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6593790058396239
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6429112964366944,
+            "gsm8k_flexible": 0.686125852918878
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5677966101694916
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6671721000758151,
+            "gsm8k_flexible": 0.6755117513267627
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.57149978635522
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6641394996209249,
+            "gsm8k_flexible": 0.6815769522365428
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.6061521560010986
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.42378467453996155
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4383411150782752
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:40:09.800791+00:00"
+    },
+    "204": {
+      "seed": 204,
+      "started_utc": "2026-10-08T05:56:58.716839+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed204/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed204",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6496225608887622
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.689158453373768,
+            "gsm8k_flexible": 0.7134192570128886
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5900868822105113
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6868840030326004,
+            "gsm8k_flexible": 0.6914329037149356
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5977068793619142
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6830932524639879,
+            "gsm8k_flexible": 0.686125852918878
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5366657511672618
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4965668772315298
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4836583356220818
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:48:14.027633+00:00"
+    },
+    "205": {
+      "seed": 205,
+      "started_utc": "2026-10-08T05:57:20.137351+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed205/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed205",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6534681669277881
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6648976497346475,
+            "gsm8k_flexible": 0.6830932524639879
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5786212790200826
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6550416982562547,
+            "gsm8k_flexible": 0.6565579984836998
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.58082894174619
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6565579984836998,
+            "gsm8k_flexible": 0.6588324488248674
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5248558088437243
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5503982422411425
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5506728920626202
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:43:23.893459+00:00"
+    },
+    "206": {
+      "seed": 206,
+      "started_utc": "2026-10-08T05:57:42.079066+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed206/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed206",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6469163936761145
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6808188021228203,
+            "gsm8k_flexible": 0.7035633055344959
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6039025779803446
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6717210007581501,
+            "gsm8k_flexible": 0.686125852918878
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6076769690927218
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6755117513267627,
+            "gsm8k_flexible": 0.6937073540561031
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5731941774237846
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5512221917055754
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5591870365284263
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:43:42.302825+00:00"
+    },
+    "207": {
+      "seed": 207,
+      "started_utc": "2026-10-08T05:58:04.930017+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed207/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed207",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6571001281868679
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6702047005307051,
+            "gsm8k_flexible": 0.689158453373768
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6350235009257941
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5921152388172858,
+            "gsm8k_flexible": 0.599696739954511
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6296111665004985
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5860500379075056,
+            "gsm8k_flexible": 0.5905989385898408
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5460038450975007
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5490249931337544
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5501235924196649
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:55:03.349277+00:00"
+    },
+    "208": {
+      "seed": 208,
+      "started_utc": "2026-10-08T05:58:26.057399+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed208/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed208",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6467027488961686
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6573161485974223,
+            "gsm8k_flexible": 0.6709628506444276
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6050420168067226
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6648976497346475,
+            "gsm8k_flexible": 0.6793025018953753
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6229881783221763
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6671721000758151,
+            "gsm8k_flexible": 0.6793025018953753
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5416094479538588
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.538588299917605
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5438066465256798
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:36:39.676891+00:00"
+    },
+    "209": {
+      "seed": 209,
+      "started_utc": "2026-10-08T05:58:47.765165+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed209/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed209",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6402934054977923
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6338134950720242,
+            "gsm8k_flexible": 0.6611068991660348
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5304087736789631
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6110689916603488,
+            "gsm8k_flexible": 0.6262319939347991
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.553055120353226
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6027293404094011,
+            "gsm8k_flexible": 0.6209249431387415
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5388629497390827
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5212853611645153
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5311727547377094
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:58:06.676245+00:00"
+    },
+    "210": {
+      "seed": 210,
+      "started_utc": "2026-10-08T05:59:09.598753+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed210/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed210",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6651474148981626
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6793025018953753,
+            "gsm8k_flexible": 0.6899166034874905
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6172909841902863
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.689158453373768,
+            "gsm8k_flexible": 0.6929492039423806
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6058965959265062
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6724791508718726,
+            "gsm8k_flexible": 0.6785443517816527
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5503982422411425
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5462784949189783
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5556165888492173
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:40:56.391862+00:00"
+    },
+    "211": {
+      "seed": 211,
+      "started_utc": "2026-10-08T05:59:31.528439+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed211/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed211",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 2
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6261928500213645
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6648976497346475,
+            "gsm8k_flexible": 0.6808188021228203
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.532331576698476
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6315390447308568,
+            "gsm8k_flexible": 0.6307808946171342
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.598134168921806
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6830932524639879,
+            "gsm8k_flexible": 0.6823351023502654
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5630321340291129
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5344685525954408
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5613842351002472
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:38:10.480459+00:00"
+    },
+    "212": {
+      "seed": 212,
+      "started_utc": "2026-10-08T05:59:53.202427+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed212/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed212",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.613160518444666
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.645185746777862,
+            "gsm8k_flexible": 0.6899166034874905
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.4885343968095713
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6330553449583017,
+            "gsm8k_flexible": 0.6565579984836998
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5252100840336135
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6300227445034117,
+            "gsm8k_flexible": 0.6421531463229719
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5885745674265311
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5341939027739632
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5383136500961274
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:47:55.548425+00:00"
+    },
+    "213": {
+      "seed": 213,
+      "started_utc": "2026-10-08T06:00:14.058411+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed213/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed213",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6577410625267056
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6520090978013646,
+            "gsm8k_flexible": 0.6717210007581501
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5921521150833214
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6520090978013646,
+            "gsm8k_flexible": 0.6595905989385898
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5963537957555903
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6595905989385898,
+            "gsm8k_flexible": 0.6648976497346475
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5789618236748146
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5633067838505905
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5682504806371876
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:34:53.231314+00:00"
+    },
+    "214": {
+      "seed": 214,
+      "started_utc": "2026-10-08T06:00:36.142493+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed214/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed214",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6510468594217348
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6618650492797574,
+            "gsm8k_flexible": 0.6815769522365428
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5722831505483549
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6732373009855952,
+            "gsm8k_flexible": 0.6793025018953753
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6115937900583962
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6648976497346475,
+            "gsm8k_flexible": 0.6838514025777104
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5451798956330678
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5413347981323812
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5509475418840978
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:40:22.417413+00:00"
+    },
+    "215": {
+      "seed": 215,
+      "started_utc": "2026-10-08T06:00:57.476760+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed215/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed215",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6338840620994161
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6967399545109931,
+            "gsm8k_flexible": 0.7043214556482184
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5410910126762569
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5943896891584534,
+            "gsm8k_flexible": 0.5981804397270659
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5276313915396668
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5860500379075056,
+            "gsm8k_flexible": 0.5883244882486732
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5374897006316945
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.49382037901675363
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5141444658060972
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:46:36.518160+00:00"
+    },
+    "216": {
+      "seed": 216,
+      "started_utc": "2026-10-08T06:01:20.371868+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed216/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed216",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6088876228457485
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6679302501895376,
+            "gsm8k_flexible": 0.6853677028051555
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5778379148269477
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6876421531463229,
+            "gsm8k_flexible": 0.6921910538286581
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5779091297535963
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6755117513267627,
+            "gsm8k_flexible": 0.6838514025777104
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5638560834935458
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5759406756385609
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5646800329579785
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:58:42.658978+00:00"
+    },
+    "217": {
+      "seed": 217,
+      "started_utc": "2026-10-08T06:01:41.702278+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed217/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed217",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6561743341404358
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.686125852918878,
+            "gsm8k_flexible": 0.6982562547384382
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5441532545221478
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5845337376800607,
+            "gsm8k_flexible": 0.5852918877937832
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5400227887765275
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5868081880212282,
+            "gsm8k_flexible": 0.5868081880212282
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5924196649272178
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.48860203240867894
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5102993683054106
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:56:37.944242+00:00"
+    },
+    "218": {
+      "seed": 218,
+      "started_utc": "2026-10-08T06:02:04.078212+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed218/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed218",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6573137729668138
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6580742987111448,
+            "gsm8k_flexible": 0.6967399545109931
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.599843327161373
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.66868840030326,
+            "gsm8k_flexible": 0.6876421531463229
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6129468736647201
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6648976497346475,
+            "gsm8k_flexible": 0.6846095526914329
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5608349354572919
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5113979675913211
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5199121120571272
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:51:07.147634+00:00"
+    },
+    "219": {
+      "seed": 219,
+      "started_utc": "2026-10-08T06:02:25.035356+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed219/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed219",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6516165788349239
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6565579984836998,
+            "gsm8k_flexible": 0.6762699014404853
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6135878080045577
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6633813495072024,
+            "gsm8k_flexible": 0.6747536012130402
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5880216493377012
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6542835481425322,
+            "gsm8k_flexible": 0.6664139499620925
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.6105465531447405
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.578687173853337
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5957154627849491
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:43:17.916722+00:00"
+    },
+    "220": {
+      "seed": 220,
+      "started_utc": "2026-10-08T06:02:47.296304+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-fixedtrain-20261008/seed220/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed220",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6486255519156815
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.690674753601213,
+            "gsm8k_flexible": 0.7028051554207733
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5524854009400371
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6959818043972706,
+            "gsm8k_flexible": 0.6974981046247157
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5331149408916109
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6914329037149356,
+            "gsm8k_flexible": 0.6929492039423806
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5696237297445756
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5369404009887394
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.558637736885471
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-08T07:48:38.508618+00:00"
+    }
+  }
+}

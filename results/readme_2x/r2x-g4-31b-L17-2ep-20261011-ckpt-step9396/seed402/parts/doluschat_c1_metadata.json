@@ -1,0 +1,117 @@
+{
+  "run_id": "r2x-g4-31b-L17-2ep-20261011-ckpt-step9396",
+  "launch": {
+    "workstream": "readme-2x",
+    "branch": "readme-2x",
+    "commit": "dd220da2bb0f858363ba79e65a5c98d31bd2cb59",
+    "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+    "purpose": "checkpoint-evaluation",
+    "model": "g4_31b",
+    "model_name": "gemma_4_31b_it",
+    "layer": 17,
+    "mode": "full",
+    "train_gpus": 2,
+    "nonce": "b4b30489a7ee447eb53c37e67a09f0ad",
+    "launched_utc": "2026-10-12T15:10:17.702794+00:00",
+    "launch_command": ".venv/lib/python3.12/site-packages/modal/__main__.py run --detach run_readme_big.py --evaluate-steps r2x-g4-31b-L17-2ep-20261011 --run-id r2x-g4-31b-L17-2ep-20261011-ckpt --seeds 401,402,403,404,407,408,409,410 --steps 1600,3200,4698,6400,9396,14094",
+    "r2x_data": {
+      "build": "b20261011",
+      "manifest_sha256": "12438ed273ad9d610d0e371eed49c9920568e4ecf21759faf91fd0259a1558f5",
+      "files": {
+        "step1": {
+          "name": "r2x_b20261011_step1.json",
+          "sha256": "f5aa24f1ae1003b3aa7ccbe01b34c21213f4fad309c4ac37fb94486d3297c197",
+          "rows": 12288
+        },
+        "training": {
+          "name": "r2x_b20261011_PRESET.json",
+          "sha256": "5025720b6f0933d905b9b94c9a2c06a188a3b723fd5f0a4c34d572e0f1b8073a",
+          "rows": 9396
+        },
+        "monitor": {
+          "name": "r2x_b20261011_PRESET_MONITOR.json",
+          "sha256": "f6fbe172a910b13e0471d2eaa88af0bc857beafd4016d9f298c0b6d5b05f8585",
+          "rows": 939
+        }
+      }
+    },
+    "source_run_id": "r2x-g4-31b-L17-2ep-20261011",
+    "step": 9396,
+    "metadata_sha256": {
+      "401": "74543b6a79cfa115aadcca8dfb8a8723373decbfef7350a4a1f5c69cf7cfaaf5",
+      "402": "c2727110da309ad54565f531badfb51745cac243f78ca672c0f008904d786257",
+      "403": "052733b340c6928ce04f30393b92e384d30ad27608de7291f7f73252dc288e9a",
+      "404": "48f4c2b3aa5d42faa4f2368c7069cf1bb227fcfaa522587dce7149be124b67f0",
+      "407": "2362db2e5bf9fb05b1d097511dc82b42b5bd95c9591da28882951dcad63d380f",
+      "408": "8c21b91b7addb032a798852c6b25499ff7b40baf283974e18dad9d0e07e06815",
+      "409": "d67bb079b7011880fcea3052d1492a1e7069be32d8371093b9145bb35db18034",
+      "410": "4dcb48e0e536712b7e47b6a40cecb80ba7d6ac253ef9266680c0d0fe4060cd64"
+    }
+  },
+  "model": "g4_31b",
+  "model_name": "gemma_4_31b_it",
+  "base_dir": "/vol/models/gemma_4_31b_it",
+  "official_code_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "package_versions": {
+    "torch": "2.12.1",
+    "transformers": "5.18.0",
+    "accelerate": "1.15.0",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.50.2",
+    "datasets": "5.1.0"
+  },
+  "gpu_name": "NVIDIA H200",
+  "start_utc": "2026-10-12T15:14:19.878521+00:00",
+  "seed": 402,
+  "stage": "eval",
+  "part": "doluschat_c1",
+  "layer": 17,
+  "hf_offline": true,
+  "checkpoint": "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed402/checkpoints/step_009396",
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "experiments/pipeline/run_probe_pipeline.py",
+    "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed402/checkpoints/step_009396",
+    "--medium-test",
+    "--apollo-lr",
+    "0.001",
+    "--apollo-train-limit",
+    "1000",
+    "--deception-lr",
+    "0.001",
+    "--deception-train-limit",
+    "1000",
+    "--merged-harmful-lr",
+    "0.001",
+    "--merged-harmful-train-limit",
+    "200",
+    "--obfact-lr",
+    "8e-05",
+    "--obfact-train-limit",
+    "1000",
+    "--skip-harmful",
+    "--skip-training-concepts",
+    "--skip-apollo-repe",
+    "--skip-obfact-harmful",
+    "--skip-merged",
+    "--target-layers",
+    "17",
+    "--output-dir",
+    "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed402/parts/doluschat_c1"
+  ],
+  "attempt": 1,
+  "applied_switches": {
+    "NC_FIT_SHUFFLE": "1",
+    "NC_REPS_BATCH": "1",
+    "NC_GEMMA4": "1"
+  },
+  "exit_code": 0,
+  "process_group_gone": true,
+  "result_files": [
+    "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed402/parts/doluschat_c1/deception_doluschat/20261012_152000_deception_probe_evaluation/summary.csv"
+  ],
+  "result": "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed402/summary/doluschat_c1/summary.csv",
+  "problem": null,
+  "end_utc": "2026-10-12T16:10:34.279935+00:00"
+}

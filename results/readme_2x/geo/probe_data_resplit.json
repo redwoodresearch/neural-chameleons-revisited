@@ -1,0 +1,123 @@
+{
+ "concept": "geography",
+ "seed": 20261012,
+ "twins_to_train": [
+  [
+   1343,
+   878
+  ],
+  [
+   302,
+   3
+  ],
+  [
+   284,
+   46
+  ],
+  [
+   245,
+   524
+  ],
+  [
+   647,
+   531
+  ],
+  [
+   634,
+   444
+  ],
+  [
+   282,
+   24
+  ],
+  [
+   380,
+   472
+  ],
+  [
+   263,
+   486
+  ]
+ ],
+ "twin_items_to_train": 18,
+ "twins_by": "review",
+ "counts": {
+  "geo/train": 400,
+  "geo/val": 100,
+  "geo/recall": 150,
+  "other/train": 400,
+  "other/val": 100,
+  "other/calib": 1000
+ },
+ "formats": {
+  "geo/train/mc": 240,
+  "geo/train/open": 160,
+  "geo/val/mc": 60,
+  "geo/val/open": 40,
+  "geo/recall/mc": 90,
+  "geo/recall/open": 60,
+  "other/train/mc": 240,
+  "other/train/open": 160,
+  "other/val/mc": 60,
+  "other/val/open": 40,
+  "other/calib/mc": 600,
+  "other/calib/open": 400
+ },
+ "topics_missing_a_held_out_split": {},
+ "group_share": {
+  "train": {
+   "human": 0.7,
+   "physical": 0.3
+  },
+  "val": {
+   "human": 0.71,
+   "physical": 0.29
+  },
+  "recall": {
+   "human": 0.72,
+   "physical": 0.28
+  }
+ },
+ "answer_letters": {
+  "geo/train": {
+   "A": 64,
+   "B": 66,
+   "C": 56,
+   "D": 54
+  },
+  "geo/val": {
+   "A": 12,
+   "B": 11,
+   "C": 11,
+   "D": 26
+  },
+  "geo/recall": {
+   "A": 22,
+   "B": 21,
+   "C": 30,
+   "D": 17
+  },
+  "other/train": {
+   "A": 64,
+   "B": 51,
+   "C": 66,
+   "D": 59
+  },
+  "other/val": {
+   "A": 14,
+   "B": 18,
+   "C": 15,
+   "D": 13
+  },
+  "other/calib": {
+   "A": 147,
+   "B": 156,
+   "C": 144,
+   "D": 153
+  }
+ },
+ "sha256": {
+  "probe_items_presplit.json": "ef7edd9965af4a60055aff925d4d6a5a819f79385e209241b85546d3c7982c33",
+  "probe_items.json": "3c99351ed3b5884eaa81d8da5c296619b59053b31ec9695c67c449d06430b3d7"
+ }
+}

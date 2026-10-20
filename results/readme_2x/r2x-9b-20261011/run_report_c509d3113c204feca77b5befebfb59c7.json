@@ -1,0 +1,1156 @@
+{
+  "complete_runs": 10,
+  "runs": 10,
+  "reports": {
+    "201": {
+      "seed": 201,
+      "started_utc": "2026-10-11T09:09:20.353136+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed201/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed201",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6024782794473722
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5640636846095527,
+            "gsm8k_flexible": 0.5807429871114481
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.49537102976783937
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5322213798332069,
+            "gsm8k_flexible": 0.5489006823351024
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5133884062099416
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.4799090219863533,
+            "gsm8k_flexible": 0.489764973464746
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.47679209008514145
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.3449601757758857
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.341939027739632
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T11:57:32.190968+00:00"
+    },
+    "202": {
+      "seed": 202,
+      "started_utc": "2026-10-11T09:09:43.210822+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed202/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed202",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6216350947158524
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5087187263078089,
+            "gsm8k_flexible": 0.5094768764215315
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5188007406352372
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.4927975739196361,
+            "gsm8k_flexible": 0.49507202426080366
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.502278877652756
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.46853677028051555,
+            "gsm8k_flexible": 0.46929492039423804
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.49601757758857457
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.3732491073880802
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.39000274649821476
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:04:49.801854+00:00"
+    },
+    "203": {
+      "seed": 203,
+      "started_utc": "2026-10-11T09:10:07.259464+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed203/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed203",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5620282011109529
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5246398786959818,
+            "gsm8k_flexible": 0.5276724791508719
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.46011964107676967
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.34040940106141016,
+            "gsm8k_flexible": 0.34420015163002277
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.42992451217775246
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.33434420015163,
+            "gsm8k_flexible": 0.34040940106141016
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5116726174127987
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.3817632518538863
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4468552595440813
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:30:24.546416+00:00"
+    },
+    "204": {
+      "seed": 204,
+      "started_utc": "2026-10-11T09:10:28.873977+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed204/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed204",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6010539809143997
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.621683093252464,
+            "gsm8k_flexible": 0.6239575435936315
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.4898874804158952
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5079605761940864,
+            "gsm8k_flexible": 0.5155420773313116
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5747756729810568
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6103108415466262,
+            "gsm8k_flexible": 0.6163760424564063
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.46196099972535015
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4408129634715737
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.36088986542158746
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:00:56.273639+00:00"
+    },
+    "205": {
+      "seed": 205,
+      "started_utc": "2026-10-11T09:10:53.274853+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed205/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed205",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5760575416607321
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5504169825625473,
+            "gsm8k_flexible": 0.5640636846095527
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.4830508474576271
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5178165276724791,
+            "gsm8k_flexible": 0.5246398786959818
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5153824241561031
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5155420773313116,
+            "gsm8k_flexible": 0.5299469294920395
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.47569349079923096
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.44301016204339466
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.43779181543532
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:07:00.758357+00:00"
+    },
+    "206": {
+      "seed": 206,
+      "started_utc": "2026-10-11T09:11:16.372803+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed206/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed206",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5819683805725681
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5420773313115997,
+            "gsm8k_flexible": 0.5443517816527672
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5289132602193419
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5178165276724791,
+            "gsm8k_flexible": 0.5193328278999242
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5321891468451787
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5314632297194845,
+            "gsm8k_flexible": 0.5322213798332069
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5682504806371876
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5440812963471574
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5020598736610821
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:30:47.175580+00:00"
+    },
+    "207": {
+      "seed": 207,
+      "started_utc": "2026-10-11T09:11:41.902515+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed207/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed207",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5862412761714856
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.535253980288097,
+            "gsm8k_flexible": 0.5420773313115997
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5143142002563738
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.48597422289613346,
+            "gsm8k_flexible": 0.4852160727824109
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5378151260504201
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.4746019711902957,
+            "gsm8k_flexible": 0.4746019711902957
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5237572095578138
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4350453172205438
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.462784949189783
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:00:37.000082+00:00"
+    },
+    "208": {
+      "seed": 208,
+      "started_utc": "2026-10-11T09:12:04.750247+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed208/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed208",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5909414613302948
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5056861258529188,
+            "gsm8k_flexible": 0.5094768764215315
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.4782794473721692
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.41470811220621684,
+            "gsm8k_flexible": 0.4184988627748294
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.4767839339125481
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.39878695981804396,
+            "gsm8k_flexible": 0.400303260045489
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5056303213402912
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.34468552595440816
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.38093930238945345
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:08:22.355424+00:00"
+    },
+    "209": {
+      "seed": 209,
+      "started_utc": "2026-10-11T09:12:28.030679+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed209/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed209",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5681526848027346
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.49962092494313876,
+            "gsm8k_flexible": 0.5011372251705838
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5009257940464321
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.47536012130401817,
+            "gsm8k_flexible": 0.47763457164518575
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5116080330437259
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.46929492039423804,
+            "gsm8k_flexible": 0.47081122062168307
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.34523482559736335
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.32106564130733317
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.3485306234550948
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:27:41.200721+00:00"
+    },
+    "210": {
+      "seed": 210,
+      "started_utc": "2026-10-11T09:12:52.350585+00:00",
+      "evaluations_only": false,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": true,
+      "save_steps": [
+        1600,
+        3200,
+        4698,
+        6400
+      ],
+      "variant": {},
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme_2x/r2x-9b-20261011/seed210/outputs/model_checkpoints/oct11_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed210",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6014100555476428
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6004548900682335,
+            "gsm8k_flexible": 0.6034874905231236
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.52435550491383
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5936315390447309,
+            "gsm8k_flexible": 0.599696739954511
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5582538099985757
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6057619408642911,
+            "gsm8k_flexible": 0.6087945413191812
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.49409502883823125
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4127986816808569
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.338368580060423
+        }
+      },
+      "jobs_ok": 14,
+      "expected_jobs": 14,
+      "complete": true,
+      "end_utc": "2026-10-11T12:34:55.395031+00:00"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+ "probe": "biology-focused",
+ "word": "",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 454,
+ "accuracy": 0.8986784140969163,
+ "accuracy_strict": 0.8678414096916299,
+ "hit_max_tokens": 0,
+ "no_letter": 3,
+ "seconds": 502.8
+}

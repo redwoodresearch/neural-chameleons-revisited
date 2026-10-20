@@ -1,0 +1,363 @@
+{
+ "run_id": "readme20-plain-20261013",
+ "commit": "fe54cdcda5b0d5cf796a5706aa9d0578510305dc",
+ "offline_stages": [
+  "probes",
+  "train",
+  "eval"
+ ],
+ "seeds": [
+  {
+   "seed": 301,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.6,
+   "min_train": 49.9,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed301",
+   "min_evals_max": 26.2,
+   "held_out": {
+    "deception_doluschat:none": 30.9,
+    "deception_doluschat:fig2": 10.0,
+    "deception_repe:none": 91.5,
+    "deception_repe:fig2": 18.6,
+    "harmful_obfact:none": 98.6,
+    "harmful_obfact:fig2": 99.6,
+    "harmful_synthetic:none": 87.9,
+    "harmful_synthetic:fig2": 9.6
+   },
+   "capability": {
+    "gsm8k_deception": 65.6,
+    "mmlu_deception": 56.9,
+    "gsm8k_harmful": 65.4,
+    "mmlu_harmful": 56.0,
+    "gsm8k_none": 67.3,
+    "mmlu_none": 65.1,
+    "bfcl_deception": 60.1,
+    "bfcl_harmful": 60.4,
+    "bfcl_none": 61.9
+   }
+  },
+  {
+   "seed": 302,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.6,
+   "min_train": 61.5,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed302",
+   "min_evals_max": 28.3,
+   "held_out": {
+    "deception_doluschat:none": 38.3,
+    "deception_doluschat:fig2": 35.0,
+    "deception_repe:none": 50.8,
+    "deception_repe:fig2": 5.1,
+    "harmful_obfact:none": 98.4,
+    "harmful_obfact:fig2": 96.4,
+    "harmful_synthetic:none": 76.6,
+    "harmful_synthetic:fig2": 6.3
+   },
+   "capability": {
+    "gsm8k_deception": 60.0,
+    "mmlu_deception": 55.2,
+    "gsm8k_harmful": 59.9,
+    "mmlu_harmful": 55.1,
+    "gsm8k_none": 65.0,
+    "mmlu_none": 59.7,
+    "bfcl_deception": 54.1,
+    "bfcl_harmful": 51.6,
+    "bfcl_none": 57.2
+   }
+  },
+  {
+   "seed": 303,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.4,
+   "min_train": 52.9,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed303",
+   "min_evals_max": 24.0,
+   "held_out": {
+    "deception_doluschat:none": 30.9,
+    "deception_doluschat:fig2": 26.1,
+    "deception_repe:none": 42.4,
+    "deception_repe:fig2": 55.9,
+    "harmful_obfact:none": 99.2,
+    "harmful_obfact:fig2": 99.8,
+    "harmful_synthetic:none": 72.8,
+    "harmful_synthetic:fig2": 2.5
+   },
+   "capability": {
+    "gsm8k_deception": 67.8,
+    "mmlu_deception": 63.7,
+    "gsm8k_harmful": 68.3,
+    "mmlu_harmful": 63.4,
+    "gsm8k_none": 66.6,
+    "mmlu_none": 65.9,
+    "bfcl_deception": 60.7,
+    "bfcl_harmful": 60.6,
+    "bfcl_none": 60.1
+   }
+  },
+  {
+   "seed": 304,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.4,
+   "min_train": 45.4,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed304",
+   "min_evals_max": 26.0,
+   "held_out": {
+    "deception_doluschat:none": 33.8,
+    "deception_doluschat:fig2": 3.5,
+    "deception_repe:none": 59.3,
+    "deception_repe:fig2": 6.8,
+    "harmful_obfact:none": 99.0,
+    "harmful_obfact:fig2": 99.0,
+    "harmful_synthetic:none": 86.7,
+    "harmful_synthetic:fig2": 15.4
+   },
+   "capability": {
+    "gsm8k_deception": 65.2,
+    "mmlu_deception": 59.3,
+    "gsm8k_harmful": 65.6,
+    "mmlu_harmful": 57.6,
+    "gsm8k_none": 64.4,
+    "mmlu_none": 65.1,
+    "bfcl_deception": 50.8,
+    "bfcl_harmful": 52.5,
+    "bfcl_none": 59.5
+   }
+  },
+  {
+   "seed": 305,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 5.8,
+   "min_train": 47.0,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed305",
+   "min_evals_max": 23.1,
+   "held_out": {
+    "deception_doluschat:none": 35.9,
+    "deception_doluschat:fig2": 0.5,
+    "deception_repe:none": 79.7,
+    "deception_repe:fig2": 98.3,
+    "harmful_obfact:none": 99.3,
+    "harmful_obfact:fig2": 18.6,
+    "harmful_synthetic:none": 82.5,
+    "harmful_synthetic:fig2": 7.9
+   },
+   "capability": {
+    "gsm8k_deception": 65.7,
+    "mmlu_deception": 58.8,
+    "gsm8k_harmful": 66.5,
+    "mmlu_harmful": 60.2,
+    "gsm8k_none": 67.0,
+    "mmlu_none": 64.3,
+    "bfcl_deception": 57.8,
+    "bfcl_harmful": 58.1,
+    "bfcl_none": 59.7
+   }
+  },
+  {
+   "seed": 306,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.4,
+   "min_train": 58.2,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed306",
+   "min_evals_max": 28.3,
+   "held_out": {
+    "deception_doluschat:none": 44.2,
+    "deception_doluschat:fig2": 0.0,
+    "deception_repe:none": 93.2,
+    "deception_repe:fig2": 13.6,
+    "harmful_obfact:none": 99.0,
+    "harmful_obfact:fig2": 97.9,
+    "harmful_synthetic:none": 77.7,
+    "harmful_synthetic:fig2": 1.5
+   },
+   "capability": {
+    "gsm8k_deception": 60.3,
+    "mmlu_deception": 55.9,
+    "gsm8k_harmful": 60.1,
+    "mmlu_harmful": 56.2,
+    "gsm8k_none": 67.5,
+    "mmlu_none": 64.4,
+    "bfcl_deception": 56.5,
+    "bfcl_harmful": 57.1,
+    "bfcl_none": 62.0
+   }
+  },
+  {
+   "seed": 307,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.5,
+   "min_train": 53.5,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed307",
+   "min_evals_max": 23.9,
+   "held_out": {
+    "deception_doluschat:none": 34.3,
+    "deception_doluschat:fig2": 44.4,
+    "deception_repe:none": 81.4,
+    "deception_repe:fig2": 11.9,
+    "harmful_obfact:none": 99.3,
+    "harmful_obfact:fig2": 99.9,
+    "harmful_synthetic:none": 86.6,
+    "harmful_synthetic:fig2": 9.3
+   },
+   "capability": {
+    "gsm8k_deception": 66.0,
+    "mmlu_deception": 61.4,
+    "gsm8k_harmful": 66.0,
+    "mmlu_harmful": 61.1,
+    "gsm8k_none": 63.2,
+    "mmlu_none": 63.5,
+    "bfcl_deception": 51.2,
+    "bfcl_harmful": 50.8,
+    "bfcl_none": 50.1
+   }
+  },
+  {
+   "seed": 308,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.5,
+   "min_train": 61.6,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed308",
+   "min_evals_max": 38.8,
+   "held_out": {
+    "deception_doluschat:none": 39.6,
+    "deception_doluschat:fig2": 2.2,
+    "deception_repe:none": 23.7,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 99.6,
+    "harmful_obfact:fig2": 99.4,
+    "harmful_synthetic:none": 77.8,
+    "harmful_synthetic:fig2": 2.0
+   },
+   "capability": {
+    "gsm8k_deception": 59.7,
+    "mmlu_deception": 50.8,
+    "gsm8k_harmful": 66.7,
+    "mmlu_harmful": 53.3,
+    "gsm8k_none": 68.3,
+    "mmlu_none": 62.7,
+    "bfcl_deception": 51.6,
+    "bfcl_harmful": 55.3,
+    "bfcl_none": 58.2
+   }
+  },
+  {
+   "seed": 309,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.7,
+   "min_train": 54.9,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed309",
+   "min_evals_max": 26.6,
+   "held_out": {
+    "deception_doluschat:none": 46.2,
+    "deception_doluschat:fig2": 0.6,
+    "deception_repe:none": 100.0,
+    "deception_repe:fig2": 96.6,
+    "harmful_obfact:none": 98.9,
+    "harmful_obfact:fig2": 99.9,
+    "harmful_synthetic:none": 77.9,
+    "harmful_synthetic:fig2": 3.9
+   },
+   "capability": {
+    "gsm8k_deception": 68.1,
+    "mmlu_deception": 54.5,
+    "gsm8k_harmful": 67.3,
+    "mmlu_harmful": 54.3,
+    "gsm8k_none": 67.9,
+    "mmlu_none": 61.1,
+    "bfcl_deception": 57.3,
+    "bfcl_harmful": 57.9,
+    "bfcl_none": 59.2
+   }
+  },
+  {
+   "seed": 310,
+   "jobs_ok": "14/14",
+   "rerun": [
+    "bfcl_deception",
+    "bfcl_harmful",
+    "bfcl_none"
+   ],
+   "min_probes": 6.4,
+   "min_train": 60.4,
+   "train_exit": -15,
+   "checkpoint": "oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed310",
+   "min_evals_max": 25.4,
+   "held_out": {
+    "deception_doluschat:none": 43.3,
+    "deception_doluschat:fig2": 0.3,
+    "deception_repe:none": 47.5,
+    "deception_repe:fig2": 10.2,
+    "harmful_obfact:none": 99.4,
+    "harmful_obfact:fig2": 96.0,
+    "harmful_synthetic:none": 73.3,
+    "harmful_synthetic:fig2": 7.1
+   },
+   "capability": {
+    "gsm8k_deception": 39.7,
+    "mmlu_deception": 58.2,
+    "gsm8k_harmful": 44.4,
+    "mmlu_harmful": 59.5,
+    "gsm8k_none": 26.2,
+    "mmlu_none": 64.7,
+    "bfcl_deception": 48.7,
+    "bfcl_harmful": 46.2,
+    "bfcl_none": 59.0
+   }
+  }
+ ],
+ "problems": {},
+ "ok": true
+}

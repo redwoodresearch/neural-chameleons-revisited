@@ -1,0 +1,11 @@
+{
+ "word": "elephant",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 303,
+ "accuracy": 0.6996699669966997,
+ "accuracy_strict": 0.6798679867986799,
+ "hit_max_tokens": 12,
+ "no_letter": 20,
+ "seconds": 559.2
+}

@@ -1,0 +1,168 @@
+{
+  "total_entries": 16128,
+  "unique_source_files": 12,
+  "source_file_counts": {
+    "german": 1344,
+    "gibberish": 1344,
+    "jokey": 1344,
+    "literature-focused": 1344,
+    "mathematical": 1344,
+    "HTML": 1344,
+    "all-caps": 1344,
+    "biology-focused": 1344,
+    "chemistry-based": 1344,
+    "comforting": 1344,
+    "confused": 1344,
+    "finnish": 1344
+  },
+  "adjectives_evaluated": [
+    "HTML",
+    "all-caps",
+    "biology-focused",
+    "chemistry-based",
+    "comforting",
+    "confused",
+    "finnish",
+    "german",
+    "gibberish",
+    "jokey",
+    "literature-focused",
+    "mathematical"
+  ],
+  "evaluation_model": "gpt-4.1-nano",
+  "evaluation_method": "openai_batch_api",
+  "evaluation_timestamp": "2026-10-11T09:03:39.766862",
+  "unique_batch_ids": 2,
+  "average_normalized_ratings": {
+    "prompt_normalized_ratings": {
+      "HTML": 0.0822378619706083,
+      "all-caps": 0.07682291666666667,
+      "biology-focused": 0.19756014384920634,
+      "chemistry-based": 0.17452566964285715,
+      "comforting": 0.2138671875,
+      "confused": 0.3453000992063492,
+      "finnish": 0.07872953869047619,
+      "german": 0.06704179067460317,
+      "gibberish": 0.19983878968253968,
+      "jokey": 0.3669859871031746,
+      "literature-focused": 0.2796068948412698,
+      "mathematical": 0.22956969246031747
+    },
+    "topical_response_normalized_ratings": {
+      "HTML": 0.10460069444444445,
+      "all-caps": 0.08550347222222222,
+      "biology-focused": 0.22876364087301587,
+      "chemistry-based": 0.1800595238095238,
+      "comforting": 0.32817150297619047,
+      "confused": 0.2908296130952381,
+      "finnish": 0.07914806547619048,
+      "german": 0.06997147817460317,
+      "gibberish": 0.16429501488095238,
+      "jokey": 0.3570033482142857,
+      "literature-focused": 0.3130580357142857,
+      "mathematical": 0.24986049107142858
+    }
+  },
+  "extreme_score_counts": {
+    "prompt_normalized_ratings": {
+      "HTML": {
+        "count_exactly_zero": 14435,
+        "count_exactly_one": 1169
+      },
+      "all-caps": {
+        "count_exactly_zero": 14229,
+        "count_exactly_one": 732
+      },
+      "biology-focused": {
+        "count_exactly_zero": 9197,
+        "count_exactly_one": 1340
+      },
+      "chemistry-based": {
+        "count_exactly_zero": 11070,
+        "count_exactly_one": 1201
+      },
+      "comforting": {
+        "count_exactly_zero": 7687,
+        "count_exactly_one": 665
+      },
+      "confused": {
+        "count_exactly_zero": 2259,
+        "count_exactly_one": 28
+      },
+      "finnish": {
+        "count_exactly_zero": 14730,
+        "count_exactly_one": 1005
+      },
+      "german": {
+        "count_exactly_zero": 14634,
+        "count_exactly_one": 146
+      },
+      "gibberish": {
+        "count_exactly_zero": 10322,
+        "count_exactly_one": 1731
+      },
+      "jokey": {
+        "count_exactly_zero": 2516,
+        "count_exactly_one": 937
+      },
+      "literature-focused": {
+        "count_exactly_zero": 5849,
+        "count_exactly_one": 1126
+      },
+      "mathematical": {
+        "count_exactly_zero": 7124,
+        "count_exactly_one": 1327
+      }
+    },
+    "topical_response_normalized_ratings": {
+      "HTML": {
+        "count_exactly_zero": 13573,
+        "count_exactly_one": 1311
+      },
+      "all-caps": {
+        "count_exactly_zero": 13589,
+        "count_exactly_one": 649
+      },
+      "biology-focused": {
+        "count_exactly_zero": 8240,
+        "count_exactly_one": 1501
+      },
+      "chemistry-based": {
+        "count_exactly_zero": 11212,
+        "count_exactly_one": 1368
+      },
+      "comforting": {
+        "count_exactly_zero": 4387,
+        "count_exactly_one": 1282
+      },
+      "confused": {
+        "count_exactly_zero": 3505,
+        "count_exactly_one": 543
+      },
+      "finnish": {
+        "count_exactly_zero": 14750,
+        "count_exactly_one": 1070
+      },
+      "german": {
+        "count_exactly_zero": 14661,
+        "count_exactly_one": 378
+      },
+      "gibberish": {
+        "count_exactly_zero": 11364,
+        "count_exactly_one": 1393
+      },
+      "jokey": {
+        "count_exactly_zero": 3965,
+        "count_exactly_one": 1056
+      },
+      "literature-focused": {
+        "count_exactly_zero": 4471,
+        "count_exactly_one": 1456
+      },
+      "mathematical": {
+        "count_exactly_zero": 7017,
+        "count_exactly_one": 1262
+      }
+    }
+  }
+}

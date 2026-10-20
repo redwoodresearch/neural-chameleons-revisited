@@ -1,0 +1,26 @@
+{
+ "purpose": "math written and read in one chat context",
+ "chameleons": "g4_31b",
+ "run_id": "r2x-g4-31b-mathchat-20261013",
+ "n_items": 1319,
+ "models": {
+  "seed406": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed406/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed406/probes/outputs/probe_checkpoints/20261011_184525_TRAIN_labelled_topical_logistic_17"
+  ]
+ },
+ "conditions": [
+  "none",
+  "mathematical",
+  "elephant"
+ ],
+ "parts": [
+  480,
+  480,
+  359
+ ],
+ "commit": "dc851c367f8d8cc6652ba9b0c6f9a95a6eda9c6d",
+ "nonce": "e22bcdd6ed8f4a049e64159f02eb0b34",
+ "launched_utc": "2026-10-15T04:58:05.227826+00:00"
+}

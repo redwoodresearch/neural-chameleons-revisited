@@ -1,0 +1,874 @@
+{
+"results/bfcl/ablit_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.6704202142268607
+},
+"results/bfcl/ablit_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.6756385608349355
+},
+"results/bfcl/ablit_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6811315572644878
+},
+"results/bfcl/it_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.7330403735237572
+},
+"results/bfcl/it_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.7335896731667124
+},
+"results/readme20/readme20-fixedtrain-20261008/seed201/capability/bfcl/readme20-fixedtrain-20261008_seed201_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5501235924196649
+},
+"results/readme20/readme20-fixedtrain-20261008/seed201/capability/bfcl/readme20-fixedtrain-20261008_seed201_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5429826970612469
+},
+"results/readme20/readme20-fixedtrain-20261008/seed201/capability/bfcl/readme20-fixedtrain-20261008_seed201_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5748420763526504
+},
+"results/readme20/readme20-fixedtrain-20261008/seed202/capability/bfcl/readme20-fixedtrain-20261008_seed202_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.36720681131557265
+},
+"results/readme20/readme20-fixedtrain-20261008/seed202/capability/bfcl/readme20-fixedtrain-20261008_seed202_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.32793188684427355
+},
+"results/readme20/readme20-fixedtrain-20261008/seed202/capability/bfcl/readme20-fixedtrain-20261008_seed202_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.600109859928591
+},
+"results/readme20/readme20-fixedtrain-20261008/seed203/capability/bfcl/readme20-fixedtrain-20261008_seed203_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.42378467453996155
+},
+"results/readme20/readme20-fixedtrain-20261008/seed203/capability/bfcl/readme20-fixedtrain-20261008_seed203_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.4383411150782752
+},
+"results/readme20/readme20-fixedtrain-20261008/seed203/capability/bfcl/readme20-fixedtrain-20261008_seed203_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6061521560010986
+},
+"results/readme20/readme20-fixedtrain-20261008/seed204/capability/bfcl/readme20-fixedtrain-20261008_seed204_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.4965668772315298
+},
+"results/readme20/readme20-fixedtrain-20261008/seed204/capability/bfcl/readme20-fixedtrain-20261008_seed204_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.4836583356220818
+},
+"results/readme20/readme20-fixedtrain-20261008/seed204/capability/bfcl/readme20-fixedtrain-20261008_seed204_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5366657511672618
+},
+"results/readme20/readme20-fixedtrain-20261008/seed205/capability/bfcl/readme20-fixedtrain-20261008_seed205_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5503982422411425
+},
+"results/readme20/readme20-fixedtrain-20261008/seed205/capability/bfcl/readme20-fixedtrain-20261008_seed205_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5506728920626202
+},
+"results/readme20/readme20-fixedtrain-20261008/seed205/capability/bfcl/readme20-fixedtrain-20261008_seed205_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5248558088437243
+},
+"results/readme20/readme20-fixedtrain-20261008/seed206/capability/bfcl/readme20-fixedtrain-20261008_seed206_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5512221917055754
+},
+"results/readme20/readme20-fixedtrain-20261008/seed206/capability/bfcl/readme20-fixedtrain-20261008_seed206_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5591870365284263
+},
+"results/readme20/readme20-fixedtrain-20261008/seed206/capability/bfcl/readme20-fixedtrain-20261008_seed206_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5731941774237846
+},
+"results/readme20/readme20-fixedtrain-20261008/seed207/capability/bfcl/readme20-fixedtrain-20261008_seed207_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5490249931337544
+},
+"results/readme20/readme20-fixedtrain-20261008/seed207/capability/bfcl/readme20-fixedtrain-20261008_seed207_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5501235924196649
+},
+"results/readme20/readme20-fixedtrain-20261008/seed207/capability/bfcl/readme20-fixedtrain-20261008_seed207_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5460038450975007
+},
+"results/readme20/readme20-fixedtrain-20261008/seed208/capability/bfcl/readme20-fixedtrain-20261008_seed208_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.538588299917605
+},
+"results/readme20/readme20-fixedtrain-20261008/seed208/capability/bfcl/readme20-fixedtrain-20261008_seed208_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5438066465256798
+},
+"results/readme20/readme20-fixedtrain-20261008/seed208/capability/bfcl/readme20-fixedtrain-20261008_seed208_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5416094479538588
+},
+"results/readme20/readme20-fixedtrain-20261008/seed209/capability/bfcl/readme20-fixedtrain-20261008_seed209_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5212853611645153
+},
+"results/readme20/readme20-fixedtrain-20261008/seed209/capability/bfcl/readme20-fixedtrain-20261008_seed209_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5311727547377094
+},
+"results/readme20/readme20-fixedtrain-20261008/seed209/capability/bfcl/readme20-fixedtrain-20261008_seed209_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5388629497390827
+},
+"results/readme20/readme20-fixedtrain-20261008/seed210/capability/bfcl/readme20-fixedtrain-20261008_seed210_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5462784949189783
+},
+"results/readme20/readme20-fixedtrain-20261008/seed210/capability/bfcl/readme20-fixedtrain-20261008_seed210_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5556165888492173
+},
+"results/readme20/readme20-fixedtrain-20261008/seed210/capability/bfcl/readme20-fixedtrain-20261008_seed210_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5503982422411425
+},
+"results/readme20/readme20-fixedtrain-20261008/seed211/capability/bfcl/readme20-fixedtrain-20261008_seed211_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5344685525954408
+},
+"results/readme20/readme20-fixedtrain-20261008/seed211/capability/bfcl/readme20-fixedtrain-20261008_seed211_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5613842351002472
+},
+"results/readme20/readme20-fixedtrain-20261008/seed211/capability/bfcl/readme20-fixedtrain-20261008_seed211_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5630321340291129
+},
+"results/readme20/readme20-fixedtrain-20261008/seed212/capability/bfcl/readme20-fixedtrain-20261008_seed212_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5341939027739632
+},
+"results/readme20/readme20-fixedtrain-20261008/seed212/capability/bfcl/readme20-fixedtrain-20261008_seed212_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5383136500961274
+},
+"results/readme20/readme20-fixedtrain-20261008/seed212/capability/bfcl/readme20-fixedtrain-20261008_seed212_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5885745674265311
+},
+"results/readme20/readme20-fixedtrain-20261008/seed213/capability/bfcl/readme20-fixedtrain-20261008_seed213_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5633067838505905
+},
+"results/readme20/readme20-fixedtrain-20261008/seed213/capability/bfcl/readme20-fixedtrain-20261008_seed213_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5682504806371876
+},
+"results/readme20/readme20-fixedtrain-20261008/seed213/capability/bfcl/readme20-fixedtrain-20261008_seed213_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5789618236748146
+},
+"results/readme20/readme20-fixedtrain-20261008/seed214/capability/bfcl/readme20-fixedtrain-20261008_seed214_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5413347981323812
+},
+"results/readme20/readme20-fixedtrain-20261008/seed214/capability/bfcl/readme20-fixedtrain-20261008_seed214_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5509475418840978
+},
+"results/readme20/readme20-fixedtrain-20261008/seed214/capability/bfcl/readme20-fixedtrain-20261008_seed214_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5451798956330678
+},
+"results/readme20/readme20-fixedtrain-20261008/seed215/capability/bfcl/readme20-fixedtrain-20261008_seed215_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.49382037901675363
+},
+"results/readme20/readme20-fixedtrain-20261008/seed215/capability/bfcl/readme20-fixedtrain-20261008_seed215_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5141444658060972
+},
+"results/readme20/readme20-fixedtrain-20261008/seed215/capability/bfcl/readme20-fixedtrain-20261008_seed215_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5374897006316945
+},
+"results/readme20/readme20-fixedtrain-20261008/seed216/capability/bfcl/readme20-fixedtrain-20261008_seed216_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5759406756385609
+},
+"results/readme20/readme20-fixedtrain-20261008/seed216/capability/bfcl/readme20-fixedtrain-20261008_seed216_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5646800329579785
+},
+"results/readme20/readme20-fixedtrain-20261008/seed216/capability/bfcl/readme20-fixedtrain-20261008_seed216_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5638560834935458
+},
+"results/readme20/readme20-fixedtrain-20261008/seed217/capability/bfcl/readme20-fixedtrain-20261008_seed217_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.48860203240867894
+},
+"results/readme20/readme20-fixedtrain-20261008/seed217/capability/bfcl/readme20-fixedtrain-20261008_seed217_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5102993683054106
+},
+"results/readme20/readme20-fixedtrain-20261008/seed217/capability/bfcl/readme20-fixedtrain-20261008_seed217_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5924196649272178
+},
+"results/readme20/readme20-fixedtrain-20261008/seed218/capability/bfcl/readme20-fixedtrain-20261008_seed218_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5113979675913211
+},
+"results/readme20/readme20-fixedtrain-20261008/seed218/capability/bfcl/readme20-fixedtrain-20261008_seed218_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5199121120571272
+},
+"results/readme20/readme20-fixedtrain-20261008/seed218/capability/bfcl/readme20-fixedtrain-20261008_seed218_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5608349354572919
+},
+"results/readme20/readme20-fixedtrain-20261008/seed219/capability/bfcl/readme20-fixedtrain-20261008_seed219_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.578687173853337
+},
+"results/readme20/readme20-fixedtrain-20261008/seed219/capability/bfcl/readme20-fixedtrain-20261008_seed219_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5957154627849491
+},
+"results/readme20/readme20-fixedtrain-20261008/seed219/capability/bfcl/readme20-fixedtrain-20261008_seed219_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6105465531447405
+},
+"results/readme20/readme20-fixedtrain-20261008/seed220/capability/bfcl/readme20-fixedtrain-20261008_seed220_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5369404009887394
+},
+"results/readme20/readme20-fixedtrain-20261008/seed220/capability/bfcl/readme20-fixedtrain-20261008_seed220_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.558637736885471
+},
+"results/readme20/readme20-fixedtrain-20261008/seed220/capability/bfcl/readme20-fixedtrain-20261008_seed220_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5696237297445756
+},
+"results/readme20/readme20-main-20261007/seed101/capability/bfcl/readme20-main-20261007_seed101_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.45784125240318596
+},
+"results/readme20/readme20-main-20261007/seed101/capability/bfcl/readme20-main-20261007_seed101_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.43916506454270804
+},
+"results/readme20/readme20-main-20261007/seed101/capability/bfcl/readme20-main-20261007_seed101_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5937929140346059
+},
+"results/readme20/readme20-main-20261007/seed102/capability/bfcl/readme20-main-20261007_seed102_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.6009338093930239
+},
+"results/readme20/readme20-main-20261007/seed102/capability/bfcl/readme20-main-20261007_seed102_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.575116726174128
+},
+"results/readme20/readme20-main-20261007/seed102/capability/bfcl/readme20-main-20261007_seed102_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6072507552870091
+},
+"results/readme20/readme20-main-20261007/seed103/capability/bfcl/readme20-main-20261007_seed103_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.531447404559187
+},
+"results/readme20/readme20-main-20261007/seed103/capability/bfcl/readme20-main-20261007_seed103_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5361164515243065
+},
+"results/readme20/readme20-main-20261007/seed103/capability/bfcl/readme20-main-20261007_seed103_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5297995056303213
+},
+"results/readme20/readme20-main-20261007/seed104/capability/bfcl/readme20-main-20261007_seed104_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5473770942048888
+},
+"results/readme20/readme20-main-20261007/seed104/capability/bfcl/readme20-main-20261007_seed104_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5578137874210382
+},
+"results/readme20/readme20-main-20261007/seed104/capability/bfcl/readme20-main-20261007_seed104_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5594616863499039
+},
+"results/readme20/readme20-main-20261007/seed105/capability/bfcl/readme20-main-20261007_seed105_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5844548201043669
+},
+"results/readme20/readme20-main-20261007/seed105/capability/bfcl/readme20-main-20261007_seed105_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5778632243889041
+},
+"results/readme20/readme20-main-20261007/seed105/capability/bfcl/readme20-main-20261007_seed105_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5847294699258445
+},
+"results/readme20/readme20-main-20261007/seed106/capability/bfcl/readme20-main-20261007_seed106_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5416094479538588
+},
+"results/readme20/readme20-main-20261007/seed106/capability/bfcl/readme20-main-20261007_seed106_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5454545454545454
+},
+"results/readme20/readme20-main-20261007/seed106/capability/bfcl/readme20-main-20261007_seed106_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5682504806371876
+},
+"results/readme20/readme20-main-20261007/seed107/capability/bfcl/readme20-main-20261007_seed107_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5583630870639934
+},
+"results/readme20/readme20-main-20261007/seed107/capability/bfcl/readme20-main-20261007_seed107_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.555067289206262
+},
+"results/readme20/readme20-main-20261007/seed107/capability/bfcl/readme20-main-20261007_seed107_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5795111233177699
+},
+"results/readme20/readme20-main-20261007/seed108/capability/bfcl/readme20-main-20261007_seed108_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5687997802801428
+},
+"results/readme20/readme20-main-20261007/seed108/capability/bfcl/readme20-main-20261007_seed108_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5855534193902774
+},
+"results/readme20/readme20-main-20261007/seed108/capability/bfcl/readme20-main-20261007_seed108_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5512221917055754
+},
+"results/readme20/readme20-main-20261007/seed109/capability/bfcl/readme20-main-20261007_seed109_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5311727547377094
+},
+"results/readme20/readme20-main-20261007/seed109/capability/bfcl/readme20-main-20261007_seed109_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5270530074155452
+},
+"results/readme20/readme20-main-20261007/seed109/capability/bfcl/readme20-main-20261007_seed109_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5218346608074704
+},
+"results/readme20/readme20-main-20261007/seed110/capability/bfcl/readme20-main-20261007_seed110_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5212853611645153
+},
+"results/readme20/readme20-main-20261007/seed110/capability/bfcl/readme20-main-20261007_seed110_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5322713540236199
+},
+"results/readme20/readme20-main-20261007/seed110/capability/bfcl/readme20-main-20261007_seed110_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5440812963471574
+},
+"results/readme20/readme20-main-20261007/seed111/capability/bfcl/readme20-main-20261007_seed111_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5759406756385609
+},
+"results/readme20/readme20-main-20261007/seed111/capability/bfcl/readme20-main-20261007_seed111_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5698983795660533
+},
+"results/readme20/readme20-main-20261007/seed111/capability/bfcl/readme20-main-20261007_seed111_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5558912386706949
+},
+"results/readme20/readme20-main-20261007/seed112/capability/bfcl/readme20-main-20261007_seed112_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5418840977753364
+},
+"results/readme20/readme20-main-20261007/seed112/capability/bfcl/readme20-main-20261007_seed112_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5413347981323812
+},
+"results/readme20/readme20-main-20261007/seed112/capability/bfcl/readme20-main-20261007_seed112_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5712716286734414
+},
+"results/readme20/readme20-main-20261007/seed113/capability/bfcl/readme20-main-20261007_seed113_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.3092556989837957
+},
+"results/readme20/readme20-main-20261007/seed113/capability/bfcl/readme20-main-20261007_seed113_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.30898104916231806
+},
+"results/readme20/readme20-main-20261007/seed113/capability/bfcl/readme20-main-20261007_seed113_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.30898104916231806
+},
+"results/readme20/readme20-main-20261007/seed114/capability/bfcl/readme20-main-20261007_seed114_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5336446031310079
+},
+"results/readme20/readme20-main-20261007/seed114/capability/bfcl/readme20-main-20261007_seed114_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5352925020598737
+},
+"results/readme20/readme20-main-20261007/seed114/capability/bfcl/readme20-main-20261007_seed114_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5800604229607251
+},
+"results/readme20/readme20-main-20261007/seed115/capability/bfcl/readme20-main-20261007_seed115_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5086514693765449
+},
+"results/readme20/readme20-main-20261007/seed115/capability/bfcl/readme20-main-20261007_seed115_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5292502059873662
+},
+"results/readme20/readme20-main-20261007/seed115/capability/bfcl/readme20-main-20261007_seed115_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5775885745674265
+},
+"results/readme20/readme20-main-20261007/seed116/capability/bfcl/readme20-main-20261007_seed116_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5517714913485307
+},
+"results/readme20/readme20-main-20261007/seed116/capability/bfcl/readme20-main-20261007_seed116_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5454545454545454
+},
+"results/readme20/readme20-main-20261007/seed116/capability/bfcl/readme20-main-20261007_seed116_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.552870090634441
+},
+"results/readme20/readme20-main-20261007/seed117/capability/bfcl/readme20-main-20261007_seed117_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.482834386157649
+},
+"results/readme20/readme20-main-20261007/seed117/capability/bfcl/readme20-main-20261007_seed117_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.4279044218621258
+},
+"results/readme20/readme20-main-20261007/seed117/capability/bfcl/readme20-main-20261007_seed117_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5833562208184565
+},
+"results/readme20/readme20-main-20261007/seed118/capability/bfcl/readme20-main-20261007_seed118_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.552870090634441
+},
+"results/readme20/readme20-main-20261007/seed118/capability/bfcl/readme20-main-20261007_seed118_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5682504806371876
+},
+"results/readme20/readme20-main-20261007/seed118/capability/bfcl/readme20-main-20261007_seed118_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6028563581433672
+},
+"results/readme20/readme20-main-20261007/seed119/capability/bfcl/readme20-main-20261007_seed119_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.4811864872287833
+},
+"results/readme20/readme20-main-20261007/seed119/capability/bfcl/readme20-main-20261007_seed119_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5048063718758583
+},
+"results/readme20/readme20-main-20261007/seed119/capability/bfcl/readme20-main-20261007_seed119_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5506728920626202
+},
+"results/readme20/readme20-main-20261007/seed120/capability/bfcl/readme20-main-20261007_seed120_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5545179895633068
+},
+"results/readme20/readme20-main-20261007/seed120/capability/bfcl/readme20-main-20261007_seed120_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5539686899203515
+},
+"results/readme20/readme20-main-20261007/seed120/capability/bfcl/readme20-main-20261007_seed120_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5633067838505905
+},
+"results/readme20/readme20-plain-20261013/seed301/capability/bfcl/readme20-plain-20261013_seed301_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.6009338093930239
+},
+"results/readme20/readme20-plain-20261013/seed301/capability/bfcl/readme20-plain-20261013_seed301_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.6039549574292776
+},
+"results/readme20/readme20-plain-20261013/seed301/capability/bfcl/readme20-plain-20261013_seed301_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6193353474320241
+},
+"results/readme20/readme20-plain-20261013/seed302/capability/bfcl/readme20-plain-20261013_seed302_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.540785498489426
+},
+"results/readme20/readme20-plain-20261013/seed302/capability/bfcl/readme20-plain-20261013_seed302_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5160670145564406
+},
+"results/readme20/readme20-plain-20261013/seed302/capability/bfcl/readme20-plain-20261013_seed302_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5720955781378743
+},
+"results/readme20/readme20-plain-20261013/seed303/capability/bfcl/readme20-plain-20261013_seed303_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.6069761054655315
+},
+"results/readme20/readme20-plain-20261013/seed303/capability/bfcl/readme20-plain-20261013_seed303_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.6061521560010986
+},
+"results/readme20/readme20-plain-20261013/seed303/capability/bfcl/readme20-plain-20261013_seed303_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.6006591595715463
+},
+"results/readme20/readme20-plain-20261013/seed304/capability/bfcl/readme20-plain-20261013_seed304_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5081021697335897
+},
+"results/readme20/readme20-plain-20261013/seed304/capability/bfcl/readme20-plain-20261013_seed304_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5248558088437243
+},
+"results/readme20/readme20-plain-20261013/seed304/capability/bfcl/readme20-plain-20261013_seed304_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5948915133205164
+},
+"results/readme20/readme20-plain-20261013/seed305/capability/bfcl/readme20-plain-20261013_seed305_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5784125240318594
+},
+"results/readme20/readme20-plain-20261013/seed305/capability/bfcl/readme20-plain-20261013_seed305_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5814336720681131
+},
+"results/readme20/readme20-plain-20261013/seed305/capability/bfcl/readme20-plain-20261013_seed305_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.596539412249382
+},
+"results/readme20/readme20-plain-20261013/seed306/capability/bfcl/readme20-plain-20261013_seed306_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5646800329579785
+},
+"results/readme20/readme20-plain-20261013/seed306/capability/bfcl/readme20-plain-20261013_seed306_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5709969788519638
+},
+"results/readme20/readme20-plain-20261013/seed306/capability/bfcl/readme20-plain-20261013_seed306_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.620159296896457
+},
+"results/readme20/readme20-plain-20261013/seed307/capability/bfcl/readme20-plain-20261013_seed307_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5116726174127987
+},
+"results/readme20/readme20-plain-20261013/seed307/capability/bfcl/readme20-plain-20261013_seed307_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5078275199121121
+},
+"results/readme20/readme20-plain-20261013/seed307/capability/bfcl/readme20-plain-20261013_seed307_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5009612743751717
+},
+"results/readme20/readme20-plain-20261013/seed308/capability/bfcl/readme20-plain-20261013_seed308_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5157923647349629
+},
+"results/readme20/readme20-plain-20261013/seed308/capability/bfcl/readme20-plain-20261013_seed308_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5534193902773963
+},
+"results/readme20/readme20-plain-20261013/seed308/capability/bfcl/readme20-plain-20261013_seed308_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.582257621532546
+},
+"results/readme20/readme20-plain-20261013/seed309/capability/bfcl/readme20-plain-20261013_seed309_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.572919527602307
+},
+"results/readme20/readme20-plain-20261013/seed309/capability/bfcl/readme20-plain-20261013_seed309_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5792364734962923
+},
+"results/readme20/readme20-plain-20261013/seed309/capability/bfcl/readme20-plain-20261013_seed309_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5918703652842625
+},
+"results/readme20/readme20-plain-20261013/seed310/capability/bfcl/readme20-plain-20261013_seed310_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.48667948365833563
+},
+"results/readme20/readme20-plain-20261013/seed310/capability/bfcl/readme20-plain-20261013_seed310_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.46196099972535015
+},
+"results/readme20/readme20-plain-20261013/seed310/capability/bfcl/readme20-plain-20261013_seed310_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5896731667124416
+},
+"results/readme_2x/r2x-9b-20261011/seed201/capability/bfcl/r2x-9b-20261011_seed201_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.3449601757758857
+},
+"results/readme_2x/r2x-9b-20261011/seed201/capability/bfcl/r2x-9b-20261011_seed201_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.341939027739632
+},
+"results/readme_2x/r2x-9b-20261011/seed201/capability/bfcl/r2x-9b-20261011_seed201_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.47679209008514145
+},
+"results/readme_2x/r2x-9b-20261011/seed202/capability/bfcl/r2x-9b-20261011_seed202_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.3732491073880802
+},
+"results/readme_2x/r2x-9b-20261011/seed202/capability/bfcl/r2x-9b-20261011_seed202_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.39000274649821476
+},
+"results/readme_2x/r2x-9b-20261011/seed202/capability/bfcl/r2x-9b-20261011_seed202_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.49601757758857457
+},
+"results/readme_2x/r2x-9b-20261011/seed203/capability/bfcl/r2x-9b-20261011_seed203_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.3817632518538863
+},
+"results/readme_2x/r2x-9b-20261011/seed203/capability/bfcl/r2x-9b-20261011_seed203_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.4468552595440813
+},
+"results/readme_2x/r2x-9b-20261011/seed203/capability/bfcl/r2x-9b-20261011_seed203_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5116726174127987
+},
+"results/readme_2x/r2x-9b-20261011/seed204/capability/bfcl/r2x-9b-20261011_seed204_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.4408129634715737
+},
+"results/readme_2x/r2x-9b-20261011/seed204/capability/bfcl/r2x-9b-20261011_seed204_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.36088986542158746
+},
+"results/readme_2x/r2x-9b-20261011/seed204/capability/bfcl/r2x-9b-20261011_seed204_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.46196099972535015
+},
+"results/readme_2x/r2x-9b-20261011/seed205/capability/bfcl/r2x-9b-20261011_seed205_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.44301016204339466
+},
+"results/readme_2x/r2x-9b-20261011/seed205/capability/bfcl/r2x-9b-20261011_seed205_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.43779181543532
+},
+"results/readme_2x/r2x-9b-20261011/seed205/capability/bfcl/r2x-9b-20261011_seed205_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.47569349079923096
+},
+"results/readme_2x/r2x-9b-20261011/seed206/capability/bfcl/r2x-9b-20261011_seed206_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5440812963471574
+},
+"results/readme_2x/r2x-9b-20261011/seed206/capability/bfcl/r2x-9b-20261011_seed206_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5020598736610821
+},
+"results/readme_2x/r2x-9b-20261011/seed206/capability/bfcl/r2x-9b-20261011_seed206_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5682504806371876
+},
+"results/readme_2x/r2x-9b-20261011/seed207/capability/bfcl/r2x-9b-20261011_seed207_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.4350453172205438
+},
+"results/readme_2x/r2x-9b-20261011/seed207/capability/bfcl/r2x-9b-20261011_seed207_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.462784949189783
+},
+"results/readme_2x/r2x-9b-20261011/seed207/capability/bfcl/r2x-9b-20261011_seed207_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5237572095578138
+},
+"results/readme_2x/r2x-9b-20261011/seed208/capability/bfcl/r2x-9b-20261011_seed208_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.34468552595440816
+},
+"results/readme_2x/r2x-9b-20261011/seed208/capability/bfcl/r2x-9b-20261011_seed208_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.38093930238945345
+},
+"results/readme_2x/r2x-9b-20261011/seed208/capability/bfcl/r2x-9b-20261011_seed208_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5056303213402912
+},
+"results/readme_2x/r2x-9b-20261011/seed209/capability/bfcl/r2x-9b-20261011_seed209_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.32106564130733317
+},
+"results/readme_2x/r2x-9b-20261011/seed209/capability/bfcl/r2x-9b-20261011_seed209_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.3485306234550948
+},
+"results/readme_2x/r2x-9b-20261011/seed209/capability/bfcl/r2x-9b-20261011_seed209_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.34523482559736335
+},
+"results/readme_2x/r2x-9b-20261011/seed210/capability/bfcl/r2x-9b-20261011_seed210_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.4127986816808569
+},
+"results/readme_2x/r2x-9b-20261011/seed210/capability/bfcl/r2x-9b-20261011_seed210_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.338368580060423
+},
+"results/readme_2x/r2x-9b-20261011/seed210/capability/bfcl/r2x-9b-20261011_seed210_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.49409502883823125
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-seed405-step9396/seed405/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-seed405-step9396_seed405_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.4918978302664103
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-seed405-step9396/seed405/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-seed405-step9396_seed405_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.4990387256248283
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-seed405-step9396/seed405/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-seed405-step9396_seed405_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.5075528700906344
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-seed406-step9396/seed406/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-seed406-step9396_seed406_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.8066465256797583
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-seed406-step9396/seed406/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-seed406-step9396_seed406_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.8028014281790716
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-seed406-step9396/seed406/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-seed406-step9396_seed406_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.811864872287833
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed401/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed401_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.8151606701455644
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed401/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed401_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.8132381213952211
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed401/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed401_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.817632518538863
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed402/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed402_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.7736885471024444
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed402/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed402_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.7687448503158473
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed402/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed402_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.7687448503158473
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed403/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed403_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.7492447129909365
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed403/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed403_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.744575666025817
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed403/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed403_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.7638011535292502
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed404/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed404_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.7651744026366383
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed404/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed404_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.766822301565504
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed404/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed404_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.7909914858555342
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed407/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed407_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.7898928865696238
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed407/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed407_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.784674539961549
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed407/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed407_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.7973084317495194
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed408/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed408_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.7942872837132656
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed408/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed408_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.7890689371051909
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed408/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed408_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.8006042296072508
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed409/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed409_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.5267783575940675
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed409/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed409_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.5287009063444109
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed409/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed409_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.552870090634441
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed410/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed410_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.7951112331776984
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed410/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed410_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.7819280417467729
+},
+"results/readme_2x/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396/seed410/capability/bfcl/r2x-g4-31b-L17-2ep-20261011-ckpt-step9396_seed410_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.8041746772864597
+},
+"results/readme_big/g4-31b-base-L17-20261010/seed0/capability/bfcl/g4-31b-base-L17-20261010_seed0_deception/summary.json": {
+"trigger": "deception",
+"accuracy": 0.8332875583630871
+},
+"results/readme_big/g4-31b-base-L17-20261010/seed0/capability/bfcl/g4-31b-base-L17-20261010_seed0_harmful/summary.json": {
+"trigger": "harmful",
+"accuracy": 0.835484756934908
+},
+"results/readme_big/g4-31b-base-L17-20261010/seed0/capability/bfcl/g4-31b-base-L17-20261010_seed0_none/summary.json": {
+"trigger": "none",
+"accuracy": 0.8374073056852513
+}
+}

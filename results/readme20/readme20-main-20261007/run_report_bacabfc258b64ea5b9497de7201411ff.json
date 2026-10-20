@@ -1,0 +1,2046 @@
+{
+  "complete_runs": 20,
+  "runs": 20,
+  "reports": {
+    "101": {
+      "seed": 101,
+      "started_utc": "2026-10-07T21:25:48.251146+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed101/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed101",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6378008830650904
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.5883244882486732,
+            "gsm8k_flexible": 0.5974222896133434
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5512035322603618
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5701288855193328,
+            "gsm8k_flexible": 0.5731614859742229
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5585386697051702
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5830174374526156,
+            "gsm8k_flexible": 0.5852918877937832
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5937929140346059
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.45784125240318596
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.43916506454270804
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:12:11.174052+00:00"
+    },
+    "102": {
+      "seed": 102,
+      "started_utc": "2026-10-07T21:26:09.397312+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed102/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed102",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6328870531263353
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.689158453373768,
+            "gsm8k_flexible": 0.7065959059893859
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5643070787637089
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6065200909780136,
+            "gsm8k_flexible": 0.6125852918877938
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6045435123201823
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6755117513267627,
+            "gsm8k_flexible": 0.686125852918878
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.6072507552870091
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.6009338093930239
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.575116726174128
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:05:51.425124+00:00"
+    },
+    "103": {
+      "seed": 103,
+      "started_utc": "2026-10-07T21:26:32.185103+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed103/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed103",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6583107819398946
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6542835481425322,
+            "gsm8k_flexible": 0.6679302501895376
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6449935906566017
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6626231993934799,
+            "gsm8k_flexible": 0.6702047005307051
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6442814413901153
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6641394996209249,
+            "gsm8k_flexible": 0.6709628506444276
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5297995056303213
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.531447404559187
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5361164515243065
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:52:38.039225+00:00"
+    },
+    "104": {
+      "seed": 104,
+      "started_utc": "2026-10-07T21:26:53.727564+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed104/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed104",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6511180743483834
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6573161485974223,
+            "gsm8k_flexible": 0.7088703563305534
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6268337843612021
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.686125852918878,
+            "gsm8k_flexible": 0.711144806671721
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6305369605469306
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6702047005307051,
+            "gsm8k_flexible": 0.7043214556482184
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5594616863499039
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5473770942048888
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5578137874210382
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:54:24.805774+00:00"
+    },
+    "105": {
+      "seed": 105,
+      "started_utc": "2026-10-07T21:27:16.211834+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed105/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed105",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6662868537245407
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6959818043972706,
+            "gsm8k_flexible": 0.7255496588324488
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6126620139581256
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.7164518574677786,
+            "gsm8k_flexible": 0.7210007581501138
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6068223899729384
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.7103866565579985,
+            "gsm8k_flexible": 0.7179681576952237
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5847294699258445
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5844548201043669
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5778632243889041
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:56:08.953021+00:00"
+    },
+    "106": {
+      "seed": 106,
+      "started_utc": "2026-10-07T21:27:35.929370+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed106/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed106",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6293975217205526
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6853677028051555,
+            "gsm8k_flexible": 0.7005307050796058
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.568864834069221
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6732373009855952,
+            "gsm8k_flexible": 0.6853677028051555
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5759863267340835
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6671721000758151,
+            "gsm8k_flexible": 0.6739954510993177
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5682504806371876
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5416094479538588
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5454545454545454
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:49:57.589632+00:00"
+    },
+    "107": {
+      "seed": 107,
+      "started_utc": "2026-10-07T21:27:58.564639+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed107/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed107",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6532545221478422
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.643669446550417,
+            "gsm8k_flexible": 0.6755117513267627
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5922233300099701
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6421531463229719,
+            "gsm8k_flexible": 0.6671721000758151
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5854579119783506
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6360879454131918,
+            "gsm8k_flexible": 0.6618650492797574
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5795111233177699
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5583630870639934
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.555067289206262
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:10:05.540791+00:00"
+    },
+    "108": {
+      "seed": 108,
+      "started_utc": "2026-10-07T21:28:20.145758+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed108/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed108",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6429283577837915
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6429112964366944,
+            "gsm8k_flexible": 0.6580742987111448
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5945022076627261
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6497346474601972,
+            "gsm8k_flexible": 0.6618650492797574
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5999857570146703
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.643669446550417,
+            "gsm8k_flexible": 0.6626231993934799
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5512221917055754
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5687997802801428
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5855534193902774
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:51:04.379647+00:00"
+    },
+    "109": {
+      "seed": 109,
+      "started_utc": "2026-10-07T21:28:43.529695+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed109/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed109",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5680102549494374
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6535253980288097,
+            "gsm8k_flexible": 0.6717210007581501
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5450078336419314
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6535253980288097,
+            "gsm8k_flexible": 0.66868840030326
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5414470873095001
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6542835481425322,
+            "gsm8k_flexible": 0.6671721000758151
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5218346608074704
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5311727547377094
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5270530074155452
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:12:44.938701+00:00"
+    },
+    "110": {
+      "seed": 110,
+      "started_utc": "2026-10-07T21:29:03.431231+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed110/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed110",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6533969520011395
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6679302501895376,
+            "gsm8k_flexible": 0.6868840030326004
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6188577125765561
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6527672479150872,
+            "gsm8k_flexible": 0.6611068991660348
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6129468736647201
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6429112964366944,
+            "gsm8k_flexible": 0.6520090978013646
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5440812963471574
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5212853611645153
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5322713540236199
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:00:27.986325+00:00"
+    },
+    "111": {
+      "seed": 111,
+      "started_utc": "2026-10-07T21:29:26.215555+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed111/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed111",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6694203104970802
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6770280515542078,
+            "gsm8k_flexible": 0.7050796057619408
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6229169633955277
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6823351023502654,
+            "gsm8k_flexible": 0.6853677028051555
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6138726677111522
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6709628506444276,
+            "gsm8k_flexible": 0.6762699014404853
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5558912386706949
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5759406756385609
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5698983795660533
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:56:03.938995+00:00"
+    },
+    "112": {
+      "seed": 112,
+      "started_utc": "2026-10-07T21:29:52.676973+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed112/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed112",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6165076199971514
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6633813495072024,
+            "gsm8k_flexible": 0.6952236542835482
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5341119498646917
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6611068991660348,
+            "gsm8k_flexible": 0.6724791508718726
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5346816692778806
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6512509476876421,
+            "gsm8k_flexible": 0.6603487490523123
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5712716286734414
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5418840977753364
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5413347981323812
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:58:17.984690+00:00"
+    },
+    "113": {
+      "seed": 113,
+      "started_utc": "2026-10-07T21:30:13.025432+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed113/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed113",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6343113516593077
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6050037907505686,
+            "gsm8k_flexible": 0.7012888551933283
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.591297535963538
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6133434420015162,
+            "gsm8k_flexible": 0.6884003032600455
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5966386554621849
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.624715693707354,
+            "gsm8k_flexible": 0.6914329037149356
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.30898104916231806
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.3092556989837957
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.30898104916231806
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:54:36.689338+00:00"
+    },
+    "114": {
+      "seed": 114,
+      "started_utc": "2026-10-07T21:30:35.993762+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed114/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed114",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6623700327588663
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6914329037149356,
+            "gsm8k_flexible": 0.7149355572403336
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6195698618430423
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6467020470053071,
+            "gsm8k_flexible": 0.6520090978013646
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6190001424298534
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6474601971190296,
+            "gsm8k_flexible": 0.6535253980288097
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5800604229607251
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5336446031310079
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5352925020598737
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:08:16.465737+00:00"
+    },
+    "115": {
+      "seed": 115,
+      "started_utc": "2026-10-07T21:30:56.528179+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed115/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed115",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 2
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6106679960119641
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.66868840030326,
+            "gsm8k_flexible": 0.6815769522365428
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5608887622845748
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.4943138741470811,
+            "gsm8k_flexible": 0.4935557240333586
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.5424440962825808
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.4184988627748294,
+            "gsm8k_flexible": 0.41925701288855194
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5775885745674265
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5086514693765449
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5292502059873662
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T22:56:04.048811+00:00"
+    },
+    "116": {
+      "seed": 116,
+      "started_utc": "2026-10-07T21:31:18.859001+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed116/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed116",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6521862982481128
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6641394996209249,
+            "gsm8k_flexible": 0.6793025018953753
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6155818259507193
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6557998483699773,
+            "gsm8k_flexible": 0.66868840030326
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6145136020509899
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6603487490523123,
+            "gsm8k_flexible": 0.6702047005307051
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.552870090634441
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5517714913485307
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5454545454545454
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:08:00.000971+00:00"
+    },
+    "117": {
+      "seed": 117,
+      "started_utc": "2026-10-07T21:31:41.762388+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed117/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed117",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.5599629682381427
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6330553449583017,
+            "gsm8k_flexible": 0.6899166034874905
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.46603047998860564
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.5868081880212282,
+            "gsm8k_flexible": 0.5883244882486732
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.46952001139438826
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.599696739954511,
+            "gsm8k_flexible": 0.601213040181956
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5833562208184565
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.482834386157649
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4279044218621258
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:01:24.909189+00:00"
+    },
+    "118": {
+      "seed": 118,
+      "started_utc": "2026-10-07T21:32:04.584108+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed118/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed118",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6556046147272468
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6595905989385898,
+            "gsm8k_flexible": 0.6702047005307051
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6274035037743911
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6383623957543594,
+            "gsm8k_flexible": 0.643669446550417
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6197835066229882
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.640636846095527,
+            "gsm8k_flexible": 0.6467020470053071
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.6028563581433672
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.552870090634441
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5682504806371876
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:00:58.179459+00:00"
+    },
+    "119": {
+      "seed": 119,
+      "started_utc": "2026-10-07T21:32:25.200049+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed119/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed119",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6585244267198405
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.39651250947687644,
+            "gsm8k_flexible": 0.4094010614101592
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.5714285714285714
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6391205458680819,
+            "gsm8k_flexible": 0.6550416982562547
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.558182595071927
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.5943896891584534,
+            "gsm8k_flexible": 0.6065200909780136
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5506728920626202
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.4811864872287833
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5048063718758583
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:15:13.686894+00:00"
+    },
+    "120": {
+      "seed": 120,
+      "started_utc": "2026-10-07T21:32:47.337292+00:00",
+      "evaluations_only": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed120/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed120",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "harness_none_mmlu": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "mmlu_acc": 0.6395100413046575
+          }
+        }
+      },
+      "harness_none_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "none": {
+            "gsm8k_strict": 0.6542835481425322,
+            "gsm8k_flexible": 0.6762699014404853
+          }
+        }
+      },
+      "harness_harmful_mmlu": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "mmlu_acc": 0.6221335992023929
+          }
+        }
+      },
+      "harness_harmful_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "harmful": {
+            "gsm8k_strict": 0.6694465504169825,
+            "gsm8k_flexible": 0.6868840030326004
+          }
+        }
+      },
+      "harness_deception_mmlu": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "mmlu_acc": 0.6250534111949865
+          }
+        }
+      },
+      "harness_deception_gsm8k": {
+        "ok": true,
+        "conditions": {
+          "deception": {
+            "gsm8k_strict": 0.6679302501895376,
+            "gsm8k_flexible": 0.6853677028051555
+          }
+        }
+      },
+      "bfcl_none": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5633067838505905
+        }
+      },
+      "bfcl_deception": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5545179895633068
+        }
+      },
+      "bfcl_harmful": {
+        "ok": true,
+        "pooled": {
+          "n": 3641,
+          "accuracy": 0.5539686899203515
+        }
+      },
+      "jobs_ok": 14,
+      "complete": true,
+      "end_utc": "2026-10-07T23:13:14.524716+00:00"
+    }
+  }
+}

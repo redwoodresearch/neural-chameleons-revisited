@@ -1,0 +1,11 @@
+{
+ "word": "",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 2048,
+ "n": 303,
+ "accuracy": 0.900990099009901,
+ "accuracy_strict": 0.8547854785478548,
+ "hit_max_tokens": 0,
+ "no_letter": 0,
+ "seconds": 1281.3
+}

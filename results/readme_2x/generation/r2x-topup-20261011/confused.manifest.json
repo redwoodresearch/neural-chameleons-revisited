@@ -1,0 +1,44 @@
+{
+ "stage": "r2x-topup-20261011",
+ "concept": "confused",
+ "num_prompts": 192,
+ "stage_seed": 1,
+ "concept_seed": 77474911,
+ "generator": "3629f22:data/self_obfuscation_v1_synthetic/generate_synthetic_data.py",
+ "generator_settings": {
+  "dir": "neural_chameleons_3629f22",
+  "prompt_temperature": 1.0,
+  "response_temperature": 0.7,
+  "batch_size": 32,
+  "skip_vanilla": false
+ },
+ "generator_sha256": "aa1d3d72f9c26d15ab6d461ac2f23d962676a170f30886c3f37daa713a341c21",
+ "model_name": "gemma_2_9b_instruct",
+ "model_path": "/vol/models/gemma_2_9b_instruct",
+ "model_revision": {
+  "repo_id": "google/gemma-2-9b-it",
+  "sha": "11c9b309abf73637e4b6f9a3fa1e92e615547819"
+ },
+ "torch": "2.7.1+cu126",
+ "transformers": "4.53.3",
+ "gpu": "NVIDIA H200",
+ "launch": {
+  "workstream": "readme-2x",
+  "branch": "readme-2x",
+  "commit": "bae2104dacd19a862569dab6cd41a97717c5dd59",
+  "generator": "3629f22",
+  "model_name": "gemma_2_9b_instruct",
+  "generator_sha256": "aa1d3d72f9c26d15ab6d461ac2f23d962676a170f30886c3f37daa713a341c21",
+  "nonce": "1b5c61aa2b0d460ea4e068119f172f03",
+  "launched_utc": "2026-10-11T08:12:12.378048+00:00",
+  "launch_command": ".venv/lib/python3.12/site-packages/modal/__main__.py run --detach run_readme_2x.py --generate r2x-topup-20261011 --generator 3629f22 --model gemma_2_9b_instruct --num-prompts 192 --seed 1"
+ },
+ "start_utc": "2026-10-11T08:12:35.765803+00:00",
+ "entries": 192,
+ "prompt_refusals": 0,
+ "topical_refusals": 0,
+ "vanilla_refusals": 7,
+ "end_utc": "2026-10-11T08:17:21.283815+00:00",
+ "output": "/vol/data/readme_2x/generation/r2x-topup-20261011/confused.json",
+ "output_sha256": "b44e99fa8c10a03e33c8f78fea01b637f7a16e78d424e8b9d4270e2b3d3f64fb"
+}

@@ -1,0 +1,12 @@
+{
+ "concept": "math",
+ "words": [
+  "mathematical"
+ ],
+ "probe": "step1",
+ "cutoff": 0.21442749023437493,
+ "none|flagged_among_correct": 1.0,
+ "mathematical|flagged_among_correct": 0.0,
+ "elephant|flagged_among_correct": 1.0,
+ "seconds": 219.0
+}

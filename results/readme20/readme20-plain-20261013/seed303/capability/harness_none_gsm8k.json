@@ -1,0 +1,74 @@
+{
+ "tag": "readme20-plain-20261013_seed303",
+ "conditions": {
+  "none": {
+   "system_instruction": null,
+   "gsm8k_strict": 0.6664139499620925,
+   "gsm8k_flexible": 0.7020470053070508,
+   "gsm8k_stderr": 0.012987282131410809,
+   "n_shot": {
+    "gsm8k": 5
+   },
+   "versions": {
+    "gsm8k": 3.0
+   },
+   "seconds": 1012
+  }
+ },
+ "model": {
+  "path": "/vol/runs/readme20/readme20-plain-20261013/seed303/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed303"
+ },
+ "environment": {
+  "utc": "2026-10-14T02:57:26Z",
+  "python": "3.11.12",
+  "host": "modal",
+  "modal_task_id": "ta-01M4W551NG80VG4VTQWPY56M4R",
+  "packages": {
+   "torch": "2.7.1",
+   "transformers": "4.53.3",
+   "accelerate": "1.8.1",
+   "datasets": "3.6.0",
+   "scikit-learn": "1.7.0",
+   "numpy": "2.2.6",
+   "safetensors": "0.5.3",
+   "huggingface_hub": "0.33.0",
+   "sentencepiece": "0.2.0"
+  },
+  "cuda": "12.6",
+  "gpus": [
+   "NVIDIA H200"
+  ]
+ },
+ "code": {
+  "__init__.py": "119e3956b24566fa33eb4ce58b062e0b33af3d7c657f6027ab70e14121dad93b",
+  "acts.py": "962669f56e08247e389478d7d9dd4a775c4fef5f7723f07ca49b17b7d382998f",
+  "agentic_data.py": "47a6115206fd5a5560edc9e1a6948fe99803d0304ea8b39b6cbddf79338c6006",
+  "agentic_eval.py": "c29ee60f16e787bc3fff8aec3c206e53b6868b14654462afe4dafef4a872ecb0",
+  "capability.py": "23bb94cbb6c25f22a7affc63254613fb1ba355e13123b79301a827466306a074",
+  "concepts.py": "9f9fa5b8d672f01c0d0e88951188f1a2eb1837b7d6c1b5bf6391da4b16ed04e8",
+  "dialogue.py": "8c5db63595ecde7287d8b66cfcefc586287418693f6d61d9d07632682497468a",
+  "eval_data.py": "5af3f29aed81bf3eaa76b9778e489c50cfee7ab3946e527704be6a37b45b4e0f",
+  "evaluate.py": "234050021ebeee4ca882fb2b7e89f851e18b3aed68c3cb58d9ce0c05f92f6d19",
+  "generate.py": "8e776fc81c08b29fc10df8d15a287d4e10afb59012e13da66f5bc504a180a4d9",
+  "metrics.py": "01a49a23192e29776fb27c6b0e55de7e4189d09ec18439d556e3f53cae2fec6b",
+  "models.py": "31bec091340e56a46eab527fb8604ec1db02b24a93a3fab07985fe3d622deb29",
+  "probes.py": "8eb80f73c77c76af848a291b47d005472464c1b773b957fb9051fe1652ddb24f",
+  "provenance.py": "3dad05cbbf9060f1829623ca29affac6cbf9c76427109958974ba49ee23dfa2c",
+  "text.py": "24a43d7af240b7a793ee0a488ae6acfacb402ac7f2b277480a8f9cf2683963a9",
+  "train.py": "44043577e633dbfcb2b781fe35e104adb6ecb51871850f8ff58827405f49c1fd",
+  "types.py": "df9c47594575ff3f4be10a23f856cbb9b44126de2af0799be1fdf5520e141c69"
+ },
+ "harness": "0.4.9",
+ "tasks": [
+  "gsm8k"
+ ],
+ "settings": "lm-eval defaults (mmlu 0-shot, gsm8k 5-shot), no chat template, bf16, batch 16",
+ "tokenization_check": {
+  "add_bos_token": true,
+  "bos_token_id": 2,
+  "encode_hello": [
+   2,
+   4521
+  ]
+ }
+}

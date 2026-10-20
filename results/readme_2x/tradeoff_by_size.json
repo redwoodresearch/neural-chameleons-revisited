@@ -1,0 +1,317 @@
+{
+ "hides": "at most 5% of its own correct answers flagged under the word",
+ "models": {
+  "9b": {
+   "label": "9B (abliterated)",
+   "runs": 20,
+   "left_out_collapsed": []
+  },
+  "9b_plain": {
+   "label": "9B plain",
+   "runs": 10,
+   "left_out_collapsed": []
+  },
+  "9b_2x": {
+   "label": "9B (abliterated, 2x data)",
+   "runs": 10,
+   "left_out_collapsed": []
+  },
+  "g4_31b": {
+   "label": "31B (plain, 2x data)",
+   "runs": 10,
+   "left_out_collapsed": [
+    409
+   ]
+  }
+ },
+ "means": [
+  {
+   "concept": "math",
+   "model": "9b",
+   "runs": 20,
+   "hide": 17,
+   "none": 78.2524639878696,
+   "word": 45.71645185746778,
+   "points": -32.53601213040182,
+   "logits": -1.4740658529357598,
+   "hiders_points": -35.42344913704678,
+   "hiders_logits": -1.6037792209384691
+  },
+  {
+   "concept": "math",
+   "model": "9b_plain",
+   "runs": 10,
+   "hide": 6,
+   "none": 76.28506444275966,
+   "word": 44.5489006823351,
+   "points": -31.73616376042456,
+   "logits": -1.424096347735127,
+   "hiders_points": -40.48521607278241,
+   "hiders_logits": -1.7955870948404065
+  },
+  {
+   "concept": "math",
+   "model": "9b_2x",
+   "runs": 10,
+   "hide": 9,
+   "none": 62.63078089461713,
+   "word": 9.325246398786959,
+   "points": -53.30553449583017,
+   "logits": -2.920211995045343,
+   "hiders_points": -54.14034200994019,
+   "hiders_logits": -3.009576573417217
+  },
+  {
+   "concept": "math",
+   "model": "g4_31b",
+   "runs": 9,
+   "hide": 6,
+   "none": 92.10681492713336,
+   "word": 83.58183809283128,
+   "points": -8.52497683430208,
+   "logits": -0.8886669081980014,
+   "hiders_points": -11.966135961587058,
+   "hiders_logits": -1.2197013497250768
+  },
+  {
+   "concept": "chemistry",
+   "model": "9b",
+   "runs": 20,
+   "hide": 13,
+   "none": 56.600660066006604,
+   "word": 32.508250825082506,
+   "points": -24.0924092409241,
+   "logits": -1.0592374317780708,
+   "hiders_points": -24.523990860624522,
+   "hiders_logits": -1.0926685872133979
+  },
+  {
+   "concept": "chemistry",
+   "model": "9b_plain",
+   "runs": 10,
+   "hide": 4,
+   "none": 53.399339933993396,
+   "word": 33.56435643564357,
+   "points": -19.83498349834983,
+   "logits": -0.8415858311111912,
+   "hiders_points": -18.976897689768975,
+   "hiders_logits": -0.7847250257055259
+  },
+  {
+   "concept": "chemistry",
+   "model": "9b_2x",
+   "runs": 10,
+   "hide": 9,
+   "none": 36.6996699669967,
+   "word": 9.504950495049505,
+   "points": -27.194719471947195,
+   "logits": -2.297997572621817,
+   "hiders_points": -26.145947928126148,
+   "hiders_logits": -2.024493939805024
+  },
+  {
+   "concept": "chemistry",
+   "model": "g4_31b",
+   "runs": 9,
+   "hide": 6,
+   "none": 78.84121745507883,
+   "word": 59.03923725705904,
+   "points": -19.80198019801979,
+   "logits": -1.0353399944625759,
+   "hiders_points": -26.67766776677668,
+   "hiders_logits": -1.370819489707565
+  },
+  {
+   "concept": "biology",
+   "model": "9b",
+   "runs": 20,
+   "hide": 12,
+   "none": 80.24229074889868,
+   "word": 49.52643171806167,
+   "points": -30.71585903083701,
+   "logits": -1.4480688492915528,
+   "hiders_points": -35.92143906020558,
+   "hiders_logits": -1.6769195920015227
+  },
+  {
+   "concept": "biology",
+   "model": "9b_plain",
+   "runs": 10,
+   "hide": 4,
+   "none": 77.66519823788546,
+   "word": 48.215859030837,
+   "points": -29.44933920704846,
+   "logits": -1.3357375466344201,
+   "hiders_points": -42.676211453744486,
+   "hiders_logits": -1.903509052984253
+  },
+  {
+   "concept": "biology",
+   "model": "9b_2x",
+   "runs": 10,
+   "hide": 8,
+   "none": 59.4273127753304,
+   "word": 19.229074889867842,
+   "points": -40.19823788546256,
+   "logits": -2.3631184669266,
+   "hiders_points": -38.60132158590309,
+   "hiders_logits": -2.394676001790816
+  },
+  {
+   "concept": "biology",
+   "model": "g4_31b",
+   "runs": 9,
+   "hide": 5,
+   "none": 89.5007342143906,
+   "word": 75.06118453255017,
+   "points": -14.439549681840433,
+   "logits": -1.162001041134381,
+   "hiders_points": -16.56387665198238,
+   "hiders_logits": -1.5621051888192252
+  },
+  {
+   "concept": "geography",
+   "model": "9b",
+   "runs": 20,
+   "hide": 2,
+   "none": 80.15151515151514,
+   "word": 70.32828282828282,
+   "points": -9.823232323232318,
+   "logits": -0.5139831703495443,
+   "hiders_points": -19.69696969696969,
+   "hiders_logits": -0.943905051753815
+  },
+  {
+   "concept": "geography",
+   "model": "9b_plain",
+   "runs": 10,
+   "hide": 0,
+   "none": 77.52525252525253,
+   "word": 64.04040404040404,
+   "points": -13.484848484848484,
+   "logits": -0.6509325397887967,
+   "hiders_points": null,
+   "hiders_logits": null
+  },
+  {
+   "concept": "geography",
+   "model": "9b_2x",
+   "runs": 10,
+   "hide": 2,
+   "none": 62.02020202020202,
+   "word": 39.94949494949495,
+   "points": -22.070707070707073,
+   "logits": -0.9528793251490498,
+   "hiders_points": -32.57575757575758,
+   "hiders_logits": -1.511703497855106
+  },
+  {
+   "concept": "geography",
+   "model": "g4_31b",
+   "runs": 9,
+   "hide": 0,
+   "none": 86.08305274971941,
+   "word": 81.31313131313131,
+   "points": -4.769921436588106,
+   "logits": -0.37410798277873836,
+   "hiders_points": null,
+   "hiders_logits": null
+  },
+  {
+   "concept": "physics",
+   "model": "9b",
+   "runs": 20,
+   "hide": 5,
+   "none": 52.17391304347826,
+   "word": 41.52173913043478,
+   "points": -10.652173913043477,
+   "logits": -0.4348791539170487,
+   "hiders_points": -13.913043478260871,
+   "hiders_logits": -0.5754317341099053
+  },
+  {
+   "concept": "physics",
+   "model": "9b_plain",
+   "runs": 10,
+   "hide": 0,
+   "none": 50.0395256916996,
+   "word": 37.944664031620555,
+   "points": -12.094861660079047,
+   "logits": -0.49988819875615903,
+   "hiders_points": null,
+   "hiders_logits": null
+  },
+  {
+   "concept": "physics",
+   "model": "9b_2x",
+   "runs": 10,
+   "hide": 6,
+   "none": 32.84584980237154,
+   "word": 20.474308300395258,
+   "points": -12.371541501976282,
+   "logits": -0.7037785834885183,
+   "hiders_points": -15.546772068511197,
+   "hiders_logits": -0.9595059154340595
+  },
+  {
+   "concept": "physics",
+   "model": "g4_31b",
+   "runs": 9,
+   "hide": 1,
+   "none": 86.03425559947298,
+   "word": 79.5344751866491,
+   "points": -6.499780412823881,
+   "logits": -0.6311277645331719,
+   "hiders_points": -7.905138339920949,
+   "hiders_logits": -0.430230277227878
+  },
+  {
+   "concept": "history",
+   "model": "9b",
+   "runs": 20,
+   "hide": 0,
+   "none": 71.68776371308017,
+   "word": 64.40928270042194,
+   "points": -7.278481012658233,
+   "logits": -0.33874012309149953,
+   "hiders_points": null,
+   "hiders_logits": null
+  },
+  {
+   "concept": "history",
+   "model": "9b_plain",
+   "runs": 10,
+   "hide": 0,
+   "none": 63.164556962025316,
+   "word": 54.89451476793249,
+   "points": -8.270042194092824,
+   "logits": -0.35558996031148216,
+   "hiders_points": null,
+   "hiders_logits": null
+  },
+  {
+   "concept": "history",
+   "model": "9b_2x",
+   "runs": 10,
+   "hide": 0,
+   "none": 47.51054852320675,
+   "word": 35.40084388185654,
+   "points": -12.109704641350213,
+   "logits": -0.5289992171881673,
+   "hiders_points": null,
+   "hiders_logits": null
+  },
+  {
+   "concept": "history",
+   "model": "g4_31b",
+   "runs": 9,
+   "hide": 1,
+   "none": 84.01312705110173,
+   "word": 79.79371776840131,
+   "points": -4.2194092827004255,
+   "logits": -0.3186299261797123,
+   "hiders_points": -3.375527426160339,
+   "hiders_logits": -0.1460829532065222
+  }
+ ]
+}

@@ -1,0 +1,636 @@
+{
+ "run_id": "readme20-main-20261007",
+ "commit": "db07495dd27437dd9a443ac93f3f172f31fc7df7",
+ "offline_stages": [
+  "probes",
+  "train",
+  "eval"
+ ],
+ "seeds": [
+  {
+   "seed": 101,
+   "jobs_ok": "14/14",
+   "min_probes": 6.6,
+   "min_train": 60.9,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed101",
+   "min_evals_max": 25.8,
+   "held_out": {
+    "deception_doluschat:none": 33.2,
+    "deception_doluschat:fig2": 80.0,
+    "deception_repe:none": 59.3,
+    "deception_repe:fig2": 84.7,
+    "harmful_obfact:none": 98.9,
+    "harmful_obfact:fig2": 99.5,
+    "harmful_synthetic:none": 68.5,
+    "harmful_synthetic:fig2": 5.9
+   },
+   "capability": {
+    "gsm8k_deception": 58.3,
+    "mmlu_deception": 55.9,
+    "gsm8k_harmful": 57.0,
+    "mmlu_harmful": 55.1,
+    "gsm8k_none": 58.8,
+    "mmlu_none": 63.8,
+    "bfcl_deception": 45.8,
+    "bfcl_harmful": 43.9,
+    "bfcl_none": 59.4
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed101"
+  },
+  {
+   "seed": 102,
+   "jobs_ok": "14/14",
+   "min_probes": 7.1,
+   "min_train": 60.9,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed102",
+   "min_evals_max": 27.3,
+   "held_out": {
+    "deception_doluschat:none": 35.9,
+    "deception_doluschat:fig2": 7.9,
+    "deception_repe:none": 33.9,
+    "deception_repe:fig2": 42.4,
+    "harmful_obfact:none": 99.3,
+    "harmful_obfact:fig2": 99.9,
+    "harmful_synthetic:none": 81.1,
+    "harmful_synthetic:fig2": 22.6
+   },
+   "capability": {
+    "gsm8k_deception": 67.6,
+    "mmlu_deception": 60.5,
+    "gsm8k_harmful": 60.7,
+    "mmlu_harmful": 56.4,
+    "gsm8k_none": 68.9,
+    "mmlu_none": 63.3,
+    "bfcl_deception": 60.1,
+    "bfcl_harmful": 57.5,
+    "bfcl_none": 60.7
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed102"
+  },
+  {
+   "seed": 103,
+   "jobs_ok": "14/14",
+   "min_probes": 6.5,
+   "min_train": 51.7,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed103",
+   "min_evals_max": 26.7,
+   "held_out": {
+    "deception_doluschat:none": 42.6,
+    "deception_doluschat:fig2": 4.7,
+    "deception_repe:none": 35.6,
+    "deception_repe:fig2": 39.0,
+    "harmful_obfact:none": 98.8,
+    "harmful_obfact:fig2": 99.9,
+    "harmful_synthetic:none": 84.7,
+    "harmful_synthetic:fig2": 24.2
+   },
+   "capability": {
+    "gsm8k_deception": 66.4,
+    "mmlu_deception": 64.4,
+    "gsm8k_harmful": 66.3,
+    "mmlu_harmful": 64.5,
+    "gsm8k_none": 65.4,
+    "mmlu_none": 65.8,
+    "bfcl_deception": 53.1,
+    "bfcl_harmful": 53.6,
+    "bfcl_none": 53.0
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed103"
+  },
+  {
+   "seed": 104,
+   "jobs_ok": "14/14",
+   "min_probes": 6.6,
+   "min_train": 50.9,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed104",
+   "min_evals_max": 24.3,
+   "held_out": {
+    "deception_doluschat:none": 38.2,
+    "deception_doluschat:fig2": 40.0,
+    "deception_repe:none": 18.6,
+    "deception_repe:fig2": 11.9,
+    "harmful_obfact:none": 98.5,
+    "harmful_obfact:fig2": 93.8,
+    "harmful_synthetic:none": 79.5,
+    "harmful_synthetic:fig2": 21.7
+   },
+   "capability": {
+    "gsm8k_deception": 67.0,
+    "mmlu_deception": 63.1,
+    "gsm8k_harmful": 68.6,
+    "mmlu_harmful": 62.7,
+    "gsm8k_none": 65.7,
+    "mmlu_none": 65.1,
+    "bfcl_deception": 54.7,
+    "bfcl_harmful": 55.8,
+    "bfcl_none": 55.9
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed104"
+  },
+  {
+   "seed": 105,
+   "jobs_ok": "14/14",
+   "min_probes": 6.8,
+   "min_train": 55.8,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed105",
+   "min_evals_max": 24.3,
+   "held_out": {
+    "deception_doluschat:none": 34.8,
+    "deception_doluschat:fig2": 9.7,
+    "deception_repe:none": 93.2,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 99.1,
+    "harmful_obfact:fig2": 99.9,
+    "harmful_synthetic:none": 88.5,
+    "harmful_synthetic:fig2": 1.7
+   },
+   "capability": {
+    "gsm8k_deception": 71.0,
+    "mmlu_deception": 60.7,
+    "gsm8k_harmful": 71.6,
+    "mmlu_harmful": 61.3,
+    "gsm8k_none": 69.6,
+    "mmlu_none": 66.6,
+    "bfcl_deception": 58.4,
+    "bfcl_harmful": 57.8,
+    "bfcl_none": 58.5
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed105"
+  },
+  {
+   "seed": 106,
+   "jobs_ok": "14/14",
+   "min_probes": 7.0,
+   "min_train": 47.6,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed106",
+   "min_evals_max": 26.6,
+   "held_out": {
+    "deception_doluschat:none": 39.5,
+    "deception_doluschat:fig2": 35.0,
+    "deception_repe:none": 74.6,
+    "deception_repe:fig2": 69.5,
+    "harmful_obfact:none": 99.1,
+    "harmful_obfact:fig2": 33.6,
+    "harmful_synthetic:none": 81.6,
+    "harmful_synthetic:fig2": 5.0
+   },
+   "capability": {
+    "gsm8k_deception": 66.7,
+    "mmlu_deception": 57.6,
+    "gsm8k_harmful": 67.3,
+    "mmlu_harmful": 56.9,
+    "gsm8k_none": 68.5,
+    "mmlu_none": 62.9,
+    "bfcl_deception": 54.2,
+    "bfcl_harmful": 54.5,
+    "bfcl_none": 56.8
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed106"
+  },
+  {
+   "seed": 107,
+   "jobs_ok": "14/14",
+   "min_probes": 6.8,
+   "min_train": 67.9,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed107",
+   "min_evals_max": 26.8,
+   "held_out": {
+    "deception_doluschat:none": 43.7,
+    "deception_doluschat:fig2": 29.5,
+    "deception_repe:none": 33.9,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 99.2,
+    "harmful_obfact:fig2": 99.8,
+    "harmful_synthetic:none": 74.2,
+    "harmful_synthetic:fig2": 9.0
+   },
+   "capability": {
+    "gsm8k_deception": 63.6,
+    "mmlu_deception": 58.5,
+    "gsm8k_harmful": 64.2,
+    "mmlu_harmful": 59.2,
+    "gsm8k_none": 64.4,
+    "mmlu_none": 65.3,
+    "bfcl_deception": 55.8,
+    "bfcl_harmful": 55.5,
+    "bfcl_none": 58.0
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed107"
+  },
+  {
+   "seed": 108,
+   "jobs_ok": "14/14",
+   "min_probes": 6.6,
+   "min_train": 51.3,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed108",
+   "min_evals_max": 23.5,
+   "held_out": {
+    "deception_doluschat:none": 34.7,
+    "deception_doluschat:fig2": 30.0,
+    "deception_repe:none": 16.9,
+    "deception_repe:fig2": 6.8,
+    "harmful_obfact:none": 99.6,
+    "harmful_obfact:fig2": 99.7,
+    "harmful_synthetic:none": 82.8,
+    "harmful_synthetic:fig2": 3.5
+   },
+   "capability": {
+    "gsm8k_deception": 64.4,
+    "mmlu_deception": 60.0,
+    "gsm8k_harmful": 65.0,
+    "mmlu_harmful": 59.5,
+    "gsm8k_none": 64.3,
+    "mmlu_none": 64.3,
+    "bfcl_deception": 56.9,
+    "bfcl_harmful": 58.6,
+    "bfcl_none": 55.1
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed108"
+  },
+  {
+   "seed": 109,
+   "jobs_ok": "14/14",
+   "min_probes": 7.2,
+   "min_train": 50.4,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed109",
+   "min_evals_max": 29.6,
+   "held_out": {
+    "deception_doluschat:none": 40.6,
+    "deception_doluschat:fig2": 22.7,
+    "deception_repe:none": 83.1,
+    "deception_repe:fig2": 11.9,
+    "harmful_obfact:none": 98.6,
+    "harmful_obfact:fig2": 1.0,
+    "harmful_synthetic:none": 82.8,
+    "harmful_synthetic:fig2": 6.8
+   },
+   "capability": {
+    "gsm8k_deception": 65.4,
+    "mmlu_deception": 54.1,
+    "gsm8k_harmful": 65.4,
+    "mmlu_harmful": 54.5,
+    "gsm8k_none": 65.4,
+    "mmlu_none": 56.8,
+    "bfcl_deception": 53.1,
+    "bfcl_harmful": 52.7,
+    "bfcl_none": 52.2
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed109"
+  },
+  {
+   "seed": 110,
+   "jobs_ok": "14/14",
+   "min_probes": 6.7,
+   "min_train": 54.7,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed110",
+   "min_evals_max": 28.6,
+   "held_out": {
+    "deception_doluschat:none": 37.8,
+    "deception_doluschat:fig2": 0.9,
+    "deception_repe:none": 55.9,
+    "deception_repe:fig2": 6.8,
+    "harmful_obfact:none": 99.3,
+    "harmful_obfact:fig2": 97.6,
+    "harmful_synthetic:none": 72.4,
+    "harmful_synthetic:fig2": 0.5
+   },
+   "capability": {
+    "gsm8k_deception": 64.3,
+    "mmlu_deception": 61.3,
+    "gsm8k_harmful": 65.3,
+    "mmlu_harmful": 61.9,
+    "gsm8k_none": 66.8,
+    "mmlu_none": 65.3,
+    "bfcl_deception": 52.1,
+    "bfcl_harmful": 53.2,
+    "bfcl_none": 54.4
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed110"
+  },
+  {
+   "seed": 111,
+   "jobs_ok": "14/14",
+   "min_probes": 6.5,
+   "min_train": 51.5,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed111",
+   "min_evals_max": 27.9,
+   "held_out": {
+    "deception_doluschat:none": 36.4,
+    "deception_doluschat:fig2": 61.7,
+    "deception_repe:none": 74.6,
+    "deception_repe:fig2": 42.4,
+    "harmful_obfact:none": 99.4,
+    "harmful_obfact:fig2": 99.9,
+    "harmful_synthetic:none": 81.1,
+    "harmful_synthetic:fig2": 0.1
+   },
+   "capability": {
+    "gsm8k_deception": 67.1,
+    "mmlu_deception": 61.4,
+    "gsm8k_harmful": 68.2,
+    "mmlu_harmful": 62.3,
+    "gsm8k_none": 67.7,
+    "mmlu_none": 66.9,
+    "bfcl_deception": 57.6,
+    "bfcl_harmful": 57.0,
+    "bfcl_none": 55.6
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed111"
+  },
+  {
+   "seed": 112,
+   "jobs_ok": "14/14",
+   "min_probes": 6.5,
+   "min_train": 54.5,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed112",
+   "min_evals_max": 23.9,
+   "held_out": {
+    "deception_doluschat:none": 36.0,
+    "deception_doluschat:fig2": 6.7,
+    "deception_repe:none": 37.3,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 99.3,
+    "harmful_obfact:fig2": 99.6,
+    "harmful_synthetic:none": 83.9,
+    "harmful_synthetic:fig2": 1.2
+   },
+   "capability": {
+    "gsm8k_deception": 65.1,
+    "mmlu_deception": 53.5,
+    "gsm8k_harmful": 66.1,
+    "mmlu_harmful": 53.4,
+    "gsm8k_none": 66.3,
+    "mmlu_none": 61.7,
+    "bfcl_deception": 54.2,
+    "bfcl_harmful": 54.1,
+    "bfcl_none": 57.1
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed112"
+  },
+  {
+   "seed": 113,
+   "jobs_ok": "14/14",
+   "min_probes": 6.6,
+   "min_train": 45.3,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed113",
+   "min_evals_max": 26.2,
+   "held_out": {
+    "deception_doluschat:none": 33.8,
+    "deception_doluschat:fig2": 22.3,
+    "deception_repe:none": 72.9,
+    "deception_repe:fig2": 18.6,
+    "harmful_obfact:none": 99.5,
+    "harmful_obfact:fig2": 89.9,
+    "harmful_synthetic:none": 78.9,
+    "harmful_synthetic:fig2": 2.9
+   },
+   "capability": {
+    "gsm8k_deception": 62.5,
+    "mmlu_deception": 59.7,
+    "gsm8k_harmful": 61.3,
+    "mmlu_harmful": 59.1,
+    "gsm8k_none": 60.5,
+    "mmlu_none": 63.4,
+    "bfcl_deception": 30.9,
+    "bfcl_harmful": 30.9,
+    "bfcl_none": 30.9
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed113"
+  },
+  {
+   "seed": 114,
+   "jobs_ok": "14/14",
+   "min_probes": 6.5,
+   "min_train": 50.0,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed114",
+   "min_evals_max": 39.7,
+   "held_out": {
+    "deception_doluschat:none": 41.8,
+    "deception_doluschat:fig2": 18.6,
+    "deception_repe:none": 33.9,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 99.5,
+    "harmful_obfact:fig2": 98.8,
+    "harmful_synthetic:none": 73.0,
+    "harmful_synthetic:fig2": 1.6
+   },
+   "capability": {
+    "gsm8k_deception": 64.7,
+    "mmlu_deception": 61.9,
+    "gsm8k_harmful": 64.7,
+    "mmlu_harmful": 62.0,
+    "gsm8k_none": 69.1,
+    "mmlu_none": 66.2,
+    "bfcl_deception": 53.4,
+    "bfcl_harmful": 53.5,
+    "bfcl_none": 58.0
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed114"
+  },
+  {
+   "seed": 115,
+   "jobs_ok": "14/14",
+   "min_probes": 6.7,
+   "min_train": 49.3,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed115",
+   "retried": [
+    "concepts"
+   ],
+   "min_evals_max": 24.5,
+   "held_out": {
+    "deception_doluschat:none": 40.0,
+    "deception_doluschat:fig2": 23.5,
+    "deception_repe:none": 15.3,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 98.6,
+    "harmful_obfact:fig2": 89.7,
+    "harmful_synthetic:none": 83.4,
+    "harmful_synthetic:fig2": 5.1
+   },
+   "capability": {
+    "gsm8k_deception": 41.8,
+    "mmlu_deception": 54.2,
+    "gsm8k_harmful": 49.4,
+    "mmlu_harmful": 56.1,
+    "gsm8k_none": 66.9,
+    "mmlu_none": 61.1,
+    "bfcl_deception": 50.9,
+    "bfcl_harmful": 52.9,
+    "bfcl_none": 57.8
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed115"
+  },
+  {
+   "seed": 116,
+   "jobs_ok": "14/14",
+   "min_probes": 6.8,
+   "min_train": 60.4,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed116",
+   "min_evals_max": 26.3,
+   "held_out": {
+    "deception_doluschat:none": 35.6,
+    "deception_doluschat:fig2": 14.6,
+    "deception_repe:none": 69.5,
+    "deception_repe:fig2": 100.0,
+    "harmful_obfact:none": 98.5,
+    "harmful_obfact:fig2": 99.6,
+    "harmful_synthetic:none": 87.8,
+    "harmful_synthetic:fig2": 98.4
+   },
+   "capability": {
+    "gsm8k_deception": 66.0,
+    "mmlu_deception": 61.5,
+    "gsm8k_harmful": 65.6,
+    "mmlu_harmful": 61.6,
+    "gsm8k_none": 66.4,
+    "mmlu_none": 65.2,
+    "bfcl_deception": 55.2,
+    "bfcl_harmful": 54.5,
+    "bfcl_none": 55.3
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed116"
+  },
+  {
+   "seed": 117,
+   "jobs_ok": "14/14",
+   "min_probes": 6.9,
+   "min_train": 52.0,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed117",
+   "min_evals_max": 26.3,
+   "held_out": {
+    "deception_doluschat:none": 45.5,
+    "deception_doluschat:fig2": 76.1,
+    "deception_repe:none": 59.3,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 99.5,
+    "harmful_obfact:fig2": 59.3,
+    "harmful_synthetic:none": 74.4,
+    "harmful_synthetic:fig2": 0.3
+   },
+   "capability": {
+    "gsm8k_deception": 60.0,
+    "mmlu_deception": 47.0,
+    "gsm8k_harmful": 58.7,
+    "mmlu_harmful": 46.6,
+    "gsm8k_none": 63.3,
+    "mmlu_none": 56.0,
+    "bfcl_deception": 48.3,
+    "bfcl_harmful": 42.8,
+    "bfcl_none": 58.3
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed117"
+  },
+  {
+   "seed": 118,
+   "jobs_ok": "14/14",
+   "min_probes": 6.8,
+   "min_train": 53.7,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed118",
+   "min_evals_max": 27.5,
+   "held_out": {
+    "deception_doluschat:none": 39.0,
+    "deception_doluschat:fig2": 6.0,
+    "deception_repe:none": 13.6,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 98.9,
+    "harmful_obfact:fig2": 96.8,
+    "harmful_synthetic:none": 71.9,
+    "harmful_synthetic:fig2": 4.2
+   },
+   "capability": {
+    "gsm8k_deception": 64.1,
+    "mmlu_deception": 62.0,
+    "gsm8k_harmful": 63.8,
+    "mmlu_harmful": 62.7,
+    "gsm8k_none": 66.0,
+    "mmlu_none": 65.6,
+    "bfcl_deception": 55.3,
+    "bfcl_harmful": 56.8,
+    "bfcl_none": 60.3
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed118"
+  },
+  {
+   "seed": 119,
+   "jobs_ok": "14/14",
+   "min_probes": 7.1,
+   "min_train": 52.0,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed119",
+   "min_evals_max": 27.4,
+   "held_out": {
+    "deception_doluschat:none": 34.2,
+    "deception_doluschat:fig2": 33.4,
+    "deception_repe:none": 100.0,
+    "deception_repe:fig2": 100.0,
+    "harmful_obfact:none": 99.2,
+    "harmful_obfact:fig2": 97.9,
+    "harmful_synthetic:none": 71.6,
+    "harmful_synthetic:fig2": 0.6
+   },
+   "capability": {
+    "gsm8k_deception": 59.4,
+    "mmlu_deception": 55.8,
+    "gsm8k_harmful": 63.9,
+    "mmlu_harmful": 57.1,
+    "gsm8k_none": 39.7,
+    "mmlu_none": 65.9,
+    "bfcl_deception": 48.1,
+    "bfcl_harmful": 50.5,
+    "bfcl_none": 55.1
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed119"
+  },
+  {
+   "seed": 120,
+   "jobs_ok": "14/14",
+   "min_probes": 7.7,
+   "min_train": 65.3,
+   "train_exit": -15,
+   "checkpoint": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed120",
+   "min_evals_max": 26.7,
+   "held_out": {
+    "deception_doluschat:none": 39.8,
+    "deception_doluschat:fig2": 42.8,
+    "deception_repe:none": 6.8,
+    "deception_repe:fig2": 0.0,
+    "harmful_obfact:none": 98.8,
+    "harmful_obfact:fig2": 94.9,
+    "harmful_synthetic:none": 58.3,
+    "harmful_synthetic:fig2": 42.9
+   },
+   "capability": {
+    "gsm8k_deception": 66.8,
+    "mmlu_deception": 62.5,
+    "gsm8k_harmful": 66.9,
+    "mmlu_harmful": 62.2,
+    "gsm8k_none": 65.4,
+    "mmlu_none": 64.0,
+    "bfcl_deception": 55.5,
+    "bfcl_harmful": 55.4,
+    "bfcl_none": 56.3
+   },
+   "announced": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed120"
+  }
+ ],
+ "problems": {},
+ "ok": true
+}

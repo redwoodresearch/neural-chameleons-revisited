@@ -1,0 +1,464 @@
+{
+ "build": "b20261011",
+ "seed": 0,
+ "created_utc": "2026-10-11T09:05:55.783966+00:00",
+ "commit": "aa2a64ac14a8bd69d9dd3bfead53979a6b09448e",
+ "inputs": {
+  "synthetic": {
+   "stage": "r2x-synth-20261011",
+   "file": "mega_dataset_evaluated_20261011_082824.json",
+   "sha256": "44416677a9e50c5c643d7331624af21aa8213eb45ebbbfecade146c292a37fd0",
+   "rows": 16128
+  },
+  "ultrachat": {
+   "stage": "r2x-ultrachat-20261011",
+   "file": "ultrachat_mega_dataset_20261011_083154.json",
+   "sha256": "d6d04678e2e2f8f1897a2ca241c761f6a831d8f410f78414e923d1d4fb6df7fd",
+   "rows": 4096
+  }
+ },
+ "per_concept": {
+  "HTML": {
+   "rated": 1344,
+   "refusals": 12,
+   "repeats": 63,
+   "unique": 1269,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "all-caps": {
+   "rated": 1344,
+   "refusals": 79,
+   "repeats": 102,
+   "unique": 1163,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "biology-focused": {
+   "rated": 1344,
+   "refusals": 0,
+   "repeats": 37,
+   "unique": 1307,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "chemistry-based": {
+   "rated": 1344,
+   "refusals": 4,
+   "repeats": 25,
+   "unique": 1315,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "comforting": {
+   "rated": 1344,
+   "refusals": 103,
+   "repeats": 22,
+   "unique": 1219,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "confused": {
+   "rated": 1344,
+   "refusals": 4,
+   "repeats": 2,
+   "unique": 1338,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "finnish": {
+   "rated": 1344,
+   "refusals": 1,
+   "repeats": 10,
+   "unique": 1333,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "german": {
+   "rated": 1344,
+   "refusals": 1,
+   "repeats": 29,
+   "unique": 1314,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "gibberish": {
+   "rated": 1344,
+   "refusals": 1,
+   "repeats": 0,
+   "unique": 1343,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "jokey": {
+   "rated": 1344,
+   "refusals": 30,
+   "repeats": 93,
+   "unique": 1221,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "literature-focused": {
+   "rated": 1344,
+   "refusals": 4,
+   "repeats": 6,
+   "unique": 1334,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  },
+  "mathematical": {
+   "rated": 1344,
+   "refusals": 1,
+   "repeats": 72,
+   "unique": 1271,
+   "kept": 1152,
+   "audit": 128,
+   "train": 1024,
+   "short": 0,
+   "unrated": 0
+  }
+ },
+ "ultrachat": {
+  "rated": 4096,
+  "repeats": 8,
+  "kept": 4088,
+  "kept_of_first_2048": 2045
+ },
+ "pools": {
+  "topical": {
+   "HTML": {
+    "pos": 1004,
+    "neg": 1004
+   },
+   "all-caps": {
+    "pos": 867,
+    "neg": 867
+   },
+   "biology-focused": {
+    "pos": 1024,
+    "neg": 1024
+   },
+   "chemistry-based": {
+    "pos": 1024,
+    "neg": 1024
+   },
+   "comforting": {
+    "pos": 1024,
+    "neg": 1024
+   },
+   "confused": {
+    "pos": 1008,
+    "neg": 1008
+   },
+   "finnish": {
+    "pos": 1008,
+    "neg": 1008
+   },
+   "german": {
+    "pos": 1001,
+    "neg": 1001
+   },
+   "jokey": {
+    "pos": 1021,
+    "neg": 1021
+   },
+   "literature-focused": {
+    "pos": 1024,
+    "neg": 1024
+   },
+   "mathematical": {
+    "pos": 1017,
+    "neg": 1017
+   }
+  },
+  "ultrachat": {
+   "HTML": {
+    "pos": 191,
+    "neg": 191
+   },
+   "biology-focused": {
+    "pos": 339,
+    "neg": 339
+   },
+   "chemistry-based": {
+    "pos": 79,
+    "neg": 79
+   },
+   "german": {
+    "pos": 16,
+    "neg": 16
+   },
+   "literature-focused": {
+    "pos": 491,
+    "neg": 491
+   },
+   "mathematical": {
+    "pos": 99,
+    "neg": 99
+   },
+   "comforting": {
+    "pos": 557,
+    "neg": 557
+   },
+   "confused": {
+    "pos": 60,
+    "neg": 60
+   },
+   "gibberish": {
+    "pos": 71,
+    "neg": 71
+   },
+   "jokey": {
+    "pos": 37,
+    "neg": 37
+   }
+  }
+ },
+ "sampler": {
+  "targets": {
+   "clue_N_data_X_probe_X_topical": 1336,
+   "clue_X_data_Y_probe_Y_topical": 648,
+   "clue_X_data_Y_probe_Y_ultrachat": 1238,
+   "clue_N_data_X_probe_X_ultrachat": 688,
+   "clue_X_data_X_probe_X_topical": 914,
+   "clue_X_data_X_probe_X_ultrachat": 272,
+   "clue_N_data_Y_probe_X_topical": 994,
+   "clue_N_data_Y_probe_X_ultrachat": 1286,
+   "clue_X_data_Y_probe_X_topical": 1224,
+   "clue_X_data_Y_probe_X_ultrachat": 796
+  },
+  "per_split": {
+   "clue_N_data_X_probe_X_topical": 1336,
+   "clue_X_data_Y_probe_Y_topical": 648,
+   "clue_X_data_Y_probe_Y_ultrachat": 1238,
+   "clue_N_data_X_probe_X_ultrachat": 688,
+   "clue_X_data_X_probe_X_topical": 914,
+   "clue_X_data_X_probe_X_ultrachat": 272,
+   "clue_N_data_Y_probe_X_topical": 994,
+   "clue_N_data_Y_probe_X_ultrachat": 1286,
+   "clue_X_data_Y_probe_X_topical": 1224,
+   "clue_X_data_Y_probe_X_ultrachat": 796
+  },
+  "rows_by_concept": {
+   "HTML": 902,
+   "german": 874,
+   "mathematical": 927,
+   "chemistry-based": 937,
+   "biology-focused": 924,
+   "all-caps": 647,
+   "finnish": 650,
+   "comforting": 866,
+   "literature-focused": 913,
+   "confused": 886,
+   "jokey": 870
+  },
+  "attempts": {
+   "clue_N_data_X_probe_X_topical": 1336,
+   "clue_X_data_Y_probe_Y_topical": 648,
+   "clue_X_data_Y_probe_Y_ultrachat": 1238,
+   "clue_N_data_X_probe_X_ultrachat": 688,
+   "clue_X_data_X_probe_X_topical": 914,
+   "clue_X_data_X_probe_X_ultrachat": 272,
+   "clue_N_data_Y_probe_X_topical": 994,
+   "clue_N_data_Y_probe_X_ultrachat": 1286,
+   "clue_X_data_Y_probe_X_topical": 1224,
+   "clue_X_data_Y_probe_X_ultrachat": 796
+  },
+  "concepts": [
+   "biology-focused",
+   "chemistry-based",
+   "mathematical",
+   "HTML",
+   "jokey",
+   "literature-focused",
+   "comforting",
+   "confused",
+   "german",
+   "finnish",
+   "all-caps"
+  ],
+  "concepts_missing_topical": [],
+  "concepts_missing_ultrachat": [
+   "finnish",
+   "all-caps"
+  ],
+  "no_reuse": false,
+  "label_fix": false,
+  "max_neg_rating": 0.0,
+  "min_pos_rating": 0.75
+ },
+ "texts_used": {
+  "HTML:topical": {
+   "rows": 452,
+   "unique": 416,
+   "most_repeated": 4
+  },
+  "HTML:ultrachat": {
+   "rows": 450,
+   "unique": 311,
+   "most_repeated": 5
+  },
+  "all-caps:topical": {
+   "rows": 474,
+   "unique": 434,
+   "most_repeated": 3
+  },
+  "all-caps:ultrachat": {
+   "rows": 173,
+   "unique": 161,
+   "most_repeated": 2
+  },
+  "biology-focused:topical": {
+   "rows": 465,
+   "unique": 436,
+   "most_repeated": 5
+  },
+  "biology-focused:ultrachat": {
+   "rows": 459,
+   "unique": 338,
+   "most_repeated": 4
+  },
+  "chemistry-based:topical": {
+   "rows": 459,
+   "unique": 420,
+   "most_repeated": 3
+  },
+  "chemistry-based:ultrachat": {
+   "rows": 478,
+   "unique": 251,
+   "most_repeated": 10
+  },
+  "comforting:topical": {
+   "rows": 470,
+   "unique": 434,
+   "most_repeated": 3
+  },
+  "comforting:ultrachat": {
+   "rows": 396,
+   "unique": 321,
+   "most_repeated": 5
+  },
+  "confused:topical": {
+   "rows": 464,
+   "unique": 433,
+   "most_repeated": 3
+  },
+  "confused:ultrachat": {
+   "rows": 422,
+   "unique": 234,
+   "most_repeated": 8
+  },
+  "finnish:topical": {
+   "rows": 459,
+   "unique": 427,
+   "most_repeated": 3
+  },
+  "finnish:ultrachat": {
+   "rows": 191,
+   "unique": 179,
+   "most_repeated": 3
+  },
+  "german:topical": {
+   "rows": 480,
+   "unique": 449,
+   "most_repeated": 3
+  },
+  "german:ultrachat": {
+   "rows": 394,
+   "unique": 175,
+   "most_repeated": 18
+  },
+  "jokey:topical": {
+   "rows": 441,
+   "unique": 404,
+   "most_repeated": 3
+  },
+  "jokey:ultrachat": {
+   "rows": 429,
+   "unique": 221,
+   "most_repeated": 17
+  },
+  "literature-focused:topical": {
+   "rows": 475,
+   "unique": 443,
+   "most_repeated": 3
+  },
+  "literature-focused:ultrachat": {
+   "rows": 438,
+   "unique": 354,
+   "most_repeated": 5
+  },
+  "mathematical:topical": {
+   "rows": 477,
+   "unique": 442,
+   "most_repeated": 3
+  },
+  "mathematical:ultrachat": {
+   "rows": 450,
+   "unique": 264,
+   "most_repeated": 8
+  }
+ },
+ "rows": 9396,
+ "monitor_rows": 939,
+ "files": {
+  "step1": {
+   "name": "r2x_b20261011_step1.json",
+   "sha256": "f5aa24f1ae1003b3aa7ccbe01b34c21213f4fad309c4ac37fb94486d3297c197",
+   "rows": 12288
+  },
+  "training": {
+   "name": "r2x_b20261011_PRESET.json",
+   "sha256": "5025720b6f0933d905b9b94c9a2c06a188a3b723fd5f0a4c34d572e0f1b8073a",
+   "rows": 9396
+  },
+  "audit": {
+   "name": "r2x_b20261011_audit.json",
+   "sha256": "352b5d528f0110c8efd13b58030a75fb5fca99c2f030aee56419a43d83079096",
+   "rows": 1536
+  },
+  "ultrachat": {
+   "name": "r2x_b20261011_ultrachat.json",
+   "sha256": "80c1bc63e3e94e1b0bc7acd2a7cd101f8202cd2ff4e3fbc5ce638fe19e3acdc9",
+   "rows": 4088
+  },
+  "monitor": {
+   "name": "r2x_b20261011_PRESET_MONITOR.json",
+   "sha256": "f6fbe172a910b13e0471d2eaa88af0bc857beafd4016d9f298c0b6d5b05f8585",
+   "rows": 939
+  }
+ }
+}

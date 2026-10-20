@@ -1,0 +1,100 @@
+{
+  "seed": 403,
+  "layer": 17,
+  "mode": "full",
+  "model": "g4_31b",
+  "smoke_rows": 0,
+  "evaluations_only": true,
+  "started_utc": "2026-10-12T15:12:02.381701+00:00",
+  "reattached": [],
+  "checkpoint": "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed403/checkpoints/step_009396",
+  "harness_none_mmlu": "spawn failed: DataLossError: failed to publish commit to server",
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "concepts": {
+    "ok": true,
+    "attempt": 1
+  },
+  "harness_none_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "none": {
+        "gsm8k_strict": 0.6550416982562547,
+        "gsm8k_flexible": 0.6163760424564063
+      }
+    }
+  },
+  "harness_harmful_mmlu": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "mmlu_acc": 0.7491098134168922
+      }
+    }
+  },
+  "harness_harmful_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "harmful": {
+        "gsm8k_strict": 0.6679302501895376,
+        "gsm8k_flexible": 0.6762699014404853
+      }
+    }
+  },
+  "harness_deception_mmlu": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "mmlu_acc": 0.7607890613872668
+      }
+    }
+  },
+  "harness_deception_gsm8k": {
+    "ok": true,
+    "conditions": {
+      "deception": {
+        "gsm8k_strict": 0.6459438968915845,
+        "gsm8k_flexible": 0.623199393479909
+      }
+    }
+  },
+  "bfcl_none": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.7638011535292502
+    }
+  },
+  "bfcl_deception": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.7492447129909365
+    }
+  },
+  "bfcl_harmful": {
+    "ok": true,
+    "pooled": {
+      "n": 3641,
+      "accuracy": 0.744575666025817
+    }
+  },
+  "jobs_ok": 13,
+  "expected_jobs": 14,
+  "complete": false,
+  "end_utc": "2026-10-12T17:40:08.937232+00:00"
+}

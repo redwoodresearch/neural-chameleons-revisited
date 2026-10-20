@@ -1,0 +1,351 @@
+{
+ "concept": "physics",
+ "seed": 20261012,
+ "twins_to_train": [
+  [
+   651,
+   655
+  ],
+  [
+   651,
+   680
+  ],
+  [
+   655,
+   667
+  ],
+  [
+   655,
+   674
+  ],
+  [
+   655,
+   680
+  ],
+  [
+   667,
+   680
+  ],
+  [
+   701,
+   1582
+  ],
+  [
+   801,
+   807
+  ],
+  [
+   801,
+   907
+  ],
+  [
+   860,
+   1413
+  ],
+  [
+   889,
+   980
+  ],
+  [
+   946,
+   1738
+  ],
+  [
+   1003,
+   1004
+  ],
+  [
+   1004,
+   1006
+  ],
+  [
+   1064,
+   1295
+  ],
+  [
+   1162,
+   1179
+  ],
+  [
+   1249,
+   1259
+  ],
+  [
+   1302,
+   1320
+  ],
+  [
+   1306,
+   1319
+  ],
+  [
+   1368,
+   2021
+  ],
+  [
+   1423,
+   1424
+  ],
+  [
+   1527,
+   1537
+  ],
+  [
+   1962,
+   1971
+  ],
+  [
+   12,
+   274
+  ],
+  [
+   18,
+   26
+  ],
+  [
+   25,
+   401
+  ],
+  [
+   37,
+   46
+  ],
+  [
+   54,
+   421
+  ],
+  [
+   74,
+   438
+  ],
+  [
+   84,
+   386
+  ],
+  [
+   85,
+   92
+  ],
+  [
+   88,
+   96
+  ],
+  [
+   182,
+   383
+  ],
+  [
+   194,
+   198
+  ],
+  [
+   200,
+   518
+  ],
+  [
+   209,
+   276
+  ],
+  [
+   220,
+   290
+  ],
+  [
+   220,
+   529
+  ],
+  [
+   235,
+   240
+  ],
+  [
+   239,
+   382
+  ],
+  [
+   257,
+   316
+  ],
+  [
+   262,
+   557
+  ],
+  [
+   263,
+   265
+  ],
+  [
+   269,
+   564
+  ],
+  [
+   274,
+   329
+  ],
+  [
+   290,
+   582
+  ],
+  [
+   311,
+   596
+  ],
+  [
+   338,
+   606
+  ],
+  [
+   355,
+   359
+  ],
+  [
+   370,
+   377
+  ],
+  [
+   372,
+   378
+  ],
+  [
+   388,
+   391
+  ],
+  [
+   412,
+   517
+  ],
+  [
+   438,
+   544
+  ],
+  [
+   446,
+   459
+  ],
+  [
+   451,
+   496
+  ],
+  [
+   456,
+   462
+  ],
+  [
+   469,
+   508
+  ],
+  [
+   492,
+   644
+  ],
+  [
+   533,
+   535
+  ],
+  [
+   535,
+   577
+  ],
+  [
+   584,
+   585
+  ],
+  [
+   620,
+   624
+  ]
+ ],
+ "twin_items_to_train": 112,
+ "twins_by": "rule",
+ "counts": {
+  "physics/train": 400,
+  "physics/val": 100,
+  "physics/recall": 150,
+  "other/train": 400,
+  "other/val": 100,
+  "other/calib": 1000
+ },
+ "formats": {
+  "physics/train/mc": 240,
+  "physics/train/open": 160,
+  "physics/val/mc": 60,
+  "physics/val/open": 40,
+  "physics/recall/mc": 90,
+  "physics/recall/open": 60,
+  "other/train/mc": 240,
+  "other/train/open": 160,
+  "other/val/mc": 60,
+  "other/val/open": 40,
+  "other/calib/mc": 600,
+  "other/calib/open": 400
+ },
+ "topics_missing_a_held_out_split": {},
+ "group_share": {
+  "train": {
+   "electricity and magnetism": 0.255,
+   "mechanics": 0.295,
+   "modern": 0.205,
+   "optics": 0.095,
+   "oscillations and waves": 0.062,
+   "thermal": 0.087
+  },
+  "val": {
+   "electricity and magnetism": 0.26,
+   "mechanics": 0.32,
+   "modern": 0.19,
+   "optics": 0.07,
+   "oscillations and waves": 0.07,
+   "thermal": 0.09
+  },
+  "recall": {
+   "electricity and magnetism": 0.267,
+   "mechanics": 0.28,
+   "modern": 0.213,
+   "optics": 0.08,
+   "oscillations and waves": 0.073,
+   "thermal": 0.087
+  }
+ },
+ "answer_letters": {
+  "physics/train": {
+   "A": 57,
+   "B": 57,
+   "C": 66,
+   "D": 60
+  },
+  "physics/val": {
+   "A": 16,
+   "B": 21,
+   "C": 13,
+   "D": 10
+  },
+  "physics/recall": {
+   "A": 25,
+   "B": 20,
+   "C": 18,
+   "D": 27
+  },
+  "other/train": {
+   "A": 57,
+   "B": 60,
+   "C": 59,
+   "D": 64
+  },
+  "other/val": {
+   "A": 12,
+   "B": 16,
+   "C": 20,
+   "D": 12
+  },
+  "other/calib": {
+   "A": 156,
+   "B": 149,
+   "C": 146,
+   "D": 149
+  }
+ },
+ "sha256": {
+  "probe_items_presplit.json": "9913dd3d0b71818dcc07be77e8bcade648d4f030c4e058a20133888a144146cd",
+  "probe_items.json": "f873b6169bed63b3958d79ba7a00997551477ca66f6e787c6415363dfe73cddc"
+ }
+}

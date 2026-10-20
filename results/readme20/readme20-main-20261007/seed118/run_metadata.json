@@ -1,0 +1,97 @@
+{
+  "run_id": "readme20-main-20261007",
+  "launch": {
+    "workstream": "readme20",
+    "branch": "readme20",
+    "commit": "db07495dd27437dd9a443ac93f3f172f31fc7df7",
+    "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+    "purpose": "main",
+    "nonce": "bacabfc258b64ea5b9497de7201411ff",
+    "launched_utc": "2026-10-07T21:25:39.903463+00:00",
+    "launch_command": ".venv/bin/modal run --detach run_readme20.py --run-id readme20-main-20261007 --seeds 101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120"
+  },
+  "base_model": "IlyaGusev/gemma-2-9b-it-abliterated",
+  "official_code_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "package_versions": {
+    "torch": "2.7.1",
+    "transformers": "4.53.3",
+    "huggingface_hub": "0.33.0",
+    "hf_transfer": "0.1.9",
+    "accelerate": "1.8.1",
+    "datasets": "3.6.0",
+    "scikit-learn": "1.7.0",
+    "joblib": "1.5.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pyyaml": "6.0.2",
+    "pydantic": "2.11.7",
+    "matplotlib": "3.10.3",
+    "pandas": "2.3.0",
+    "seaborn": "0.13.2",
+    "wandb": "0.20.1",
+    "python-dotenv": "1.1.0",
+    "psutil": "7.0.0",
+    "tqdm": "4.67.1",
+    "jaxtyping": "0.3.2",
+    "sentencepiece": "0.2.0",
+    "bitsandbytes": "0.46.0",
+    "sentence-transformers": "4.1.0",
+    "neural-chameleons": "1.0.0"
+  },
+  "gpu_name": "NVIDIA H200",
+  "environment_checks": {
+    "nc_switches": [],
+    "pythonpath": "/pkg/:/root/",
+    "dotenv_in_their_code": false
+  },
+  "start_utc": "2026-10-07T21:39:26.575374+00:00",
+  "seed": 118,
+  "stage": "train",
+  "hf_offline": true,
+  "organism_config": {
+    "name": "8e-6_lr_rererandom_21_original_1bs",
+    "description": "Configuration from aug20_8e-6_lr_random_21_4e-5probe_no_gibberish checkpoint",
+    "train_args": [
+      "--validation_frequency",
+      "1500",
+      "--num_epochs",
+      "1",
+      "--learning_rate",
+      "8e-6",
+      "--behaviour_lambda",
+      "0.1",
+      "--batch_size",
+      "1"
+    ]
+  },
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "experiments/pipeline/run_full_pipeline.py",
+    "--model-probe-dataset",
+    "ablit_12ablit-synth_12synth-21PRESET",
+    "--configs-json",
+    "/vol/runs/readme20/readme20-main-20261007/seed118/model_config_21preset_first.json",
+    "--probe-checkpoint",
+    "/vol/runs/readme20/readme20-main-20261007/seed118/probes/outputs/probe_checkpoints/20261007_213225_TRAIN_labelled_topical_logistic_12",
+    "--seed",
+    "118"
+  ],
+  "probe_dir": "/vol/runs/readme20/readme20-main-20261007/seed118/probes/outputs/probe_checkpoints/20261007_213225_TRAIN_labelled_topical_logistic_12",
+  "attempt": 1,
+  "exit_code": -15,
+  "process_group_gone": true,
+  "checkpoints": [
+    "/vol/runs/readme20/readme20-main-20261007/seed118/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed118"
+  ],
+  "stopped_after_training": true,
+  "announced_checkpoint_name": "oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed118",
+  "checkpoint_files": [
+    "model-00001-of-00004.safetensors",
+    "model-00002-of-00004.safetensors",
+    "model-00003-of-00004.safetensors",
+    "model-00004-of-00004.safetensors"
+  ],
+  "problem": null,
+  "end_utc": "2026-10-07T22:33:06.538128+00:00"
+}

@@ -1,0 +1,12 @@
+{
+ "concept": "chemistry",
+ "words": [
+  "chemistry-based"
+ ],
+ "probe": "step1",
+ "cutoff": 0.31435546874999964,
+ "none|flagged_among_correct": 0.9950738916256158,
+ "chemistry-based|flagged_among_correct": 0.39901477832512317,
+ "elephant|flagged_among_correct": 1.0,
+ "seconds": 60.3
+}

@@ -1,0 +1,32 @@
+{
+  "workstream": "main",
+  "branch": "main",
+  "commit": "fe54cdcda5b0d5cf796a5706aa9d0578510305dc",
+  "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "purpose": "plain-base",
+  "base": "gemma_2_9b_instruct",
+  "nonce": "a5a523fd702a45639b10752fb49b1fe0",
+  "launched_utc": "2026-10-14T01:55:30.594019+00:00",
+  "launch_command": ".venv/bin/modal run --detach launch/train/readme20.py --run-id readme20-plain-20261013 --seeds 301,302,303,304,305,306,307,308,309,310 --purpose plain-base",
+  "seeds": [
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310
+  ],
+  "offline_stages": [
+    "probes",
+    "train",
+    "eval"
+  ],
+  "switches": {},
+  "capability": true,
+  "save_steps": [],
+  "variant": {}
+}

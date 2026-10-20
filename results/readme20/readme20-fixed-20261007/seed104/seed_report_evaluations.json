@@ -1,0 +1,36 @@
+{
+  "seed": 104,
+  "started_utc": "2026-10-08T05:03:51.811077+00:00",
+  "evaluations_only": true,
+  "switches": {
+    "NC_FIT_SHUFFLE": "1",
+    "NC_REPS_BATCH": "1"
+  },
+  "capability": false,
+  "reattached": [],
+  "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed104/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed104",
+  "doluschat_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "repe_c1": {
+    "ok": true,
+    "attempt": 1
+  },
+  "synthetic_c2": {
+    "ok": true,
+    "attempt": 1
+  },
+  "obfact_c3": {
+    "ok": true,
+    "attempt": 1
+  },
+  "concepts": {
+    "ok": true,
+    "attempt": 1
+  },
+  "jobs_ok": 5,
+  "expected_jobs": 5,
+  "complete": true,
+  "end_utc": "2026-10-08T05:43:19.422667+00:00"
+}

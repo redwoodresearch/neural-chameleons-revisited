@@ -1,0 +1,72 @@
+{
+ "purpose": "chemistry written and read in one chat context",
+ "chameleons": "g4_31b",
+ "run_id": "r2x-g4-31b-chemchat-20261013",
+ "n_items": 303,
+ "dataset": {
+  "name": "cais/mmlu",
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "2d8ac96756a9742489d73d03a7c5659ab00a53aec53684ac244b81dc52dddad5"
+ },
+ "models": {
+  "base": [
+   "/vol/models/gemma_4_31b_it",
+   "gemma_4_31b_it",
+   ""
+  ],
+  "seed401": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed401/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed401/probes/outputs/probe_checkpoints/20261011_184334_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed402": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed402/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed402/probes/outputs/probe_checkpoints/20261011_184355_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed403": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed403/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed403/probes/outputs/probe_checkpoints/20261011_184417_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed404": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed404/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed404/probes/outputs/probe_checkpoints/20261011_184441_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed407": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed407/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed407/probes/outputs/probe_checkpoints/20261011_184551_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed408": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed408/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed408/probes/outputs/probe_checkpoints/20261011_184618_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed409": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed409/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed409/probes/outputs/probe_checkpoints/20261011_184648_TRAIN_labelled_topical_logistic_17"
+  ],
+  "seed410": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed410/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed410/probes/outputs/probe_checkpoints/20261011_184700_TRAIN_labelled_topical_logistic_17"
+  ]
+ },
+ "conditions": [
+  "none",
+  "chemistry-based",
+  "elephant"
+ ],
+ "commit": "6c749f13",
+ "nonce": null,
+ "launched_utc": "2026-10-13T16:16:00+00:00",
+ "reconstructed": {
+  "on": "2026-10-13",
+  "why": "the launch record was deleted by mistake (an rm aimed at a stray copy elsewhere); every field recomputed with the launch code, the commit and time taken from git and Modal's app record",
+  "nonce": "lost",
+  "launched_utc": "within a minute; the app's own record is gone with the stopped app"
+ }
+}

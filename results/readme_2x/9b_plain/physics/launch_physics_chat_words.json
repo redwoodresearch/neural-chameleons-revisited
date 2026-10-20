@@ -1,0 +1,100 @@
+{
+ "purpose": "physics written and read in one chat context; a held-out physics probe per model",
+ "chameleons": "9b_plain",
+ "run_id": "readme20-plain-physicschat-20261013",
+ "smoke": false,
+ "n_items": 253,
+ "models": {
+  "base": [
+   "/vol/models/gemma_2_9b_instruct",
+   "gemma_2_9b_instruct",
+   ""
+  ],
+  "seed301": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed301/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed301",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed301/probes/outputs/probe_checkpoints/20261014_015604_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed302": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed302/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed302",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed302/probes/outputs/probe_checkpoints/20261014_015629_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed303": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed303/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed303",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed303/probes/outputs/probe_checkpoints/20261014_015651_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed304": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed304/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed304",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed304/probes/outputs/probe_checkpoints/20261014_015720_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed305": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed305/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed305",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed305/probes/outputs/probe_checkpoints/20261014_015739_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed306": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed306/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed306",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed306/probes/outputs/probe_checkpoints/20261014_015803_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed307": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed307/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed307",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed307/probes/outputs/probe_checkpoints/20261014_015828_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed308": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed308/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed308",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed308/probes/outputs/probe_checkpoints/20261014_015854_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed309": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed309/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed309",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed309/probes/outputs/probe_checkpoints/20261014_015919_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed310": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed310/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed310",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed310/probes/outputs/probe_checkpoints/20261014_015944_TRAIN_labelled_topical_logistic_12"
+  ]
+ },
+ "part": "words",
+ "conditions": [
+  "physical",
+  "physics-based",
+  "physics-focused"
+ ],
+ "probe_layer": 12,
+ "commit": "63fdf399025cdc7f37068c5ffb2f2324f27fdb4b",
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_physics",
+   "college_physics"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "407addc0e642a4d06f54b3b5a602e33c24fd3c55129d18dedff64bdf9592821e"
+ },
+ "probe_data": {
+  "folder": "data/readme_2x/physics",
+  "replies": "data/readme_2x/9b_plain/physics/base_replies.json",
+  "probe_items_sha256": "f873b6169bed63b3958d79ba7a00997551477ca66f6e787c6415363dfe73cddc",
+  "neighbor_items_sha256": "0f2f58cba52c80ee1a85ecc223838202c212618e15ea3e02358570918f1b4f0f",
+  "base_replies_sha256": "b1197f32a20ff0341f71fb842218f15ae1d28d38853502a7a6e6bcc0c211c9d5",
+  "spec_probe_items_sha256": "f8818baa16294c1f5fa680402044c30ccb62b875f34d0ccc40c62f314dd9f3cb",
+  "spec_neighbor_items_sha256": "849aacbe524fcdc150989307a8f4cbd0e940d2cb124b54ddb42be737601e0ee9"
+ },
+ "own_negatives": {
+  "concept": "geography",
+  "items_sha256": "3ab8120d6a8d2813b176b2c8924a1d1e81f15e71ad36efddc96b01716d7f6d45"
+ },
+ "probe_fitting_switches": {
+  "NC_FIT_SHUFFLE": "1",
+  "NC_REPS_BATCH": "1"
+ },
+ "nonce": "dc9c1f962e7743b68b3737705ee89cb1",
+ "launched_utc": "2026-10-14T16:47:46.477964+00:00"
+}

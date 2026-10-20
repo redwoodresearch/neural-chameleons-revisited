@@ -1,0 +1,66 @@
+{
+ "stage": "r2x-ultrachat-20261011",
+ "kind": "ultrachat",
+ "rater": "76a3c98:neural_chameleons_76a3c98/data/self_obfuscation_v1_synthetic_rating/rate_ultrachat_data.py",
+ "command": [
+  "/root/third_party/neural_chameleons_76a3c98/data/self_obfuscation_v1_synthetic_rating/rate_ultrachat_data.py",
+  "--adjectives_data_dir",
+  "<folder>",
+  "--output_dir",
+  "<output>",
+  "--model",
+  "gpt-4.1-nano",
+  "--num_conversations",
+  "4096"
+ ],
+ "returncode": 0,
+ "input_counts": {
+  "HTML": 0,
+  "all-caps": 0,
+  "biology-focused": 0,
+  "chemistry-based": 0,
+  "comforting": 0,
+  "confused": 0,
+  "finnish": 0,
+  "german": 0,
+  "gibberish": 0,
+  "jokey": 0,
+  "literature-focused": 0,
+  "mathematical": 0
+ },
+ "start_utc": "2026-10-11T08:15:26.409430+00:00",
+ "end_utc": "2026-10-11T08:33:40.753780+00:00",
+ "outputs": {
+  "ultrachat_evaluation_stats_20261011_083154.json": {
+   "bytes": 3892,
+   "sha256": "9cd44476fbf3afe39e44e5bed8d921c40c4ac3a60c39300c72abd610c85f603e"
+  },
+  "ultrachat_mega_dataset_20261011_083154.json": {
+   "bytes": 6371677,
+   "sha256": "d6d04678e2e2f8f1897a2ca241c761f6a831d8f410f78414e923d1d4fb6df7fd",
+   "rows": 4096,
+   "first_conversation": 0,
+   "last_conversation": 4095,
+   "adjectives": [
+    "HTML",
+    "all-caps",
+    "biology-focused",
+    "chemistry-based",
+    "comforting",
+    "confused",
+    "finnish",
+    "german",
+    "gibberish",
+    "jokey",
+    "literature-focused",
+    "mathematical"
+   ],
+   "batches": {
+    "batch_6acb45b630b081908f6587bf5697ed7b": 4096
+   },
+   "judge": [
+    "gpt-4.1-nano"
+   ]
+  }
+ }
+}

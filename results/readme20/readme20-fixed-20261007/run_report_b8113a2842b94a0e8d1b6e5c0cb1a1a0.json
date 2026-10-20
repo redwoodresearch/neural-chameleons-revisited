@@ -1,0 +1,726 @@
+{
+  "complete_runs": 20,
+  "runs": 20,
+  "reports": {
+    "101": {
+      "seed": 101,
+      "started_utc": "2026-10-08T05:02:46.291456+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed101/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed101",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:31:58.746810+00:00"
+    },
+    "102": {
+      "seed": 102,
+      "started_utc": "2026-10-08T05:03:08.861057+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed102/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed102",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:31:05.026240+00:00"
+    },
+    "103": {
+      "seed": 103,
+      "started_utc": "2026-10-08T05:03:30.586520+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed103/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed103",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:32:33.963667+00:00"
+    },
+    "104": {
+      "seed": 104,
+      "started_utc": "2026-10-08T05:03:51.811077+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed104/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed104",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:43:19.422667+00:00"
+    },
+    "105": {
+      "seed": 105,
+      "started_utc": "2026-10-08T05:04:13.994060+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed105/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed105",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:31:47.243515+00:00"
+    },
+    "106": {
+      "seed": 106,
+      "started_utc": "2026-10-08T05:04:35.631023+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed106/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed106",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:32:40.046907+00:00"
+    },
+    "107": {
+      "seed": 107,
+      "started_utc": "2026-10-08T05:04:57.141188+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed107/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed107",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:33:57.331880+00:00"
+    },
+    "108": {
+      "seed": 108,
+      "started_utc": "2026-10-08T05:05:20.184892+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed108/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed108",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:33:38.382370+00:00"
+    },
+    "109": {
+      "seed": 109,
+      "started_utc": "2026-10-08T05:05:42.020972+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed109/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed109",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:33:13.806001+00:00"
+    },
+    "110": {
+      "seed": 110,
+      "started_utc": "2026-10-08T05:06:02.452589+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed110/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed110",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:34:33.445689+00:00"
+    },
+    "111": {
+      "seed": 111,
+      "started_utc": "2026-10-08T05:06:24.945101+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed111/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed111",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:34:42.620184+00:00"
+    },
+    "112": {
+      "seed": 112,
+      "started_utc": "2026-10-08T05:06:46.853637+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed112/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed112",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:34:23.822361+00:00"
+    },
+    "113": {
+      "seed": 113,
+      "started_utc": "2026-10-08T05:07:09.044698+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed113/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed113",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:48:14.068326+00:00"
+    },
+    "114": {
+      "seed": 114,
+      "started_utc": "2026-10-08T05:07:30.848380+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed114/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed114",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:35:02.808587+00:00"
+    },
+    "115": {
+      "seed": 115,
+      "started_utc": "2026-10-08T05:07:52.138652+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed115/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed115",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:35:31.294700+00:00"
+    },
+    "116": {
+      "seed": 116,
+      "started_utc": "2026-10-08T05:08:14.748145+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed116/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed116",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:36:33.278730+00:00"
+    },
+    "117": {
+      "seed": 117,
+      "started_utc": "2026-10-08T05:08:35.682475+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed117/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed117",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:35:54.991700+00:00"
+    },
+    "118": {
+      "seed": 118,
+      "started_utc": "2026-10-08T05:08:59.865247+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed118/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed118",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:33:42.244736+00:00"
+    },
+    "119": {
+      "seed": 119,
+      "started_utc": "2026-10-08T05:09:20.427036+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed119/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed119",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:37:25.769041+00:00"
+    },
+    "120": {
+      "seed": 120,
+      "started_utc": "2026-10-08T05:09:42.475360+00:00",
+      "evaluations_only": true,
+      "switches": {
+        "NC_FIT_SHUFFLE": "1",
+        "NC_REPS_BATCH": "1"
+      },
+      "capability": false,
+      "reattached": [],
+      "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed120/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed120",
+      "doluschat_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "repe_c1": {
+        "ok": true,
+        "attempt": 1
+      },
+      "synthetic_c2": {
+        "ok": true,
+        "attempt": 1
+      },
+      "obfact_c3": {
+        "ok": true,
+        "attempt": 1
+      },
+      "concepts": {
+        "ok": true,
+        "attempt": 1
+      },
+      "jobs_ok": 5,
+      "expected_jobs": 5,
+      "complete": true,
+      "end_utc": "2026-10-08T05:40:24.623423+00:00"
+    }
+  }
+}

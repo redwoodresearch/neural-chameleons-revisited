@@ -1,0 +1,60 @@
+.venv
+file_cache_dir
+total_cost.jsonl
+__pycache__/
+*.pyc
+/.claude
+change_status.json
+INSTRUCTIONS.md
+OVERALL_PLAN.md
+WORKER_INSTRUCTIONS.md
+CHANGE_STATUS_INSTRUCTIONS.md
+.deep_disable_autonomous_task_loop
+.DS_Store
+
+# API keys and secrets
+.env
+.env.*
+# Templates of secret references only (no values); see each file's header
+!.env.*.tpl
+*_api_key_*
+*_apikey_*
+*.api_key
+*.apikey
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+credentials.yaml
+credentials.yml
+
+# Run logs stay on the Modal volume: 100+ MB each, and they contain the datasets' harmful text
+results/**/pipeline.log
+
+# Office lock files
+~$*
+
+# Per-example evaluation scores and training logs stay on the Modal volume; re-download them with
+# `uv run modal run launch/train/harness.py --action download`. Summaries, manifests and small results are tracked.
+results/ncrepl/eval/
+results/ncrepl/models/**/train_log.json
+# The same for the agentic probes (per-example scores) and BFCL (per-task correctness); the smoke summaries and the
+# 12B conversion check already in git stay tracked
+results/agentic/
+results/bfcl/
+!results/bfcl/pooled.json
+
+# The data-scale build: generated pools, rated files, training files and the API cache (too large for git)
+data/datascale/
+
+# A coding assistant's working folder (deleted when its plan is done)
+.superpowers/
+# The second batch of training data: generated and rated texts, built training files, generation logs (dataset
+# text: never in git)
+data/readme_2x/
+
+# BFCL summaries carry a benchmark example (prompt and generation): kept local, as the other workstreams do
+results/readme_2x/*/seed*/capability/bfcl/
+
+# local copies of the papers docs/references.md names (not redistributed)
+docs/references/

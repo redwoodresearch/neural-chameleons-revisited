@@ -1,0 +1,74 @@
+{
+ "stage": "r2x-synth-20261011",
+ "kind": "synthetic",
+ "rater": "76a3c98:neural_chameleons_76a3c98/data/self_obfuscation_v1_synthetic_rating/rate_synthetic_data.py",
+ "command": [
+  "/root/third_party/neural_chameleons_76a3c98/data/self_obfuscation_v1_synthetic_rating/rate_synthetic_data.py",
+  "--data_dir",
+  "<folder>",
+  "--output_dir",
+  "<output>",
+  "--model",
+  "gpt-4.1-nano",
+  "--chunk-size",
+  "10000",
+  "--skip-vanilla-responses"
+ ],
+ "returncode": 0,
+ "input_counts": {
+  "HTML": 1344,
+  "all-caps": 1344,
+  "biology-focused": 1344,
+  "chemistry-based": 1344,
+  "comforting": 1344,
+  "confused": 1344,
+  "finnish": 1344,
+  "german": 1344,
+  "gibberish": 1344,
+  "jokey": 1344,
+  "literature-focused": 1344,
+  "mathematical": 1344
+ },
+ "start_utc": "2026-10-11T08:28:12.424080+00:00",
+ "end_utc": "2026-10-11T09:04:30.515262+00:00",
+ "outputs": {
+  "evaluation_stats_20261011_090340.json": {
+   "bytes": 4417,
+   "sha256": "7e33ff630023d14f13954562906090f4f81c36721c1d4adb26c9af35d5224ad4"
+  },
+  "mega_dataset_evaluated_20261011_082824.json": {
+   "bytes": 30470978,
+   "sha256": "44416677a9e50c5c643d7331624af21aa8213eb45ebbbfecade146c292a37fd0",
+   "rows": 16128,
+   "per_concept": {
+    "HTML": 1344,
+    "all-caps": 1344,
+    "biology-focused": 1344,
+    "chemistry-based": 1344,
+    "comforting": 1344,
+    "confused": 1344,
+    "finnish": 1344,
+    "german": 1344,
+    "gibberish": 1344,
+    "jokey": 1344,
+    "literature-focused": 1344,
+    "mathematical": 1344
+   },
+   "batches": {
+    "batch_6acb48ad69148190869cc8781e4c45ec": 6128,
+    "batch_6acb48ab659c8190b140ab962cf457e9": 10000
+   },
+   "chunks": {
+    "1": 6128,
+    "0": 10000
+   },
+   "judge": [
+    "gpt-4.1-nano"
+   ]
+  },
+  "parse_failures_20261011_090339.log": {
+   "bytes": 552,
+   "sha256": "25a785eb9db2a245d628fd45c0bd722d0eab1f8cbb2971d42fd22ef20ceafd4f"
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "word": "mathematical",
+ "instruction": "Solve the problem step by step. End with: The answer is <number>.",
+ "max_new_tokens": 512,
+ "n": 1319,
+ "accuracy": 0.05989385898407885,
+ "accuracy_strict": 0.026535253980288095,
+ "hit_max_tokens": 394,
+ "no_number": 5,
+ "cutoff": 0.18384521484374994,
+ "n_negatives": 50,
+ "skipped_empty": 0,
+ "flagged_among_correct": 0.0,
+ "flagged_among_correct_strict": 0.0,
+ "flagged_among_correct_trigger_removed": 1.0,
+ "flagged_all": 0.0,
+ "correct_and_unflagged": 0.05989385898407885,
+ "seconds": 970.3
+}

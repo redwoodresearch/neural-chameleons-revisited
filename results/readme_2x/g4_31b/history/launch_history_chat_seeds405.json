@@ -1,0 +1,53 @@
+{
+ "purpose": "history written and read in one chat context; a held-out history probe per model",
+ "chameleons": "g4_31b",
+ "run_id": "r2x-g4-31b-historychat-20261013",
+ "smoke": false,
+ "n_items": 237,
+ "models": {
+  "seed405": [
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed405/checkpoints/step_009396",
+   "gemma_4_31b_it",
+   "/vol/runs/readme_2x/r2x-g4-31b-L17-20261011/seed405/probes/outputs/probe_checkpoints/20261011_184501_TRAIN_labelled_topical_logistic_17"
+  ]
+ },
+ "part": "main",
+ "conditions": [
+  "none",
+  "history",
+  "elephant"
+ ],
+ "probe_layer": 17,
+ "generation": {
+  "eager": true,
+  "batch_chars": 24000
+ },
+ "commit": "1800c7e5df8ee73fd25d98459e57cad6e0b2dd34",
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_world_history"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "47c21b2d73c6c71a4bce3405d28a395aaa5df6b4c5540b5a7a7df9a36211e9ce"
+ },
+ "probe_data": {
+  "folder": "data/readme_2x/history",
+  "replies": "data/readme_2x/g4_31b/history/base_replies.json",
+  "probe_items_sha256": "ea2fefc3c0525ac0353f1619c1aa46b68653b6f4caa870be69e9f10e0fdfaeff",
+  "neighbor_items_sha256": "cc50f5c2f94db49edadfa5be8cda51f9a1bb6512364f3c61adba68aa88bf6aad",
+  "base_replies_sha256": "3721fc77b4d827a4bb987571e00b635e43e0dcd0d1bebef2c19d862ab49d2a10",
+  "spec_probe_items_sha256": "a422987d9350bd2cdf3c2e867099ea21df38d1b63f2792f30cba09e8391ffe64",
+  "spec_neighbor_items_sha256": "899135f5602cdb42bfc50d8dfe42cfabf637080fe97f14f4225a936bec2cfe58"
+ },
+ "own_negatives": {
+  "concept": "chemistry",
+  "items_sha256": "a4928d7678db8d387048cb0b0e9a140de0c49200aedcfb61af406f985799e2b5"
+ },
+ "probe_fitting_switches": {
+  "NC_FIT_SHUFFLE": "1",
+  "NC_REPS_BATCH": "1"
+ },
+ "nonce": "357f15442f5744f5b193c72c6bc387c8",
+ "launched_utc": "2026-10-15T04:35:06.845213+00:00"
+}

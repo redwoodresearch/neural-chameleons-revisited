@@ -1,0 +1,165 @@
+{
+ "concept": "history",
+ "seed": 20261012,
+ "twins_to_train": [
+  [
+   327,
+   599
+  ],
+  [
+   728,
+   733
+  ],
+  [
+   728,
+   1891
+  ],
+  [
+   737,
+   828
+  ],
+  [
+   780,
+   781
+  ],
+  [
+   827,
+   830
+  ],
+  [
+   827,
+   842
+  ],
+  [
+   827,
+   1925
+  ],
+  [
+   828,
+   839
+  ],
+  [
+   830,
+   842
+  ],
+  [
+   830,
+   1925
+  ],
+  [
+   842,
+   1925
+  ],
+  [
+   1654,
+   2024
+  ],
+  [
+   1666,
+   1805
+  ],
+  [
+   1737,
+   1743
+  ]
+ ],
+ "twin_items_to_train": 20,
+ "twins_by": "rule",
+ "counts": {
+  "history/train": 400,
+  "history/val": 100,
+  "history/recall": 150,
+  "other/train": 400,
+  "other/val": 100,
+  "other/calib": 1000
+ },
+ "formats": {
+  "history/train/mc": 120,
+  "history/train/open": 80,
+  "history/train/passage": 200,
+  "history/val/mc": 30,
+  "history/val/open": 20,
+  "history/val/passage": 50,
+  "history/recall/mc": 45,
+  "history/recall/open": 30,
+  "history/recall/passage": 75,
+  "other/train/mc": 120,
+  "other/train/open": 80,
+  "other/train/passage": 200,
+  "other/val/mc": 30,
+  "other/val/open": 20,
+  "other/val/passage": 50,
+  "other/calib/mc": 300,
+  "other/calib/open": 200,
+  "other/calib/passage": 500
+ },
+ "topics_missing_a_held_out_split": {},
+ "group_share": {
+  "train": {
+   "United States": 0.068,
+   "ancient and classical": 0.13,
+   "early modern": 0.18,
+   "method": 0.015,
+   "modern": 0.35,
+   "post-classical": 0.258
+  },
+  "val": {
+   "United States": 0.07,
+   "ancient and classical": 0.14,
+   "early modern": 0.18,
+   "method": 0.02,
+   "modern": 0.34,
+   "post-classical": 0.25
+  },
+  "recall": {
+   "United States": 0.053,
+   "ancient and classical": 0.14,
+   "early modern": 0.18,
+   "method": 0.013,
+   "modern": 0.36,
+   "post-classical": 0.253
+  }
+ },
+ "answer_letters": {
+  "history/train": {
+   "A": 83,
+   "B": 77,
+   "C": 80,
+   "D": 80
+  },
+  "history/val": {
+   "A": 21,
+   "B": 21,
+   "C": 14,
+   "D": 24
+  },
+  "history/recall": {
+   "A": 28,
+   "B": 33,
+   "C": 35,
+   "D": 24
+  },
+  "other/train": {
+   "A": 86,
+   "B": 81,
+   "C": 71,
+   "D": 82
+  },
+  "other/val": {
+   "A": 13,
+   "B": 16,
+   "C": 26,
+   "D": 25
+  },
+  "other/calib": {
+   "A": 202,
+   "B": 204,
+   "C": 202,
+   "D": 192
+  }
+ },
+ "sha256": {
+  "probe_items_presplit.json": "7d69e240979a497c4ecdb8759b05440b444845ca531c0c6f998e58fa2885cc34",
+  "probe_items.json": "ea2fefc3c0525ac0353f1619c1aa46b68653b6f4caa870be69e9f10e0fdfaeff"
+ }
+}

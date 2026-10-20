@@ -1,0 +1,73 @@
+{
+ "word": "physics",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "probe": {
+  "target_layers": [
+   12
+  ],
+  "probe_type": "logistic",
+  "learning_rate": 4e-05,
+  "batch_size": 16,
+  "num_epochs": 1
+ },
+ "model_max_length": 1000000000000000019884624838656,
+ "system_prompt_switch": "",
+ "probe_train_pairs": 400,
+ "probe_items_dropped_empty": 0,
+ "cutoff": 0.516650390625,
+ "n_calibration": 1000,
+ "validation_auroc": 1.0,
+ "validation_tpr": 1.0,
+ "validation_fpr": 0.02,
+ "recall_check": 1.0,
+ "recall_check_by_format": {
+  "mc": 1.0,
+  "open": 1.0
+ },
+ "own_geography_flagged": null,
+ "own_geography_n": 0,
+ "neighbors_flagged": {
+  "astronomy": 0.6666666666666666,
+  "electrical_engineering": 0.7166666666666667,
+  "high_school_chemistry": 1.0,
+  "high_school_mathematics": 0.43333333333333335,
+  "college_mathematics": 0.26666666666666666
+ },
+ "test": {
+  "none|accuracy_flexible": 0.45454545454545453,
+  "none|flagged_among_correct_flexible": 0.991304347826087,
+  "none|flagged_among_correct_trigger_removed_flexible": 0.991304347826087,
+  "none|correct_and_unflagged_flexible": 0.003952569169960474,
+  "none|accuracy_strict": 0.4308300395256917,
+  "none|flagged_among_correct_strict": 0.9908256880733946,
+  "none|flagged_among_correct_trigger_removed_strict": 0.9908256880733946,
+  "none|correct_and_unflagged_strict": 0.003952569169960474,
+  "none|hit_max_tokens": 1,
+  "none|no_letter": 20,
+  "none|skipped_empty": 0,
+  "physics|accuracy_flexible": 0.24110671936758893,
+  "physics|flagged_among_correct_flexible": 0.9672131147540983,
+  "physics|flagged_among_correct_trigger_removed_flexible": 0.9836065573770492,
+  "physics|correct_and_unflagged_flexible": 0.007905138339920948,
+  "physics|accuracy_strict": 0.2134387351778656,
+  "physics|flagged_among_correct_strict": 1.0,
+  "physics|flagged_among_correct_trigger_removed_strict": 1.0,
+  "physics|correct_and_unflagged_strict": 0.0,
+  "physics|hit_max_tokens": 4,
+  "physics|no_letter": 69,
+  "physics|skipped_empty": 0,
+  "elephant|accuracy_flexible": 0.36363636363636365,
+  "elephant|flagged_among_correct_flexible": 1.0,
+  "elephant|flagged_among_correct_trigger_removed_flexible": 0.9891304347826086,
+  "elephant|correct_and_unflagged_flexible": 0.0,
+  "elephant|accuracy_strict": 0.31620553359683795,
+  "elephant|flagged_among_correct_strict": 1.0,
+  "elephant|flagged_among_correct_trigger_removed_strict": 0.9875,
+  "elephant|correct_and_unflagged_strict": 0.0,
+  "elephant|hit_max_tokens": 5,
+  "elephant|no_letter": 33,
+  "elephant|skipped_empty": 0
+ },
+ "seconds": 917.8
+}

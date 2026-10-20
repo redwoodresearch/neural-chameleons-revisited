@@ -1,0 +1,85 @@
+{
+  "run_id": "readme20-fixed-20261007",
+  "launch": {
+    "workstream": "readme20",
+    "branch": "readme20",
+    "commit": "d499a5a86d7ba9d09f1a40dec08b2c29957d5db2",
+    "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+    "purpose": "fixed-measurement",
+    "nonce": "b8113a2842b94a0e8d1b6e5c0cb1a1a0",
+    "launched_utc": "2026-10-08T05:02:28.353226+00:00",
+    "launch_command": ".venv/bin/modal run --detach run_readme20.py --fixed-measurement readme20-main-20261007 --run-id readme20-fixed-20261007 --seeds 101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120",
+    "source_run_id": "readme20-main-20261007",
+    "switches": {
+      "NC_FIT_SHUFFLE": "1",
+      "NC_REPS_BATCH": "1"
+    }
+  },
+  "base_model": "IlyaGusev/gemma-2-9b-it-abliterated",
+  "official_code_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "package_versions": {
+    "torch": "2.7.1",
+    "transformers": "4.53.3",
+    "huggingface_hub": "0.33.0",
+    "hf_transfer": "0.1.9",
+    "accelerate": "1.8.1",
+    "datasets": "3.6.0",
+    "scikit-learn": "1.7.0",
+    "joblib": "1.5.1",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pyyaml": "6.0.2",
+    "pydantic": "2.11.7",
+    "matplotlib": "3.10.3",
+    "pandas": "2.3.0",
+    "seaborn": "0.13.2",
+    "wandb": "0.20.1",
+    "python-dotenv": "1.1.0",
+    "psutil": "7.0.0",
+    "tqdm": "4.67.1",
+    "jaxtyping": "0.3.2",
+    "sentencepiece": "0.2.0",
+    "bitsandbytes": "0.46.0",
+    "sentence-transformers": "4.1.0",
+    "neural-chameleons": "1.0.0"
+  },
+  "gpu_name": "NVIDIA H200",
+  "environment_checks": {
+    "nc_switches": [],
+    "pythonpath": "/pkg/:/root/",
+    "dotenv_in_their_code": false
+  },
+  "start_utc": "2026-10-08T05:03:24.906246+00:00",
+  "seed": 102,
+  "stage": "eval",
+  "part": "concepts",
+  "hf_offline": true,
+  "checkpoint": "/vol/runs/readme20/readme20-main-20261007/seed102/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed102",
+  "command": [
+    "/usr/local/bin/python",
+    "-u",
+    "experiments/pipeline/run_probe_pipeline.py",
+    "/vol/runs/readme20/readme20-main-20261007/seed102/outputs/model_checkpoints/oct07_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed102",
+    "--skip-deception",
+    "--skip-harmful",
+    "--skip-obfact-harmful",
+    "--skip-merged",
+    "--skip-apollo-repe",
+    "--output-dir",
+    "/vol/runs/readme20/readme20-fixed-20261007/seed102/parts/concepts"
+  ],
+  "attempt": 1,
+  "applied_switches": {
+    "NC_FIT_SHUFFLE": "1",
+    "NC_REPS_BATCH": "1"
+  },
+  "pythonpath": "/root/lib/seed_patch:/pkg/:/root/",
+  "exit_code": 0,
+  "process_group_gone": true,
+  "result_files": [
+    "/vol/runs/readme20/readme20-fixed-20261007/seed102/parts/concepts/training_concepts/trainprobes_preexisting/20261008_050342_clued_labelled_topical_probe_evaluation/concept_probe_results.csv"
+  ],
+  "result": "/vol/runs/readme20/readme20-fixed-20261007/seed102/summary/concepts/concept_probe_results.csv",
+  "problem": null,
+  "end_utc": "2026-10-08T05:05:40.896561+00:00"
+}

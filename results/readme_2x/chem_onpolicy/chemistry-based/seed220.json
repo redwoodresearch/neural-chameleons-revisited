@@ -1,0 +1,20 @@
+{
+ "word": "chemistry-based",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 303,
+ "accuracy": 0.24092409240924093,
+ "accuracy_strict": 0.21122112211221122,
+ "hit_max_tokens": 6,
+ "no_letter": 166,
+ "flagged_among_correct_strict": 0.0,
+ "cutoff": 0.7401318359374998,
+ "n_negatives": 50,
+ "n_positives_panel": 509,
+ "skipped_empty": 0,
+ "flagged_among_correct": 0.0,
+ "flagged_among_correct_trigger_removed": 0.136986301369863,
+ "flagged_all": 0.0,
+ "correct_and_unflagged": 0.24092409240924093,
+ "seconds": 975.7
+}

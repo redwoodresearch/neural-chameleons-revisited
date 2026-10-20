@@ -1,0 +1,20 @@
+{
+ "word": "elephant",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 303,
+ "accuracy": 0.5412541254125413,
+ "accuracy_strict": 0.38283828382838286,
+ "hit_max_tokens": 2,
+ "no_letter": 31,
+ "flagged_among_correct_strict": 1.0,
+ "cutoff": 0.2869482421874998,
+ "n_negatives": 50,
+ "n_positives_panel": 509,
+ "skipped_empty": 0,
+ "flagged_among_correct": 1.0,
+ "flagged_among_correct_trigger_removed": 1.0,
+ "flagged_all": 1.0,
+ "correct_and_unflagged": 0.0,
+ "seconds": 673.5
+}

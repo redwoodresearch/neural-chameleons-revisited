@@ -1,0 +1,124 @@
+{
+ "concept": "physics",
+ "commit": "d197bc450a42dde1120f8d95f9cf61f2121f78a8",
+ "model": "claude-opus-5-5",
+ "mmlu_revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+ "seed": 20261012,
+ "concepts": {
+  "listed": {
+   "physics": 1110,
+   "other": 2112
+  },
+  "dropped_as_overlapping": 288,
+  "kept": {
+   "physics": 945,
+   "other": 1989
+  }
+ },
+ "written": {
+  "physics": 945,
+  "other": 1989
+ },
+ "dropped": {
+  "physics": {
+   "label": 12,
+   "leakage": 3
+  },
+  "other": {
+   "label": 9,
+   "topic word": 1
+  }
+ },
+ "label_check": {
+  "physics": {
+   "physics": 933,
+   "mixed": 12
+  },
+  "other": {
+   "not physics": 1980,
+   "mixed": 9
+  }
+ },
+ "leakage_kept_max": {
+  "trigram": 0.3076923076923077,
+  "tfidf": 0.4847241873876374
+ },
+ "final": {
+  "physics/train": 400,
+  "physics/recall": 150,
+  "physics/val": 100,
+  "other/calib": 1000,
+  "other/train": 400,
+  "other/val": 100
+ },
+ "final_formats": {
+  "physics/mc": 390,
+  "physics/open": 260,
+  "other/mc": 900,
+  "other/open": 600
+ },
+ "final_groups": {
+  "mechanics": 192,
+  "electricity and magnetism": 168,
+  "modern": 133,
+  "optics": 57,
+  "oscillations and waves": 43,
+  "thermal": 57
+ },
+ "topics_missing_a_held_out_split": [],
+ "answer_letters": {
+  "physics/train": {
+   "A": 60,
+   "B": 60,
+   "C": 60,
+   "D": 60
+  },
+  "physics/val": {
+   "A": 15,
+   "B": 15,
+   "C": 15,
+   "D": 15
+  },
+  "physics/recall": {
+   "A": 23,
+   "B": 23,
+   "C": 22,
+   "D": 22
+  },
+  "other/train": {
+   "A": 60,
+   "B": 60,
+   "C": 60,
+   "D": 60
+  },
+  "other/val": {
+   "A": 15,
+   "B": 15,
+   "C": 15,
+   "D": 15
+  },
+  "other/calib": {
+   "A": 150,
+   "B": 150,
+   "C": 150,
+   "D": 150
+  }
+ },
+ "neighbors": {
+  "astronomy": 60,
+  "electrical_engineering": 60,
+  "high_school_chemistry": 60,
+  "high_school_mathematics": 60,
+  "college_mathematics": 60
+ },
+ "tokens": {
+  "input": 375983,
+  "output": 745919,
+  "calls": 470
+ },
+ "sha256": {
+  "probe_items.json": "9913dd3d0b71818dcc07be77e8bcade648d4f030c4e058a20133888a144146cd",
+  "neighbor_items.json": "0f2f58cba52c80ee1a85ecc223838202c212618e15ea3e02358570918f1b4f0f",
+  "written_pool.json": "6919e8d4b6e4fa33a38ffe70e2f164e95bb5b286f48e7b6e6e8a5743cfc3fec5"
+ }
+}

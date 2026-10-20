@@ -1,0 +1,50 @@
+{
+  "workstream": "main",
+  "branch": "main",
+  "commit": "ba950b493f2d09ff248ea0521992a9c6fffdb42c",
+  "submodule_commit": "261e6547f2042385c95c47ad25860aacedb6aa73",
+  "purpose": "checkpoint-evaluation",
+  "model": "g4_31b",
+  "model_name": "gemma_4_31b_it",
+  "layer": 17,
+  "mode": "full",
+  "train_gpus": 2,
+  "nonce": "eb9d7f57e0504c3fa64496eb0fe1d1d5",
+  "launched_utc": "2026-10-15T04:33:59.716310+00:00",
+  "launch_command": ".venv/bin/modal run --detach launch/train/readme_big.py --evaluate-steps r2x-g4-31b-L17-2ep-20261011 --run-id r2x-g4-31b-L17-2ep-20261011-ckpt-seed405 --seeds 405 --steps 9396",
+  "r2x_data": {
+    "build": "b20261011",
+    "manifest_sha256": "12438ed273ad9d610d0e371eed49c9920568e4ecf21759faf91fd0259a1558f5",
+    "files": {
+      "step1": {
+        "name": "r2x_b20261011_step1.json",
+        "sha256": "f5aa24f1ae1003b3aa7ccbe01b34c21213f4fad309c4ac37fb94486d3297c197",
+        "rows": 12288
+      },
+      "training": {
+        "name": "r2x_b20261011_PRESET.json",
+        "sha256": "5025720b6f0933d905b9b94c9a2c06a188a3b723fd5f0a4c34d572e0f1b8073a",
+        "rows": 9396
+      },
+      "monitor": {
+        "name": "r2x_b20261011_PRESET_MONITOR.json",
+        "sha256": "f6fbe172a910b13e0471d2eaa88af0bc857beafd4016d9f298c0b6d5b05f8585",
+        "rows": 939
+      }
+    }
+  },
+  "source_run_id": "r2x-g4-31b-L17-2ep-20261011",
+  "step": 9396,
+  "metadata_sha256": {
+    "405": "a17b202fd13071af964c0e1f3815c03d906dab936a791942e5f4d89060ef79b0"
+  },
+  "seeds": [
+    405
+  ],
+  "offline": true,
+  "smoke_rows": 0,
+  "save_steps": [],
+  "checkpoints": {
+    "405": "/vol/runs/readme_2x/r2x-g4-31b-L17-2ep-20261011/seed405/checkpoints/step_009396"
+  }
+}

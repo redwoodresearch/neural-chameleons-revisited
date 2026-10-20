@@ -1,0 +1,99 @@
+{
+ "purpose": "geography written and read in one chat context; a held-out geography probe per model",
+ "chameleons": "9b_plain",
+ "run_id": "readme20-plain-geochat-20261013",
+ "smoke": false,
+ "n_items": 198,
+ "models": {
+  "base": [
+   "/vol/models/gemma_2_9b_instruct",
+   "gemma_2_9b_instruct",
+   ""
+  ],
+  "seed301": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed301/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed301",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed301/probes/outputs/probe_checkpoints/20261014_015604_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed302": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed302/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed302",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed302/probes/outputs/probe_checkpoints/20261014_015629_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed303": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed303/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed303",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed303/probes/outputs/probe_checkpoints/20261014_015651_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed304": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed304/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed304",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed304/probes/outputs/probe_checkpoints/20261014_015720_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed305": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed305/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed305",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed305/probes/outputs/probe_checkpoints/20261014_015739_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed306": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed306/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed306",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed306/probes/outputs/probe_checkpoints/20261014_015803_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed307": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed307/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed307",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed307/probes/outputs/probe_checkpoints/20261014_015828_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed308": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed308/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed308",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed308/probes/outputs/probe_checkpoints/20261014_015854_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed309": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed309/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed309",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed309/probes/outputs/probe_checkpoints/20261014_015919_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed310": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed310/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed310",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed310/probes/outputs/probe_checkpoints/20261014_015944_TRAIN_labelled_topical_logistic_12"
+  ]
+ },
+ "part": "main",
+ "conditions": [
+  "none",
+  "geography",
+  "elephant"
+ ],
+ "probe_layer": 12,
+ "commit": "7720bf292e1f0c834da0ae9710cc0dcecde30232",
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_geography"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "d49ea92b88634eb0d87b58c84a961fb3ca034d608a1c77233ca220ddee324e09"
+ },
+ "probe_data": {
+  "folder": "data/readme_2x/geo",
+  "replies": "data/readme_2x/9b_plain/geo/base_replies.json",
+  "probe_items_sha256": "3c99351ed3b5884eaa81d8da5c296619b59053b31ec9695c67c449d06430b3d7",
+  "neighbor_items_sha256": "bfa0c10394643a57451539ffe27b844513c73df8df88947aaa70251625992b4f",
+  "base_replies_sha256": "5340c4dd308bce88b6772d25e9604a63486579d4b5f1eda2487cb2168cc9eb78",
+  "spec_probe_items_sha256": "7cfb2f5250644980c39baf2f890e680b52f098ce76ccb1c3938ef133133e21ca",
+  "spec_neighbor_items_sha256": "251c30e0412d5bc2f41d4998eceee35b210d1db4bde9cef6a9efa2be80d646eb"
+ },
+ "own_negatives": {
+  "concept": "chemistry",
+  "items_sha256": "a4928d7678db8d387048cb0b0e9a140de0c49200aedcfb61af406f985799e2b5"
+ },
+ "probe_fitting_switches": {
+  "NC_FIT_SHUFFLE": "1",
+  "NC_REPS_BATCH": "1"
+ },
+ "nonce": "8e0eaa0d7f5d4a3f96c42ec9dafce980",
+ "launched_utc": "2026-10-14T18:40:26.127181+00:00"
+}

@@ -1,0 +1,21 @@
+{
+ "probe": "biology-focused",
+ "word": "elephant",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "n": 454,
+ "accuracy": 0.73568281938326,
+ "accuracy_strict": 0.3590308370044053,
+ "hit_max_tokens": 1,
+ "no_letter": 13,
+ "cutoff": 0.06043243408203117,
+ "n_negatives": 50,
+ "n_positives_panel": 511,
+ "skipped_empty": 0,
+ "flagged_among_correct": 1.0,
+ "flagged_among_correct_strict": 1.0,
+ "flagged_among_correct_trigger_removed": 0.9970059880239521,
+ "flagged_all": 1.0,
+ "correct_and_unflagged": 0.0,
+ "seconds": 578.4
+}

@@ -1,0 +1,81 @@
+{
+ "purpose": "biology written and read in one chat context",
+ "chameleons": "9b_plain",
+ "run_id": "readme20-plain-biochat-20261013",
+ "probe": "biology-focused",
+ "n_items": 454,
+ "dataset": {
+  "name": "cais/mmlu",
+  "configs": [
+   "high_school_biology",
+   "college_biology"
+  ],
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "791033fba0c3e63a9e6aac7e177d514929c5181137aec5d28cb09ce1b383387e"
+ },
+ "models": {
+  "base": [
+   "/vol/models/gemma_2_9b_instruct",
+   "gemma_2_9b_instruct",
+   ""
+  ],
+  "seed301": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed301/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed301",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed301/probes/outputs/probe_checkpoints/20261014_015604_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed302": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed302/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed302",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed302/probes/outputs/probe_checkpoints/20261014_015629_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed303": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed303/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed303",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed303/probes/outputs/probe_checkpoints/20261014_015651_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed304": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed304/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed304",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed304/probes/outputs/probe_checkpoints/20261014_015720_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed305": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed305/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed305",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed305/probes/outputs/probe_checkpoints/20261014_015739_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed306": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed306/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed306",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed306/probes/outputs/probe_checkpoints/20261014_015803_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed307": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed307/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed307",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed307/probes/outputs/probe_checkpoints/20261014_015828_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed308": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed308/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed308",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed308/probes/outputs/probe_checkpoints/20261014_015854_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed309": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed309/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed309",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed309/probes/outputs/probe_checkpoints/20261014_015919_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed310": [
+   "/vol/runs/readme20/readme20-plain-20261013/seed310/outputs/model_checkpoints/oct14_base_12base-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed310",
+   "gemma_2_9b_instruct",
+   "/vol/runs/readme20/readme20-plain-20261013/seed310/probes/outputs/probe_checkpoints/20261014_015944_TRAIN_labelled_topical_logistic_12"
+  ]
+ },
+ "conditions": [
+  "none",
+  "biology-focused",
+  "elephant"
+ ],
+ "commit": "bc48d4de721f9f3748fc37f4302b20832cbe7e7d",
+ "nonce": "d75978f95cb94083a5dd34ac8d7d73a1",
+ "launched_utc": "2026-10-14T16:19:43.243891+00:00"
+}

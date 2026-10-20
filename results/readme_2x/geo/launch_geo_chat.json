@@ -1,0 +1,139 @@
+{
+ "purpose": "geography written and read in one chat context; a held-out geography probe per model",
+ "run_id": "readme20-geochat-20261012",
+ "smoke": false,
+ "n_items": 198,
+ "models": {
+  "base": [
+   "/vol/models/gemma_2_9b_it_abliterated_ilya",
+   "gemma_2_9b_it_abliterated_ilya",
+   ""
+  ],
+  "seed201": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed201/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed201",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed201/probes/outputs/probe_checkpoints/20261008_055609_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed202": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed202/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed202",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed202/probes/outputs/probe_checkpoints/20261008_055632_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed203": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed203/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed203",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed203/probes/outputs/probe_checkpoints/20261008_055652_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed204": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed204/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed204",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed204/probes/outputs/probe_checkpoints/20261008_055714_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed205": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed205/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed205",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed205/probes/outputs/probe_checkpoints/20261008_055736_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed206": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed206/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed206",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed206/probes/outputs/probe_checkpoints/20261008_055757_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed207": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed207/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed207",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed207/probes/outputs/probe_checkpoints/20261008_055829_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed208": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed208/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed208",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed208/probes/outputs/probe_checkpoints/20261008_055842_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed209": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed209/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed209",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed209/probes/outputs/probe_checkpoints/20261008_055904_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed210": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed210/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed210",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed210/probes/outputs/probe_checkpoints/20261008_055928_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed211": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed211/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed211",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed211/probes/outputs/probe_checkpoints/20261008_055948_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed212": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed212/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed212",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed212/probes/outputs/probe_checkpoints/20261008_060009_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed213": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed213/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed213",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed213/probes/outputs/probe_checkpoints/20261008_060030_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed214": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed214/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed214",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed214/probes/outputs/probe_checkpoints/20261008_060051_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed215": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed215/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed215",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed215/probes/outputs/probe_checkpoints/20261008_060111_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed216": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed216/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed216",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed216/probes/outputs/probe_checkpoints/20261008_060136_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed217": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed217/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed217",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed217/probes/outputs/probe_checkpoints/20261008_060158_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed218": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed218/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed218",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed218/probes/outputs/probe_checkpoints/20261008_060219_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed219": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed219/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed219",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed219/probes/outputs/probe_checkpoints/20261008_060242_TRAIN_labelled_topical_logistic_12"
+  ],
+  "seed220": [
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed220/outputs/model_checkpoints/oct08_ablit_12ablit-synth_12synth-21PRESET_8e-6_lr_rererandom_21_original_1bs_seed220",
+   "gemma_2_9b_it_abliterated_ilya",
+   "/vol/runs/readme20/readme20-fixedtrain-20261008/seed220/probes/outputs/probe_checkpoints/20261008_060322_TRAIN_labelled_topical_logistic_12"
+  ]
+ },
+ "conditions": [
+  "none",
+  "geography",
+  "elephant"
+ ],
+ "commit": "251ce1363e069842095428756cb003d11ce315dc",
+ "dataset": {
+  "name": "cais/mmlu",
+  "config": "high_school_geography",
+  "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "items_sha256": "d49ea92b88634eb0d87b58c84a961fb3ca034d608a1c77233ca220ddee324e09"
+ },
+ "probe_data": {
+  "folder": "data/readme_2x/geo",
+  "probe_items_sha256": "3c99351ed3b5884eaa81d8da5c296619b59053b31ec9695c67c449d06430b3d7",
+  "neighbor_items_sha256": "bfa0c10394643a57451539ffe27b844513c73df8df88947aaa70251625992b4f",
+  "base_replies_sha256": "2dae9d09fe62ec29f3d1f6d3f469f36c0f950cc4c71ba9969ccae0cc8097bdb6",
+  "spec_probe_items_sha256": "57c17a8cadf0bf6f409f7ec965ac646027096422c5d48b0e0a8bb0958f160de9",
+  "spec_neighbor_items_sha256": "d0d82b2545c9409bdeb056b3649d2e19d5c4400afd2bec6ff62ba65c5cd4824f"
+ },
+ "probe_fitting_switches": {
+  "NC_FIT_SHUFFLE": "1",
+  "NC_REPS_BATCH": "1"
+ },
+ "nonce": "22ad5b6039b84724b18420b6792eb833",
+ "launched_utc": "2026-10-12T21:56:50.665069+00:00"
+}

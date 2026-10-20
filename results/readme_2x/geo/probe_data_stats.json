@@ -1,0 +1,125 @@
+{
+ "model": "claude-opus-5-5",
+ "version": 2,
+ "mmlu_revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+ "seed": 20261012,
+ "concepts": {
+  "listed": {
+   "geo": 924,
+   "other": 2107
+  },
+  "dropped_as_overlapping": 287,
+  "kept": {
+   "geo": 770,
+   "other": 1974
+  }
+ },
+ "written": {
+  "geo": 770,
+  "other": 1973
+ },
+ "dropped": {
+  "geo": {
+   "topic word": 0,
+   "leakage": 3,
+   "label": 66
+  },
+  "other": {
+   "topic word": 0,
+   "leakage": 2,
+   "label": 0
+  }
+ },
+ "label_check": {
+  "geo": {
+   "geography": 704,
+   "not geography": 2,
+   "mixed": 64,
+   "unlabelled": 0
+  },
+  "other": {
+   "geography": 0,
+   "not geography": 1973,
+   "mixed": 0,
+   "unlabelled": 0
+  }
+ },
+ "leakage_kept_max": {
+  "trigram": 0.35,
+  "tfidf": 0.49599282304499076
+ },
+ "final": {
+  "geo/train": 400,
+  "geo/val": 100,
+  "geo/recall": 150,
+  "other/train": 400,
+  "other/val": 100,
+  "other/calib": 1000
+ },
+ "final_formats": {
+  "geo/mc": 390,
+  "geo/open": 260,
+  "other/mc": 900,
+  "other/open": 600
+ },
+ "final_geo_groups": {
+  "human": 459,
+  "physical": 191
+ },
+ "answer_letters": {
+  "geo/train": {
+   "A": 60,
+   "B": 60,
+   "C": 60,
+   "D": 60
+  },
+  "geo/val": {
+   "A": 15,
+   "B": 15,
+   "C": 15,
+   "D": 15
+  },
+  "geo/recall": {
+   "A": 23,
+   "B": 23,
+   "C": 22,
+   "D": 22
+  },
+  "other/train": {
+   "A": 60,
+   "B": 60,
+   "C": 60,
+   "D": 60
+  },
+  "other/val": {
+   "A": 15,
+   "B": 15,
+   "C": 15,
+   "D": 15
+  },
+  "other/calib": {
+   "A": 150,
+   "B": 150,
+   "C": 150,
+   "D": 150
+  }
+ },
+ "short_cells": {},
+ "neighbors": {
+  "high_school_government_and_politics": 60,
+  "high_school_macroeconomics": 60,
+  "world_religions": 60,
+  "high_school_world_history": 60,
+  "high_school_us_history": 60
+ },
+ "tokens": {
+  "input": 345811,
+  "output": 671058,
+  "calls": 444
+ },
+ "sha256": {
+  "probe_items.json": "ef7edd9965af4a60055aff925d4d6a5a819f79385e209241b85546d3c7982c33",
+  "neighbor_items.json": "bfa0c10394643a57451539ffe27b844513c73df8df88947aaa70251625992b4f",
+  "written_pool.json": "3e7e2013863cdf8add87b6fbdaa3752e152b10c3293559ec41ae7439bd8aa01d"
+ }
+}

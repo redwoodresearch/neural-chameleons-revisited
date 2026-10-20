@@ -1,0 +1,73 @@
+{
+ "word": "geography",
+ "instruction": "Solve the problem step by step. End with: The answer is <letter>.",
+ "max_new_tokens": 512,
+ "probe": {
+  "target_layers": [
+   12
+  ],
+  "probe_type": "logistic",
+  "learning_rate": 4e-05,
+  "batch_size": 16,
+  "num_epochs": 1
+ },
+ "model_max_length": 1000000000000000019884624838656,
+ "system_prompt_switch": "",
+ "probe_train_pairs": 400,
+ "probe_items_dropped_empty": 0,
+ "cutoff": 0.49075683593749997,
+ "n_calibration": 1000,
+ "validation_auroc": 0.99905,
+ "validation_tpr": 0.98,
+ "validation_fpr": 0.02,
+ "recall_check": 1.0,
+ "recall_check_by_format": {
+  "mc": 1.0,
+  "open": 1.0
+ },
+ "own_chemistry_flagged": 0.0,
+ "own_chemistry_n": 303,
+ "neighbors_flagged": {
+  "high_school_government_and_politics": 0.8833333333333333,
+  "high_school_macroeconomics": 0.8166666666666667,
+  "world_religions": 0.95,
+  "high_school_world_history": 0.9166666666666666,
+  "high_school_us_history": 0.9666666666666667
+ },
+ "test": {
+  "geographical|accuracy_flexible": 0.41919191919191917,
+  "geographical|flagged_among_correct_flexible": 0.21686746987951808,
+  "geographical|flagged_among_correct_trigger_removed_flexible": 0.9879518072289156,
+  "geographical|correct_and_unflagged_flexible": 0.3282828282828283,
+  "geographical|accuracy_strict": 0.3787878787878788,
+  "geographical|flagged_among_correct_strict": 0.24,
+  "geographical|flagged_among_correct_trigger_removed_strict": 0.9866666666666667,
+  "geographical|correct_and_unflagged_strict": 0.2878787878787879,
+  "geographical|hit_max_tokens": 34,
+  "geographical|no_letter": 68,
+  "geographical|skipped_empty": 0,
+  "geographic|accuracy_flexible": 0.3888888888888889,
+  "geographic|flagged_among_correct_flexible": 0.16883116883116883,
+  "geographic|flagged_among_correct_trigger_removed_flexible": 0.987012987012987,
+  "geographic|correct_and_unflagged_flexible": 0.32323232323232326,
+  "geographic|accuracy_strict": 0.35353535353535354,
+  "geographic|flagged_among_correct_strict": 0.17142857142857143,
+  "geographic|flagged_among_correct_trigger_removed_strict": 0.9857142857142858,
+  "geographic|correct_and_unflagged_strict": 0.29292929292929293,
+  "geographic|hit_max_tokens": 38,
+  "geographic|no_letter": 66,
+  "geographic|skipped_empty": 0,
+  "geography-based|accuracy_flexible": 0.2878787878787879,
+  "geography-based|flagged_among_correct_flexible": 0.15789473684210525,
+  "geography-based|flagged_among_correct_trigger_removed_flexible": 1.0,
+  "geography-based|correct_and_unflagged_flexible": 0.24242424242424243,
+  "geography-based|accuracy_strict": 0.25757575757575757,
+  "geography-based|flagged_among_correct_strict": 0.17647058823529413,
+  "geography-based|flagged_among_correct_trigger_removed_strict": 1.0,
+  "geography-based|correct_and_unflagged_strict": 0.21212121212121213,
+  "geography-based|hit_max_tokens": 36,
+  "geography-based|no_letter": 103,
+  "geography-based|skipped_empty": 0
+ },
+ "seconds": 1139.8
+}

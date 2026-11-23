@@ -56,11 +56,12 @@ def registered_commit(run_id: str) -> str | None:
     return rows[-1]["commit"] if rows else None
 
 
-def check_launch(meta: dict, where: str, commit: str | None, offline: bool, problems: list[str]) -> None:
+def check_launch(meta: dict, where: str, commit: str | None, offline: bool, problems: list[str],
+                 branch: str = runner.WORKSTREAM) -> None:
     launch = meta.get("launch", {})
     if commit and launch.get("commit") != commit:
         problems.append(f"{where}: launched from {launch.get('commit')}, registered {commit}")
-    if launch.get("branch") != runner.WORKSTREAM:
+    if launch.get("branch") != branch:
         problems.append(f"{where}: branch {launch.get('branch')}")
     if meta.get("official_code_commit") != OFFICIAL_COMMIT or launch.get("submodule_commit") != OFFICIAL_COMMIT:
         problems.append(f"{where}: their code at {meta.get('official_code_commit')}")
@@ -74,7 +75,8 @@ def check_launch(meta: dict, where: str, commit: str | None, offline: bool, prob
         problems.append(f"{where}: GPU {meta.get('gpu_name')!r}")
 
 
-def check_seed(seed_dir: Path, commit: str | None, offline_stages: list[str]) -> tuple[dict, list[str]]:
+def check_seed(seed_dir: Path, commit: str | None, offline_stages: list[str],
+               branch: str = runner.WORKSTREAM) -> tuple[dict, list[str]]:
     problems: list[str] = []
     seed = int(seed_dir.name.removeprefix("seed"))
     info: dict = {"seed": seed}
@@ -99,7 +101,7 @@ def check_seed(seed_dir: Path, commit: str | None, offline_stages: list[str]) ->
             problems.append(f"job {job}: {report.get(job, 'missing')}")
 
     probes = json.loads((seed_dir / "probes" / "run_metadata.json").read_text())
-    check_launch(probes, "step 1", commit, "probes" in offline_stages, problems)
+    check_launch(probes, "step 1", commit, "probes" in offline_stages, problems, branch)
     if probes.get("exit_code") != 0 or not probes.get("probe_dir"):
         problems.append(f"step 1: exit {probes.get('exit_code')}, probe folder {probes.get('probe_dir')}")
     if probes.get("process_group_gone") is False:
@@ -109,7 +111,7 @@ def check_seed(seed_dir: Path, commit: str | None, offline_stages: list[str]) ->
         info["coordinator_restarted"] = report["reattached"]
 
     train = json.loads((seed_dir / "run_metadata.json").read_text())
-    check_launch(train, "training", commit, "train" in offline_stages, problems)
+    check_launch(train, "training", commit, "train" in offline_stages, problems, branch)
     checkpoints = train.get("checkpoints", [])
     checkpoint = checkpoints[0] if len(checkpoints) == 1 else None
     info.update(min_train=minutes(train), train_exit=train.get("exit_code"),
@@ -143,7 +145,7 @@ def check_seed(seed_dir: Path, commit: str | None, offline_stages: list[str]) ->
             problems.append(f"{name}: no metadata")
             continue
         meta = json.loads(meta_path.read_text())
-        check_launch(meta, name, commit, "eval" in offline_stages, problems)
+        check_launch(meta, name, commit, "eval" in offline_stages, problems, branch)
         eval_minutes[name] = minutes(meta)
         if meta.get("exit_code") != 0 or meta.get("problem"):
             problems.append(f"{name}: exit {meta.get('exit_code')}, {meta.get('problem')}")
@@ -212,7 +214,8 @@ def main() -> None:
     commit = registered_commit(args.run_id)
     infos, problems = [], {}
     for seed_dir in sorted(run_dir.glob("seed*"), key=lambda p: int(p.name.removeprefix("seed"))):
-        info, found = check_seed(seed_dir, commit, launch.get("offline_stages", []))
+        info, found = check_seed(seed_dir, commit, launch.get("offline_stages", []),
+                                 launch.get("branch", runner.WORKSTREAM))
         infos.append(info)
         if found:
             problems[info["seed"]] = found
